@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">KarbiCalendar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Karbi Calendar</string>
+    <string name="nav_header_subtitle">KarbiTissoJangphongHemCreation</string>
+    <string name="About">ABOUT\n
+                        Karbi Calendar 2019 \n
+                        version 1.5\n
+                        This is a simple \n
+                             calendar\n\n
+
+    </string>
+    <string name="created">Created by \n
+                        KarbiTissoJangphongHemCreation</string>
+    <string name="About_appeal">Support Me \n
+                                More features will be added on\n
+                                the way soon on new\n
+                                updates as it is in progress.\n
+                                Your feedback is very important
+                                for the\n development of this app and more\n
+                                So, do leave a feedback with pros and cons.\n\n
+                                Appreciated</string>
+    <string name="kardom">KARDOM</string>
+    <string name="new_year_small_notes"><u>New Year</u></string>
+    <string name="thelang_wed"><u>Thelang, Wed</u></string>
+
+</resources>

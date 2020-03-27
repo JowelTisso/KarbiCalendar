@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HolidayPopupWindow"
+    android:background="@drawable/holiday_popup_background"
+    >
+
+
+
+    <TextView
+        android:id="@+id/dayPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Day"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        />
+
+    <TextView
+        android:id="@+id/datePlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="-2dp"
+        android:hint="Date"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_margin="5dp"
+        />
+
+
+    <TextView
+        android:id="@+id/holidayPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Holiday"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_below="@id/datePlace"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/holidayPlace"
+        android:background="@drawable/small_notes_background"
+        android:layout_margin="5dp"
+
+        >
+        <TextView
+            android:id="@+id/notePlace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notes"
+            android:layout_marginLeft="5dp"
+            android:textColor="#7B56BB"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/addNotesBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/ic_add_black_24dp"
+        app:backgroundTint="@color/DarkCyan"
+        app:fabSize="mini" />
+
+</RelativeLayout>

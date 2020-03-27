@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/jan"
+        android:orderInCategory="0"
+        android:title="JAN"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/feb"
+        android:orderInCategory="1"
+        android:title="FEB"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/march"
+        android:orderInCategory="2"
+        android:title="MARCH"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/april"
+        android:orderInCategory="3"
+        android:title="APRIL"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/may"
+        android:orderInCategory="4"
+        android:title="MAY"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/june"
+        android:orderInCategory="5"
+        android:title="JUNE"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/july"
+        android:orderInCategory="6"
+        android:title="JULY"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/aug"
+        android:orderInCategory="7"
+        android:title="AUG"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sep"
+        android:orderInCategory="8"
+        android:title="SEP"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/oct"
+        android:orderInCategory="9"
+        android:title="OCT"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/nov"
+        android:orderInCategory="10"
+        android:title="NOV"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/dec"
+        android:orderInCategory="11"
+        android:title="DEC"
+        app:showAsAction="never" />
+</menu>

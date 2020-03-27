@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home"
+            />
+
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_flip_to_front_black_24dp"
+            android:title="About" />
+        <item
+            android:id="@+id/holiday"
+            android:icon="@drawable/ic_flip_to_front_black_24dp"
+            android:title="Holidays"
+            />
+        <!--<item
+            android:id="@+id/cal_overview"
+            android:icon="@drawable/ic_perm_contact_calendar_black_24dp"
+            android:title="Calendar Overview"
+            />-->
+        <item
+            android:id="@+id/cal_update"
+            android:icon="@drawable/ic_system_update_black_24dp"
+            android:title="Update"
+
+            />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/policy"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Privacy Policy" />
+            <item
+                android:id="@+id/instagram_id"
+                android:icon="@drawable/ic_party_mode_black_24dp"
+                android:title="Instagram"
+
+                />
+            <item
+                android:id="@+id/rate_id"
+                android:icon="@drawable/ic_star_white_24dp"
+                android:title="Rate Us"
+
+                />
+
+        </menu>
+    </item>
+
+</menu>

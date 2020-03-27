@@ -1,0 +1,1960 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dec">
+
+    <LinearLayout
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="@+id/coordinatorLayout2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="December\nNotes"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/titleText">
+
+        <LinearLayout
+            android:id="@+id/txtsave"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/DarkCyan"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="Durmi, Tue"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="1"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/fixedHoliday1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkCyan"
+                    android:fontFamily="@font/caviardreams"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:text=""
+                    />
+
+                <EditText
+                    android:id="@+id/editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/white"
+                    android:fontFamily="@font/caviardreams"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:padding="10dp"
+                    android:textColor="@color/cardview_dark_background" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/DarkCyan"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="Thelang, Wed"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="2"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/fixedHoliday2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkCyan"
+                    android:fontFamily="@font/caviardreams"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+
+                    />
+
+                <EditText
+                    android:id="@+id/editText2"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:fontFamily="@font/caviardreams"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/cardview_dark_background" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/DarkCyan"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="Theman, Thurs"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="3"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkCyan"
+                    android:fontFamily="@font/caviardreams"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+
+                    />
+
+                <EditText
+                    android:id="@+id/editText3"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:fontFamily="@font/caviardreams"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/cardview_dark_background"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/DarkCyan"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="Bhomta, Fri"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="4"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <EditText
+                    android:id="@+id/editText4"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:fontFamily="@font/caviardreams"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/cardview_dark_background"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/DarkCyan"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="Bhomti, Sat"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="5"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkCyan"
+                    android:fontFamily="@font/caviardreams"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:text="Commemoration of Kajir Ronghangpi"
+                    />
+
+                <EditText
+                    android:id="@+id/editText5"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:fontFamily="@font/caviardreams"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/cardview_dark_background"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/DarkCyan"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="Bhomkuru, Sun"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="6"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkCyan"
+                    android:fontFamily="@font/caviardreams"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:text=""
+                    />
+
+                <EditText
+                    android:id="@+id/editText6"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:fontFamily="@font/caviardreams"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/cardview_dark_background"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/DarkCyan"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="Urmi, Mon"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="7"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkCyan"
+                    android:fontFamily="@font/caviardreams"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:text=""
+                    />
+
+                <EditText
+                    android:id="@+id/editText7"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:fontFamily="@font/caviardreams"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/cardview_dark_background"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/DarkCyan"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="Durmi, Tue"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="8"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkCyan"
+                    android:fontFamily="@font/caviardreams"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+
+                    />
+
+                <EditText
+                    android:id="@+id/editText8"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:fontFamily="@font/caviardreams"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:padding="2dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/cardview_dark_background"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/DarkCyan"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="Thelang, Wed"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="9"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkCyan"
+                    android:fontFamily="@font/caviardreams"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+
+                    />
+
+                <EditText
+                    android:id="@+id/editText9"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:fontFamily="@font/caviardreams"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/cardview_dark_background" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/DarkCyan"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="Theman, Thurs"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="10"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkCyan"
+                    android:fontFamily="@font/caviardreams"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:text=""
+                    />
+
+                <EditText
+                    android:id="@+id/editText10"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:fontFamily="@font/caviardreams"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/cardview_dark_background" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/DarkCyan"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="Bhomta, Fri"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="11"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkCyan"
+                    android:fontFamily="@font/caviardreams"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:text=""
+                    />
+
+                <EditText
+                    android:id="@+id/editText11"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:fontFamily="@font/caviardreams"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/cardview_dark_background" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/DarkCyan"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="Bhomti, Sat"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="12"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkCyan"
+                    android:fontFamily="@font/caviardreams"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+
+                    />
+
+                <EditText
+                    android:id="@+id/editText12"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:fontFamily="@font/caviardreams"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/cardview_dark_background" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/DarkCyan"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="Bhomkuru, Sun"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="13"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkCyan"
+                    android:fontFamily="@font/caviardreams"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:text=""
+                    />
+
+                <EditText
+                    android:id="@+id/editText13"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:fontFamily="@font/caviardreams"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/cardview_dark_background" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/DarkCyan"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="Urmi, Mon"
+
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="14"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkCyan"
+                    android:fontFamily="@font/caviardreams"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:text=""
+                    />
+
+                <EditText
+                    android:id="@+id/editText14"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:fontFamily="@font/caviardreams"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/cardview_dark_background" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/DarkCyan"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="Durmi, Tue"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="15"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkCyan"
+                    android:fontFamily="@font/caviardreams"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+
+                    />
+
+                <EditText
+                    android:id="@+id/editText15"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:fontFamily="@font/caviardreams"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/cardview_dark_background" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/DarkCyan"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="Thelang, Wed"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="16"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkCyan"
+                    android:fontFamily="@font/caviardreams"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+
+                    />
+
+                <EditText
+                    android:id="@+id/editText16"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:fontFamily="@font/caviardreams"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/cardview_dark_background" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/DarkCyan"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="Theman, Thurs"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="17"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkCyan"
+                    android:fontFamily="@font/caviardreams"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+
+                    />
+
+                <EditText
+                    android:id="@+id/editText17"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:fontFamily="@font/caviardreams"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/cardview_dark_background" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/DarkCyan"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="Bhomta, Fri"
+
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="18"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkCyan"
+                    android:fontFamily="@font/caviardreams"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+
+                    />
+
+                <EditText
+                    android:id="@+id/editText18"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:fontFamily="@font/caviardreams"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/cardview_dark_background" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/DarkCyan"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="Bhomti, Sat"
+
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="19"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                </RelativeLayout>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkCyan"
+                    android:fontFamily="@font/caviardreams"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+
+                    />
+
+                <EditText
+                    android:id="@+id/editText19"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:fontFamily="@font/caviardreams"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/cardview_dark_background" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/DarkCyan"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="Bhomkuru, Sun"
+
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="20"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkCyan"
+                    android:fontFamily="@font/caviardreams"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+
+                    />
+
+                <EditText
+                    android:id="@+id/editText20"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:fontFamily="@font/caviardreams"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/cardview_dark_background" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/DarkCyan"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="Urmi, Mon"
+
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="21"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkCyan"
+                    android:fontFamily="@font/caviardreams"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+
+                    />
+
+                <EditText
+                    android:id="@+id/editText21"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:fontFamily="@font/caviardreams"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/cardview_dark_background" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/DarkCyan"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="Durmi, Tue"
+
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="22"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkCyan"
+                    android:fontFamily="@font/caviardreams"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:text=" "
+                    />
+
+                <EditText
+                    android:id="@+id/editText22"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:fontFamily="@font/caviardreams"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/cardview_dark_background" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/DarkCyan"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="Thelang, Wed"
+
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="23"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkCyan"
+                    android:fontFamily="@font/caviardreams"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+
+                    />
+
+                <EditText
+                    android:id="@+id/editText23"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:fontFamily="@font/caviardreams"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/cardview_dark_background" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/DarkCyan"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="Theman, Thurs"
+
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="24"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkCyan"
+                    android:fontFamily="@font/caviardreams"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+
+                    />
+
+                <EditText
+                    android:id="@+id/editText24"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:fontFamily="@font/caviardreams"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/cardview_dark_background" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/DarkCyan"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="Bhomta, Fri"
+
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="25"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkCyan"
+                    android:fontFamily="@font/caviardreams"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:text="Christmas"
+                    />
+
+                <EditText
+                    android:id="@+id/editText25"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:fontFamily="@font/caviardreams"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/cardview_dark_background" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/DarkCyan"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="Bhomti, Sat"
+
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="26"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkCyan"
+                    android:fontFamily="@font/caviardreams"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+
+                    />
+
+                <EditText
+                    android:id="@+id/editText26"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:fontFamily="@font/caviardreams"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/cardview_dark_background" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/DarkCyan"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="Bhomkuru, Sun"
+
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="27"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkCyan"
+                    android:fontFamily="@font/caviardreams"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+
+                    />
+
+                <EditText
+                    android:id="@+id/editText27"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:fontFamily="@font/caviardreams"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/cardview_dark_background" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/DarkCyan"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="Urmi, Mon"
+
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="28"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkCyan"
+                    android:fontFamily="@font/caviardreams"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+
+                    />
+
+                <EditText
+                    android:id="@+id/editText28"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:fontFamily="@font/caviardreams"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/cardview_dark_background" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/DarkCyan"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="Durmi, Tue"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="29"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkCyan"
+                    android:fontFamily="@font/caviardreams"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:text=""
+                    />
+
+                <EditText
+                    android:id="@+id/editText29"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:fontFamily="@font/caviardreams"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/cardview_dark_background" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/DarkCyan"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="Thelang, Wed"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="30"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkCyan"
+                    android:fontFamily="@font/caviardreams"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+
+                    />
+
+                <EditText
+                    android:id="@+id/editText30"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:fontFamily="@font/caviardreams"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/cardview_dark_background" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/DarkCyan"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="Theman, Thurs"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/DarkCyan"
+                        android:fontFamily="@font/caviardreams"
+                        android:padding="10dp"
+                        android:text="31"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkCyan"
+                    android:fontFamily="@font/caviardreams"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+
+                    />
+
+                <EditText
+                    android:id="@+id/editText31"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:fontFamily="@font/caviardreams"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/cardview_dark_background" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/coordinatorLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab2_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/ic_save_black_24dp"
+            app:backgroundTint="@color/colorPrimary"
+            app:fabSize="normal" />
+    </android.support.design.widget.CoordinatorLayout>
+
+
+
+</RelativeLayout>

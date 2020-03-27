@@ -1,0 +1,41 @@
+{
+  "project_info": {
+    "project_number": "76623832944",
+    "firebase_url": "https://karbicalender.firebaseio.com",
+    "project_id": "karbicalender",
+    "storage_bucket": "karbicalender.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76623832944:android:3f9662910fb345b0",
+        "android_client_info": {
+          "package_name": "com.jangphong.hem.karbicalender2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76623832944-ipf9htr5rcavchn37vm2a7ct4ou9kj1h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg3oRO_CbGEuPku54KOsSRXKgdxEOa-gc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "76623832944-ipf9htr5rcavchn37vm2a7ct4ou9kj1h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-6376378742627184~5911477780"
+    }
+  ],
+  "configuration_version": "1"
+}
