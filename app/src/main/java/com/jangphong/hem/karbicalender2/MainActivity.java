@@ -505,20 +505,12 @@ public class MainActivity extends AppCompatActivity
                         .setNegativeButton("CANCEL", null)
                 ;
 
-
                 AlertDialog alert = builder.create();
                 alert.show();
 
-
             }
-
-
         }
     }
-
-
-
-
 }
 
 
