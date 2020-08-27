@@ -10,6 +10,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.jangphong.hem.karbicalender2.helperclass.DatabaseHelper;
+
 public class StoredNotesDisplayActivity extends AppCompatActivity {
 
     TextView savedDate;

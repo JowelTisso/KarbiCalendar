@@ -9,8 +9,6 @@
     android:background="@drawable/holiday_popup_background"
     >
 
-
-
     <TextView
         android:id="@+id/dayPlace"
         android:layout_width="wrap_content"

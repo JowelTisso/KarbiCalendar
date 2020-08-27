@@ -23,59 +23,57 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".About" />
-        <activity
-            android:name=".SplashScreen"
-            android:noHistory="true"
-            android:theme="@style/AppTheme.Splash">
+            android:theme="@style/AppTheme.NoActionBar" >
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".About" />
+
         <activity android:name=".holidays" />
         <activity android:name=".Reminder" />
 
-        <receiver android:name=".AlarmReceiver" />
+        <receiver android:name=".helperclass.AlarmReceiver" />
 
         <activity android:name=".ReminderList" />
         <activity
-            android:name=".jan"
+            android:name=".notesactivities.jan"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <activity
-            android:name=".feb"
+            android:name=".notesactivities.feb"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <activity
-            android:name=".march"
+            android:name=".notesactivities.march"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <activity
-            android:name=".april"
+            android:name=".notesactivities.april"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <activity
-            android:name=".may"
+            android:name=".notesactivities.may"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <activity
-            android:name=".june"
+            android:name=".notesactivities.june"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <activity
-            android:name=".july"
+            android:name=".notesactivities.july"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <activity
-            android:name=".august"
+            android:name=".notesactivities.august"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <activity
-            android:name=".sep"
+            android:name=".notesactivities.sep"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <activity
-            android:name=".oct"
+            android:name=".notesactivities.oct"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <activity
-            android:name=".nov"
+            android:name=".notesactivities.nov"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <activity
-            android:name=".dec"
+            android:name=".notesactivities.dec"
             android:windowSoftInputMode="stateHidden|adjustPan" />
 
         <provider

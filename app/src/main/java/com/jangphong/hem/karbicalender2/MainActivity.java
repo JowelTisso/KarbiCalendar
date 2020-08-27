@@ -8,6 +8,8 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ApplicationInfo;
+import android.graphics.PorterDuff;
+import android.graphics.drawable.Drawable;
 import android.net.ConnectivityManager;
 import android.net.Uri;
 import android.os.AsyncTask;
@@ -30,6 +32,21 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
+
+import com.jangphong.hem.karbicalender2.helperclass.HttpHandler;
+import com.jangphong.hem.karbicalender2.monthfragments.Frag1;
+import com.jangphong.hem.karbicalender2.monthfragments.Frag10;
+import com.jangphong.hem.karbicalender2.monthfragments.Frag11;
+import com.jangphong.hem.karbicalender2.monthfragments.Frag12;
+import com.jangphong.hem.karbicalender2.monthfragments.Frag2;
+import com.jangphong.hem.karbicalender2.monthfragments.Frag3;
+import com.jangphong.hem.karbicalender2.monthfragments.Frag4;
+import com.jangphong.hem.karbicalender2.monthfragments.Frag5;
+import com.jangphong.hem.karbicalender2.monthfragments.Frag6;
+import com.jangphong.hem.karbicalender2.monthfragments.Frag7;
+import com.jangphong.hem.karbicalender2.monthfragments.Frag8;
+import com.jangphong.hem.karbicalender2.monthfragments.Frag9;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -56,12 +73,15 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle(null);
+        toolbar.getOverflowIcon().setColorFilter(getResources().getColor(R.color.colorPrimaryDark), PorterDuff.Mode.SRC_ATOP);
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
+        toggle.getDrawerArrowDrawable().setColor(getResources().getColor(R.color.colorPrimaryDark));
+
 
         NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
@@ -97,11 +117,7 @@ public class MainActivity extends AppCompatActivity
             viewPager.setCurrentItem(11);
         }
 
-
-
-
-
-        if (isNetworkConnected() == true) {
+      /*  if (isNetworkConnected() == true) {
             new VersionCheck() {
 
                 @Override
@@ -116,7 +132,7 @@ public class MainActivity extends AppCompatActivity
                     }
                 }
             }.execute();
-        }
+        }*/
 
 
         imgSpinner = findViewById(R.id.spinnerImage);
@@ -290,13 +306,11 @@ public class MainActivity extends AppCompatActivity
             System.exit(0);
         }
     }
-
+    Drawable drawable;
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
-
-
         return true;
     }
 
@@ -307,6 +321,7 @@ public class MainActivity extends AppCompatActivity
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
+        drawable.setColorFilter(getResources().getColor(R.color.newBlue), PorterDuff.Mode.SRC_ATOP);
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_exit) {
             finish();
@@ -329,7 +344,6 @@ public class MainActivity extends AppCompatActivity
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
-
 
         ApplicationInfo app = getApplicationContext().getApplicationInfo();
         String filePath = app.sourceDir;
@@ -392,15 +406,12 @@ public class MainActivity extends AppCompatActivity
             }
         } else if (id == R.id.rate_id) {
             startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/details?id=" + getPackageName())));
-
         }
-
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
-
 
     public class VersionCheck extends AsyncTask<Void, Void, Void> {
 
@@ -408,15 +419,12 @@ public class MainActivity extends AppCompatActivity
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
-
-
         }
 
         @Override
         protected Void doInBackground(Void... arg0) {
 
             HttpHandler sh = new HttpHandler();
-
 
             String url = "http://karbidigitalresources.tk/json-file/version.json";
             String jsonStr = sh.makeServiceCall(url);
@@ -432,8 +440,6 @@ public class MainActivity extends AppCompatActivity
                         VersionUpdate = v.getString("version");
 
                     }
-
-
                 } catch (final JSONException e) {
                     // Log.e(TAG, "Json parsing error: " + e.getMessage());
                     runOnUiThread(new Runnable() {
@@ -460,7 +466,6 @@ public class MainActivity extends AppCompatActivity
                 });
 
             }
-
 
             return null;
         }

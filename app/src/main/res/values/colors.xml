@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#0097A7</color>
-    <color name="colorPrimaryDark">#220097A7</color>
+    <color name="colorPrimaryDark">#617173</color>
     <color name="colorAccent">#FF4081</color>
     <color name="DarkCyan">#B39DDB</color>
     <color name="Black">#000000</color>
@@ -11,7 +11,7 @@
     <color name="Violet">#7E354D</color>
     <color name="Blue">#151B54</color>
     <color name="Green">#7CFC00</color>
-    <color name="Green2">#A37CFC00</color>
+    <color name="Green2">#66BB6A</color>
     <color name="Blue2">#50EBEC</color>
     <color name="holidayGreen">#7090FC2A</color>
     <color name="holidayBlue">#4D50EBEC</color>
@@ -19,8 +19,6 @@
     <color name="fieldbg">#FFF8DC</color>
     <color name="btnbg">#AFEEEE</color>
     <color name="white">#FFF</color>
+    <color name="newBlue">#5DC9FA</color>
     <color name="reminderListBackground">#EDE7F6</color>
-
-
-
 </resources>
