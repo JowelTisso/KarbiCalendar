@@ -16,7 +16,7 @@ import com.jangphong.hem.karbicalender2.notesactivities.jan;
 
 import java.util.Calendar;
 
-public class Frag1 extends Fragment {
+public class JanuaryFrag extends Fragment {
     TableLayout tabletxt;
     TextView t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15, t16, t17, t18, t19, t20, t21, t22, t23, t24, t25, t26, t27, t28, t29, t30, t31;
     String n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, n11, n12, n13, n14, n15, n16, n17, n18, n19, n20, n21, n22, n23, n24, n25, n26, n27, n28, n29, n30, n31;
@@ -24,7 +24,7 @@ public class Frag1 extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.frag1, container, false);
+        View v = inflater.inflate(R.layout.frag_january, container, false);
 
         t1 = v.findViewById(R.id.day1);
         t2 = v.findViewById(R.id.day2);
@@ -823,9 +823,9 @@ public class Frag1 extends Fragment {
     }
 
 
-    public static Frag1 newInstance(String text) {
+    public static JanuaryFrag newInstance(String text) {
 
-        Frag1 f = new Frag1();
+        JanuaryFrag f = new JanuaryFrag();
         return f;
     }
 

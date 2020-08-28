@@ -29,28 +29,27 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.Toast;
-
 import com.jangphong.hem.karbicalender2.helperclass.HttpHandler;
-import com.jangphong.hem.karbicalender2.monthfragments.Frag1;
-import com.jangphong.hem.karbicalender2.monthfragments.Frag10;
-import com.jangphong.hem.karbicalender2.monthfragments.Frag11;
-import com.jangphong.hem.karbicalender2.monthfragments.Frag12;
-import com.jangphong.hem.karbicalender2.monthfragments.Frag2;
-import com.jangphong.hem.karbicalender2.monthfragments.Frag3;
-import com.jangphong.hem.karbicalender2.monthfragments.Frag4;
-import com.jangphong.hem.karbicalender2.monthfragments.Frag5;
-import com.jangphong.hem.karbicalender2.monthfragments.Frag6;
-import com.jangphong.hem.karbicalender2.monthfragments.Frag7;
-import com.jangphong.hem.karbicalender2.monthfragments.Frag8;
-import com.jangphong.hem.karbicalender2.monthfragments.Frag9;
-
+import com.jangphong.hem.karbicalender2.monthfragments.JanuaryFrag;
+import com.jangphong.hem.karbicalender2.monthfragments.NovemberFrag;
+import com.jangphong.hem.karbicalender2.monthfragments.OctoberFrag;
+import com.jangphong.hem.karbicalender2.monthfragments.DecemberFrag;
+import com.jangphong.hem.karbicalender2.monthfragments.FebruaryFrag;
+import com.jangphong.hem.karbicalender2.monthfragments.JuneFrag;
+import com.jangphong.hem.karbicalender2.monthfragments.MarchFrag;
+import com.jangphong.hem.karbicalender2.monthfragments.AprilFrag;
+import com.jangphong.hem.karbicalender2.monthfragments.MayFrag;
+import com.jangphong.hem.karbicalender2.monthfragments.JulyFrag;
+import com.jangphong.hem.karbicalender2.monthfragments.AugustFrag;
+import com.jangphong.hem.karbicalender2.monthfragments.SeptemberFrag;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
 import java.util.Calendar;
 
 
@@ -262,31 +261,31 @@ public class MainActivity extends AppCompatActivity
             switch (pos) {
 
                 case 0:
-                    return Frag1.newInstance("Frag1, Instance 1");
+                    return JanuaryFrag.newInstance("JanuaryFrag, Instance 1");
                 case 1:
-                    return Frag2.newInstance("Frag2, Instance 2");
+                    return FebruaryFrag.newInstance("FebruaryFrag, Instance 2");
                 case 2:
-                    return Frag3.newInstance("Frag3, Instance 3");
+                    return MarchFrag.newInstance("MarchFrag, Instance 3");
                 case 3:
-                    return Frag4.newInstance("Frag4, Instance 4");
+                    return AprilFrag.newInstance("AprilFrag, Instance 4");
                 case 4:
-                    return Frag5.newInstance("Frag5, Instance 5");
+                    return MayFrag.newInstance("MayFrag, Instance 5");
                 case 5:
-                    return Frag6.newInstance("Frag6, Instance 6");
+                    return JuneFrag.newInstance("JuneFrag, Instance 6");
                 case 6:
-                    return Frag7.newInstance("Frag7, Instance 7");
+                    return JulyFrag.newInstance("JulyFrag, Instance 7");
                 case 7:
-                    return Frag8.newInstance("Frag8, Instance 8");
+                    return AugustFrag.newInstance("AugustFrag, Instance 8");
                 case 8:
-                    return Frag9.newInstance("Frag9, Instance 9");
+                    return SeptemberFrag.newInstance("SeptemberFrag, Instance 9");
                 case 9:
-                    return Frag10.newInstance("Frag10, Instance 10");
+                    return OctoberFrag.newInstance("OctoberFrag, Instance 10");
                 case 10:
-                    return Frag11.newInstance("Frag11, Instance 11");
+                    return NovemberFrag.newInstance("NovemberFrag, Instance 11");
                 case 11:
-                    return Frag12.newInstance("Frag12, Instance 12");
+                    return DecemberFrag.newInstance("DecemberFrag, Instance 12");
                 default:
-                    return Frag1.newInstance("Frag1, Default");
+                    return JanuaryFrag.newInstance("JanuaryFrag, Default");
             }
         }
 
@@ -301,6 +300,8 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
+        }else if(viewPager.getHeight() == 800){
+            viewPager.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
         } else {
             finish();
             System.exit(0);
@@ -516,6 +517,8 @@ public class MainActivity extends AppCompatActivity
             }
         }
     }
+
+
 }
 
 

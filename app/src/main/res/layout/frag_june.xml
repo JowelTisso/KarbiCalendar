@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F0F8FF"
-    tools:context=".monthfragments.Frag6">
+    tools:context=".monthfragments.JuneFrag">
 
     <ImageView
         android:layout_width="80dp"

@@ -12,25 +12,24 @@ import android.widget.TextView;
 
 import com.jangphong.hem.karbicalender2.HolidayPopupWindow;
 import com.jangphong.hem.karbicalender2.R;
-import com.jangphong.hem.karbicalender2.notesactivities.may;
+import com.jangphong.hem.karbicalender2.notesactivities.march;
 
 import java.util.Calendar;
 
-public class Frag5 extends Fragment
+public class MarchFrag extends Fragment
 {
-
     TableLayout tabletxt;
     TextView t1, t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12,t13, t14,t15,t16,t17,t18,t19,t20,t21,t22,t23,t24,t25,t26,t27,t28,t29,t30,t31;
     String n1, n2, n3, n4, n5, n6, n7, n8, n9, n10,n11,n12,n13,n14,n15,n16,n17,n18,n19,n20,n21,n22,n23,n24,n25,n26,n27,n28,n29,n30,n31;
     String o1,o2,o3,o4,o5,o6,o7,o8,o9,o10,o11,o12,o13,o14,o15,o16,o17,o18,o19,o20,o21,o22,o23,o24,o25,o26,o27,o28,o29,o30,o31;
 
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.frag5, container, false);
+        View v = inflater.inflate(R.layout.frag_march, container, false);
 
         //tofindviewby id, defining inflater is necessary in onCreateView
+
         t1 = v.findViewById(R.id.day1);
         t2 = v.findViewById(R.id.day2);
         t3 = v.findViewById(R.id.day3);
@@ -63,8 +62,8 @@ public class Frag5 extends Fragment
         t30 = v.findViewById(R.id.day30);
         t31 = v.findViewById(R.id.day31);
 
-
-        n1 = may.getDefaults("strmay",getContext());
+        march frag3 = new march();
+        n1 = march.getDefaults("strmarch",getContext());
         o1 = t1.getText().toString();
         if (n1!=null)
         {
@@ -72,7 +71,7 @@ public class Frag5 extends Fragment
         }
 
 
-        n2 = may.getDefaults("strmay2",getContext());
+        n2 = march.getDefaults("strmarch2",getContext());
         o2 = t2.getText().toString();
         if (n2!=null)
         {
@@ -80,7 +79,7 @@ public class Frag5 extends Fragment
         }
 
 
-        n3 = may.getDefaults("strmay3",getContext());
+        n3 = march.getDefaults("strmarch3",getContext());
         o3 = t3.getText().toString();
         if (n3!=null)
         {
@@ -88,7 +87,7 @@ public class Frag5 extends Fragment
         }
 
 
-        n4 = may.getDefaults("strmay4",getContext());
+        n4 = march.getDefaults("strmarch4",getContext());
         o4 = t4.getText().toString();
         if (n4!=null)
         {
@@ -96,7 +95,7 @@ public class Frag5 extends Fragment
         }
 
 
-        n5 = may.getDefaults("strmay5",getContext());
+        n5 = march.getDefaults("strmarch5",getContext());
         o5 = t5.getText().toString();
         if (n5!=null)
         {
@@ -104,7 +103,7 @@ public class Frag5 extends Fragment
         }
 
 
-        n6 = may.getDefaults("strmay6",getContext());
+        n6 = march.getDefaults("strmarch6",getContext());
         o6 = t6.getText().toString();
         if (n6!=null)
         {
@@ -112,7 +111,7 @@ public class Frag5 extends Fragment
         }
 
 
-        n7 = may.getDefaults("strmay7",getContext());
+        n7 = march.getDefaults("strmarch7",getContext());
         o7 = t7.getText().toString();
         if (n7!=null)
         {
@@ -120,7 +119,7 @@ public class Frag5 extends Fragment
         }
 
 
-        n8 = may.getDefaults("strmay8",getContext());
+        n8 = march.getDefaults("strmarch8",getContext());
         o8 = t8.getText().toString();
         if (n8!=null)
         {
@@ -129,7 +128,7 @@ public class Frag5 extends Fragment
 
 
 
-        n9 = may.getDefaults("strmay9",getContext());
+        n9 = march.getDefaults("strmarch9",getContext());
         o9 = t9.getText().toString();
         if (n2!=null)
         {
@@ -137,7 +136,7 @@ public class Frag5 extends Fragment
         }
 
 
-        n10 = may.getDefaults("strmay10",getContext());
+        n10 = march.getDefaults("strmarch10",getContext());
         o10 = t10.getText().toString();
         if (n10!=null)
         {
@@ -145,7 +144,7 @@ public class Frag5 extends Fragment
         }
 
 
-        n11 = may.getDefaults("strmay11",getContext());
+        n11 = march.getDefaults("strmarch11",getContext());
         o11 = t11.getText().toString();
         if (n11!=null)
         {
@@ -153,7 +152,7 @@ public class Frag5 extends Fragment
         }
 
 
-        n12 = may.getDefaults("strmay12",getContext());
+        n12 = march.getDefaults("strmarch12",getContext());
         o12 = t12.getText().toString();
         if (n12!=null)
         {
@@ -161,7 +160,7 @@ public class Frag5 extends Fragment
         }
 
 
-        n13 = may.getDefaults("strmay13",getContext());
+        n13 = march.getDefaults("strmarch13",getContext());
         o13 = t13.getText().toString();
         if (n13!=null)
         {
@@ -169,7 +168,7 @@ public class Frag5 extends Fragment
         }
 
 
-        n14 = may.getDefaults("strmay14",getContext());
+        n14 = march.getDefaults("strmarch14",getContext());
         o14 = t14.getText().toString();
         if (n14!=null)
         {
@@ -177,7 +176,7 @@ public class Frag5 extends Fragment
         }
 
 
-        n15 = may.getDefaults("strmay15",getContext());
+        n15 = march.getDefaults("strmarch15",getContext());
         o15 = t15.getText().toString();
         if (n15!=null)
         {
@@ -185,7 +184,7 @@ public class Frag5 extends Fragment
         }
 
 
-        n16 = may.getDefaults("strmay16",getContext());
+        n16 = march.getDefaults("strmarch16",getContext());
         o16 = t16.getText().toString();
         if (n2!=null)
         {
@@ -193,7 +192,7 @@ public class Frag5 extends Fragment
         }
 
 
-        n17 = may.getDefaults("strmay17",getContext());
+        n17 = march.getDefaults("strmarch17",getContext());
         o17 = t17.getText().toString();
         if (n17!=null)
         {
@@ -201,7 +200,7 @@ public class Frag5 extends Fragment
         }
 
 
-        n18 = may.getDefaults("strmay18",getContext());
+        n18 = march.getDefaults("strmarch18",getContext());
         o18 = t18.getText().toString();
         if (n18!=null)
         {
@@ -209,7 +208,7 @@ public class Frag5 extends Fragment
         }
 
 
-        n19 = may.getDefaults("strmay19",getContext());
+        n19 = march.getDefaults("strmarch19",getContext());
         o19 = t19.getText().toString();
         if (n19!=null)
         {
@@ -217,7 +216,7 @@ public class Frag5 extends Fragment
         }
 
 
-        n20 = may.getDefaults("strmay20",getContext());
+        n20 = march.getDefaults("strmarch20",getContext());
         o20 = t20.getText().toString();
         if (n20!=null)
         {
@@ -225,7 +224,7 @@ public class Frag5 extends Fragment
         }
 
 
-        n21 = may.getDefaults("strmay21",getContext());
+        n21 = march.getDefaults("strmarch21",getContext());
         o21 = t21.getText().toString();
         if (n21!=null)
         {
@@ -233,7 +232,7 @@ public class Frag5 extends Fragment
         }
 
 
-        n22 = may.getDefaults("strmay22",getContext());
+        n22 = march.getDefaults("strmarch22",getContext());
         o22 = t22.getText().toString();
         if (n22!=null)
         {
@@ -241,7 +240,7 @@ public class Frag5 extends Fragment
         }
 
 
-        n23 = may.getDefaults("strmay23",getContext());
+        n23 = march.getDefaults("strmarch23",getContext());
         o23 = t23.getText().toString();
         if (n23!=null)
         {
@@ -249,7 +248,7 @@ public class Frag5 extends Fragment
         }
 
 
-        n24 = may.getDefaults("strmay24",getContext());
+        n24 = march.getDefaults("strmarch24",getContext());
         o24 = t24.getText().toString();
         if (n24!=null)
         {
@@ -257,7 +256,7 @@ public class Frag5 extends Fragment
         }
 
 
-        n25 = may.getDefaults("strmay25",getContext());
+        n25 = march.getDefaults("strmarch25",getContext());
         o25 = t25.getText().toString();
         if (n25!=null)
         {
@@ -265,7 +264,7 @@ public class Frag5 extends Fragment
         }
 
 
-        n26 = may.getDefaults("strmay26",getContext());
+        n26 = march.getDefaults("strmarch26",getContext());
         o26 = t26.getText().toString();
         if (n26!=null)
         {
@@ -273,7 +272,7 @@ public class Frag5 extends Fragment
         }
 
 
-        n27 = may.getDefaults("strmay27",getContext());
+        n27 = march.getDefaults("strmarch27",getContext());
         o27 = t27.getText().toString();
         if (n27!=null)
         {
@@ -281,7 +280,7 @@ public class Frag5 extends Fragment
         }
 
 
-        n28 = may.getDefaults("strmay28",getContext());
+        n28 = march.getDefaults("strmarch28",getContext());
         o28 = t28.getText().toString();
         if (n28!=null)
         {
@@ -289,38 +288,42 @@ public class Frag5 extends Fragment
         }
 
 
-        n29 = may.getDefaults("strmay29",getContext());
+        n29 = march.getDefaults("strmarch29",getContext());
         o29 = t29.getText().toString();
         if (n29!=null)
         {
             t29.setText(o29 +"\n"+" "+"\n"+ n29);
         }
 
-        n30 = may.getDefaults("strmay30",getContext());
+        n30 = march.getDefaults("strmarch30",getContext());
         o30 = t30.getText().toString();
         if (n30!=null)
         {
             t30.setText(o30 +"\n"+" "+"\n"+ n30);
         }
-        n31 = may.getDefaults("strmay31",getContext());
+
+
+        n31 = march.getDefaults("strmarch31",getContext());
         o31 = t31.getText().toString();
         if (n31!=null)
         {
             t31.setText(o31 +"\n"+" "+"\n"+ n31);
         }
 
+
         return v;
     }
+
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         Calendar cal = Calendar.getInstance();
-        if(cal.get(Calendar.MONTH)==Calendar.MAY)
+        if(cal.get(Calendar.MONTH)==Calendar.MARCH)
         {
             if (cal.get(Calendar.DATE) == 1) {
                 TextView t1 = getView().findViewById(R.id.day1);
-                t1.setBackgroundResource(R.drawable.cell_shape_national);
+                t1.setBackgroundResource(R.drawable.cell_shape);
             }
             else if (cal.get(Calendar.DATE) == 2) {
                 TextView t1 = getView().findViewById(R.id.day2);
@@ -344,7 +347,7 @@ public class Frag5 extends Fragment
             }
             else if (cal.get(Calendar.DATE) == 7) {
                 TextView t1 = getView().findViewById(R.id.day7);
-                t1.setBackgroundResource(R.drawable.cell_shape_national);
+                t1.setBackgroundResource(R.drawable.cell_shape);
             }
             else if (cal.get(Calendar.DATE) == 8) {
                 TextView t1 = getView().findViewById(R.id.day8);
@@ -352,11 +355,11 @@ public class Frag5 extends Fragment
             }
             else if (cal.get(Calendar.DATE) == 9) {
                 TextView t1 = getView().findViewById(R.id.day9);
-                t1.setBackgroundResource(R.drawable.cell_shape);
+                t1.setBackgroundResource(R.drawable.cell_shape_national);
             }
             else if (cal.get(Calendar.DATE) == 10) {
                 TextView t1 = getView().findViewById(R.id.day10);
-                t1.setBackgroundResource(R.drawable.cell_shape);
+                t1.setBackgroundResource(R.drawable.cell_shape_national);
             }
             else if (cal.get(Calendar.DATE) == 11) {
                 TextView t1 = getView().findViewById(R.id.day11);
@@ -452,10 +455,10 @@ public class Frag5 extends Fragment
                 Intent i = new Intent(getContext(), HolidayPopupWindow.class);
                 i.putExtra("holiday",o1);
                 i.putExtra("note",n1);
-                i.putExtra("dayName", "Bhomta, Fri");
-                i.putExtra("date","01 May 2020");
+                i.putExtra("dayName","Bhomkuru, Sun");
+                i.putExtra("date","01 March 2020");
                 i.putExtra("dateInt",1);
-                i.putExtra("month", 5);
+                i.putExtra("month", 3);
 
                 startActivity(i);
             }
@@ -467,10 +470,10 @@ public class Frag5 extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o2);
                 i.putExtra("note",n2);
-                i.putExtra("dayName", "Bhomti, Sat");
-                i.putExtra("date","02 May 2020");
+                i.putExtra("dayName", "Urmi, Mon");
+                i.putExtra("date","02 March 2020");
                 i.putExtra("dateInt",2);
-                i.putExtra("month", 5);
+                i.putExtra("month", 3);
                 startActivity(i);
             }
         });
@@ -481,10 +484,10 @@ public class Frag5 extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o3);
                 i.putExtra("note",n3);
-                i.putExtra("dayName", "Bhomkuru, Sun");
-                i.putExtra("date","03 May 2020");
+                i.putExtra("dayName", "Durmi, Tue");
+                i.putExtra("date","03 March 2020");
                 i.putExtra("dateInt",3);
-                i.putExtra("month", 5);
+                i.putExtra("month", 3);
                 startActivity(i);
             }
         });
@@ -495,10 +498,10 @@ public class Frag5 extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o4);
                 i.putExtra("note",n4);
-                i.putExtra("dayName", "Urmi, Mon");
-                i.putExtra("date","04 May 2020");
+                i.putExtra("dayName", "Thelang, Wed");
+                i.putExtra("date","04 March 2020");
                 i.putExtra("dateInt",4);
-                i.putExtra("month", 5);
+                i.putExtra("month", 3);
                 startActivity(i);
             }
         });
@@ -509,10 +512,10 @@ public class Frag5 extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o5);
                 i.putExtra("note",n5);
-                i.putExtra("dayName", "Durmi, Tue");
-                i.putExtra("date","05 May 2020");
+                i.putExtra("dayName", "Theman, Thurs");
+                i.putExtra("date","05 March 2020");
                 i.putExtra("dateInt",5);
-                i.putExtra("month", 5);
+                i.putExtra("month", 3);
                 startActivity(i);
             }
         });
@@ -523,10 +526,10 @@ public class Frag5 extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o6);
                 i.putExtra("note",n6);
-                i.putExtra("dayName", "Thelang, Wed");
-                i.putExtra("date","06 May 2020");
+                i.putExtra("dayName", "Bhomta, Fri");
+                i.putExtra("date","06 March 2020");
                 i.putExtra("dateInt",6);
-                i.putExtra("month", 5);
+                i.putExtra("month", 3);
                 startActivity(i);
             }
         });
@@ -537,10 +540,10 @@ public class Frag5 extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o7);
                 i.putExtra("note",n7);
-                i.putExtra("dayName", "Theman, Thurs");
-                i.putExtra("date","07 May 2020");
+                i.putExtra("dayName", "Bhomti, Sat");
+                i.putExtra("date","07 March 2020");
                 i.putExtra("dateInt",7);
-                i.putExtra("month", 5);
+                i.putExtra("month", 3);
                 startActivity(i);
             }
         });
@@ -551,10 +554,10 @@ public class Frag5 extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o8);
                 i.putExtra("note",n8);
-                i.putExtra("dayName", "Bhomta, Fri");
-                i.putExtra("date","08 May 2020");
+                i.putExtra("dayName", "Bhomkuru, Sun");
+                i.putExtra("date","08 March 2020");
                 i.putExtra("dateInt",8);
-                i.putExtra("month", 5);
+                i.putExtra("month", 3);
                 startActivity(i);
             }
         });
@@ -565,10 +568,10 @@ public class Frag5 extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o9);
                 i.putExtra("note",n9);
-                i.putExtra("dayName", "Bhomti, Sat");
-                i.putExtra("date","09 May 2020");
+                i.putExtra("dayName", "Urmi, Mon");
+                i.putExtra("date","09 March 2020");
                 i.putExtra("dateInt",9);
-                i.putExtra("month", 5);
+                i.putExtra("month", 3);
                 startActivity(i);
             }
         });
@@ -579,10 +582,10 @@ public class Frag5 extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o10);
                 i.putExtra("note",n10);
-                i.putExtra("dayName", "Bhomkuru, Sun");
-                i.putExtra("date","10 May 2020");
+                i.putExtra("dayName", "Durmi, Tue");
+                i.putExtra("date","10 March 2020");
                 i.putExtra("dateInt",10);
-                i.putExtra("month", 5);
+                i.putExtra("month", 3);
                 startActivity(i);
             }
         });
@@ -593,10 +596,10 @@ public class Frag5 extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o11);
                 i.putExtra("note",n11);
-                i.putExtra("dayName", "Urmi, Mon");
-                i.putExtra("date","11 May 2020");
+                i.putExtra("dayName", "Thelang, Wed");
+                i.putExtra("date","11 March 2020");
                 i.putExtra("dateInt",11);
-                i.putExtra("month", 5);
+                i.putExtra("month", 3);
                 startActivity(i);
             }
         });
@@ -607,10 +610,10 @@ public class Frag5 extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o12);
                 i.putExtra("note",n12);
-                i.putExtra("dayName", "Durmi, Tue");
-                i.putExtra("date","12 May 2020");
+                i.putExtra("dayName", "Theman, Thurs");
+                i.putExtra("date","12 March 2020");
                 i.putExtra("dateInt",12);
-                i.putExtra("month", 5);
+                i.putExtra("month", 3);
                 startActivity(i);
             }
         });
@@ -621,10 +624,10 @@ public class Frag5 extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o13);
                 i.putExtra("note",n13);
-                i.putExtra("dayName", "Thelang, Wed");
-                i.putExtra("date","13 May 2020");
+                i.putExtra("dayName", "Bhomta, Fri");
+                i.putExtra("date","13 March 2020");
                 i.putExtra("dateInt",13);
-                i.putExtra("month", 5);
+                i.putExtra("month", 3);
                 startActivity(i);
             }
         });
@@ -635,10 +638,10 @@ public class Frag5 extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o14);
                 i.putExtra("note",n14);
-                i.putExtra("dayName", "Theman, Thurs");
-                i.putExtra("date","14 May 2020");
+                i.putExtra("dayName", "Bhomti, Sat");
+                i.putExtra("date","14 March 2020");
                 i.putExtra("dateInt",14);
-                i.putExtra("month", 5);
+                i.putExtra("month", 3);
                 startActivity(i);
             }
         });
@@ -649,10 +652,10 @@ public class Frag5 extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o15);
                 i.putExtra("note",n15);
-                i.putExtra("dayName", "Bhomta, Fri");
-                i.putExtra("date","15 May 2020");
+                i.putExtra("dayName", "Bhomkuru, Sun");
+                i.putExtra("date","15 March 2020");
                 i.putExtra("dateInt",15);
-                i.putExtra("month", 5);
+                i.putExtra("month", 3);
                 startActivity(i);
             }
         });
@@ -663,10 +666,10 @@ public class Frag5 extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o16);
                 i.putExtra("note",n16);
-                i.putExtra("dayName", "Bhomti, Sat");
-                i.putExtra("date","16 May 2020");
+                i.putExtra("dayName", "Urmi, Mon");
+                i.putExtra("date","16 March 2020");
                 i.putExtra("dateInt",16);
-                i.putExtra("month", 5);
+                i.putExtra("month", 3);
                 startActivity(i);
             }
         });
@@ -677,10 +680,10 @@ public class Frag5 extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o17);
                 i.putExtra("note",n17);
-                i.putExtra("dayName", "Bhomkuru, Sun");
-                i.putExtra("date","17 May 2020");
+                i.putExtra("dayName", "Durmi, Tue");
+                i.putExtra("date","17 March 2020");
                 i.putExtra("dateInt",17);
-                i.putExtra("month", 5);
+                i.putExtra("month", 3);
                 startActivity(i);
             }
         });
@@ -691,10 +694,10 @@ public class Frag5 extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o18);
                 i.putExtra("note",n18);
-                i.putExtra("dayName", "Urmi, Mon");
-                i.putExtra("date","18 May 2020");
+                i.putExtra("dayName", "Thelang, Wed");
+                i.putExtra("date","18 March 2020");
                 i.putExtra("dateInt",18);
-                i.putExtra("month", 5);
+                i.putExtra("month", 3);
                 startActivity(i);
             }
         });
@@ -705,10 +708,10 @@ public class Frag5 extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o19);
                 i.putExtra("note",n19);
-                i.putExtra("dayName", "Durmi, Tue");
-                i.putExtra("date","19 May 2020");
+                i.putExtra("dayName", "Theman, Thurs");
+                i.putExtra("date","19 March 2020");
                 i.putExtra("dateInt",19);
-                i.putExtra("month", 5);
+                i.putExtra("month", 3);
                 startActivity(i);
             }
         });
@@ -719,10 +722,10 @@ public class Frag5 extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o20);
                 i.putExtra("note",n20);
-                i.putExtra("dayName", "Thelang, Wed");
-                i.putExtra("date","20 May 2020");
+                i.putExtra("dayName", "Bhomta, Fri");
+                i.putExtra("date","20 March 2020");
                 i.putExtra("dateInt",20);
-                i.putExtra("month", 5);
+                i.putExtra("month", 3);
                 startActivity(i);
             }
         });
@@ -733,10 +736,10 @@ public class Frag5 extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o21);
                 i.putExtra("note",n21);
-                i.putExtra("dayName", "Theman, Thurs");
-                i.putExtra("date","21 May 2020");
+                i.putExtra("dayName", "Bhomti, Sat");
+                i.putExtra("date","21 March 2020");
                 i.putExtra("dateInt",21);
-                i.putExtra("month", 5);
+                i.putExtra("month", 3);
                 startActivity(i);
             }
         });
@@ -747,10 +750,10 @@ public class Frag5 extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o22);
                 i.putExtra("note",n22);
-                i.putExtra("dayName", "Bhomta, Fri");
-                i.putExtra("date","22 May 2020");
+                i.putExtra("dayName", "Bhomkuru, Sun");
+                i.putExtra("date","22 March 2020");
                 i.putExtra("dateInt",22);
-                i.putExtra("month", 5);
+                i.putExtra("month", 3);
                 startActivity(i);
             }
         });
@@ -761,10 +764,10 @@ public class Frag5 extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o23);
                 i.putExtra("note",n23);
-                i.putExtra("dayName", "Bhomti, Sat");
-                i.putExtra("date","23 May 2020");
+                i.putExtra("dayName", "Urmi, Mon");
+                i.putExtra("date","23 March 2020");
                 i.putExtra("dateInt",23);
-                i.putExtra("month", 5);
+                i.putExtra("month", 3);
                 startActivity(i);
             }
         });
@@ -775,10 +778,10 @@ public class Frag5 extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o24);
                 i.putExtra("note",n24);
-                i.putExtra("dayName", "Bhomkuru, Sun");
-                i.putExtra("date","24 May 2020");
+                i.putExtra("dayName", "Durmi, Tue");
+                i.putExtra("date","24 March 2020");
                 i.putExtra("dateInt",24);
-                i.putExtra("month", 5);
+                i.putExtra("month", 3);
                 startActivity(i);
             }
         });
@@ -789,10 +792,10 @@ public class Frag5 extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o25);
                 i.putExtra("note",n25);
-                i.putExtra("dayName", "Urmi, Mon");
-                i.putExtra("date","25 May 2020");
+                i.putExtra("dayName", "Thelang, Wed");
+                i.putExtra("date","25 March 2020");
                 i.putExtra("dateInt",25);
-                i.putExtra("month", 5);
+                i.putExtra("month", 3);
                 startActivity(i);
             }
         });
@@ -803,10 +806,10 @@ public class Frag5 extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o26);
                 i.putExtra("note",n26);
-                i.putExtra("dayName", "Durmi, Tue");
-                i.putExtra("date","26 May 2020");
+                i.putExtra("dayName", "Theman, Thurs");
+                i.putExtra("date","26 March 2020");
                 i.putExtra("dateInt",26);
-                i.putExtra("month", 5);
+                i.putExtra("month", 3);
                 startActivity(i);
             }
         });
@@ -817,10 +820,10 @@ public class Frag5 extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o27);
                 i.putExtra("note",n27);
-                i.putExtra("dayName", "Thelang, Wed");
-                i.putExtra("date","27 May 2020");
+                i.putExtra("dayName", "Bhomta, Fri");
+                i.putExtra("date","27 March 2020");
                 i.putExtra("dateInt",27);
-                i.putExtra("month", 5);
+                i.putExtra("month", 3);
                 startActivity(i);
             }
         });
@@ -831,10 +834,10 @@ public class Frag5 extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o28);
                 i.putExtra("note",n28);
-                i.putExtra("dayName", "Theman, Thurs");
-                i.putExtra("date","28 May 2020");
+                i.putExtra("dayName", "Bhomti, Sat");
+                i.putExtra("date","28 March 2020");
                 i.putExtra("dateInt",28);
-                i.putExtra("month", 5);
+                i.putExtra("month", 3);
                 startActivity(i);
             }
         });
@@ -845,10 +848,10 @@ public class Frag5 extends Fragment
                 Intent i = new Intent(getContext(), HolidayPopupWindow.class);
                 i.putExtra("holiday",o29);
                 i.putExtra("note",n29);
-                i.putExtra("dayName", "Bhomta, Fri");
-                i.putExtra("date","29 May 2020");
+                i.putExtra("dayName", "Bhomkuru, Sun");
+                i.putExtra("date","29 March 2020");
                 i.putExtra("dateInt",29);
-                i.putExtra("month", 5);
+                i.putExtra("month", 3);
                 startActivity(i);
             }
         });
@@ -859,10 +862,10 @@ public class Frag5 extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o30);
                 i.putExtra("note",n30);
-                i.putExtra("dayName", "Bhomti, Sat");
-                i.putExtra("date","30 May 2020");
+                i.putExtra("dayName", "Urmi, Mon");
+                i.putExtra("date","30 March 2020");
                 i.putExtra("dateInt",30);
-                i.putExtra("month", 5);
+                i.putExtra("month", 3);
                 startActivity(i);
             }
         });
@@ -870,13 +873,13 @@ public class Frag5 extends Fragment
         t31.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getContext(),HolidayPopupWindow.class);
+                Intent i = new Intent(getContext(), HolidayPopupWindow.class);
                 i.putExtra("holiday",o31);
                 i.putExtra("note",n31);
-                i.putExtra("dayName", "Bhomkuru, Sun");
-                i.putExtra("date","31 May 2020");
+                i.putExtra("dayName", "Durmi, Tue");
+                i.putExtra("date","31 March 2020");
                 i.putExtra("dateInt",31);
-                i.putExtra("month", 5);
+                i.putExtra("month", 3);
                 startActivity(i);
             }
         });
@@ -886,9 +889,11 @@ public class Frag5 extends Fragment
 
 
 
-    public static Frag5 newInstance(String text) {
 
-        Frag5 f = new Frag5();
+
+    public static MarchFrag newInstance(String text) {
+
+        MarchFrag f = new MarchFrag();
         Bundle b = new Bundle();
         b.putString("msg", text);
 
