@@ -1,6 +1,5 @@
 package com.jangphong.hem.karbicalender2;
 
-import android.content.Intent;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
@@ -9,7 +8,6 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.android.material.snackbar.Snackbar;
 import com.jangphong.hem.karbicalender2.helperclass.DatabaseHelper;

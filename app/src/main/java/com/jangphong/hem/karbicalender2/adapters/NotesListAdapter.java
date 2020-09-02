@@ -3,25 +3,20 @@ package com.jangphong.hem.karbicalender2.adapters;
 import android.app.Activity;
 import android.content.Context;
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.android.material.snackbar.Snackbar;
 import com.jangphong.hem.karbicalender2.Item;
-import com.jangphong.hem.karbicalender2.NotesActivity;
 import com.jangphong.hem.karbicalender2.R;
 import com.jangphong.hem.karbicalender2.StoredNotesDisplayActivity;
 import com.jangphong.hem.karbicalender2.helperclass.DatabaseHelper;

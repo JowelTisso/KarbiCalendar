@@ -29,7 +29,6 @@ public class HolidayPopupWindow extends AppCompatActivity {
     FloatingActionButton addBtn;
     Class cls;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,7 +40,6 @@ public class HolidayPopupWindow extends AppCompatActivity {
         t4 = findViewById(R.id.datePlace);
 
         addBtn = findViewById(R.id.addNotesBtn);
-
 
         DisplayMetrics dm = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(dm);
@@ -56,7 +54,6 @@ public class HolidayPopupWindow extends AppCompatActivity {
         params.y = -50;
 
         getWindow().setAttributes(params);
-
 
         Intent intent = getIntent();
         final String a = intent.getStringExtra("holiday");
@@ -109,8 +106,6 @@ public class HolidayPopupWindow extends AppCompatActivity {
                 break;
         }
 
-
-
         addBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -122,7 +117,6 @@ public class HolidayPopupWindow extends AppCompatActivity {
                 startActivity(intent1);
                 finish();
                 //overridePendingTransition(0, 0);
-
             }
         });
 

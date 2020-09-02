@@ -2,8 +2,6 @@
     <string name="app_name">KarbiCalendar</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Karbi Calendar</string>
-    <string name="nav_header_subtitle">KarbiTissoJangphongHemCreation</string>
     <string name="About">ABOUT\n
                         Karbi Calendar 2019 \n
                         version 1.5\n

@@ -33,7 +33,6 @@
         android:layout_below="@id/titleText">
 
         <LinearLayout
-            android:id="@+id/txtsave"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
@@ -71,7 +70,6 @@
                 </RelativeLayout>
 
                 <TextView
-                    android:id="@+id/fixedHoliday1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/Green2"
@@ -131,7 +129,6 @@
                 </RelativeLayout>
 
                 <TextView
-                    android:id="@+id/fixedHoliday2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/Green2"
@@ -1878,7 +1875,6 @@
     </ScrollView>
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
-        android:id="@+id/coordinatorLayout7"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 

@@ -61,11 +61,6 @@ public class april extends AppCompatActivity {
         txt29 = findViewById(R.id.editText29);
         txt30 = findViewById(R.id.editText30);
 
-
-
-
-
-
         //To retrieve data from sharedPreference
         SharedPreferences prefsfeb = PreferenceManager.getDefaultSharedPreferences(this);
         String strfeb1 = prefsfeb.getString("strapril","");
@@ -128,10 +123,6 @@ public class april extends AppCompatActivity {
         txt29.setText(str29);
         String str30 = prefsfeb.getString("strapril30","");
         txt30.setText(str30);
-
-
-
-
 
         fab2.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -207,14 +198,9 @@ public class april extends AppCompatActivity {
                 editor.putString("strapril30",str2);
 
                 editor.apply();
-
-                //To save data
-
-
             }
         });
 
-        //Activity.Context.method();
         MainActivity.mainActivity.finish();
 
         Intent i = getIntent();
@@ -239,7 +225,6 @@ public class april extends AppCompatActivity {
         overridePendingTransition(0, 0);
         // MainActivity main = new MainActivity();
         //  main.setViewPagerItem(1);
-
     }
 
     public void onFocus()

@@ -215,7 +215,7 @@ public class MainActivity extends AppCompatActivity
                 {
                     viewPager.setCurrentItem(monCount);
                 }
-            }else {}
+            }
 
         }else
             Toast.makeText(this,"null",Toast.LENGTH_SHORT).show();
@@ -236,8 +236,7 @@ public class MainActivity extends AppCompatActivity
     }
 
 
-    public class MyPagerAdapter extends FragmentStatePagerAdapter {
-
+    public static class MyPagerAdapter extends FragmentStatePagerAdapter {
 
         public MyPagerAdapter(FragmentManager fm) {
             super(fm);
@@ -310,7 +309,6 @@ public class MainActivity extends AppCompatActivity
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
         if (id == R.id.action_exit) {
             finish();
             System.exit(0);
@@ -325,7 +323,6 @@ public class MainActivity extends AppCompatActivity
         return super.onOptionsItemSelected(item);
     }
 
-    @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
@@ -350,7 +347,7 @@ public class MainActivity extends AppCompatActivity
 
         else if (id == R.id.cal_update) {
 
-            if (isNetworkConnected() == true) {
+            if (isNetworkConnected()) {
                 new VersionCheck().execute();
 
                 progressDialog = new ProgressDialog(MainActivity.this);

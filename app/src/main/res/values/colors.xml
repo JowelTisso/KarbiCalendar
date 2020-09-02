@@ -1,26 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#0097A7</color>
     <color name="colorPrimaryDark">#4C595A</color>
     <color name="colorAccent">#F48FB1</color>
-    <color name="DarkCyan">#B39DDB</color>
     <color name="notes">#66BB6A</color>
-    <color name="Black">#000000</color>
-    <color name="Purple">#8D38C9</color>
-    <color name="NavyBlue">#41627E</color>
-    <color name="Purple2">#461B7E</color>
     <color name="fab">#f9c11c</color>
     <color name="Blue">#151B54</color>
-    <color name="Green">#7CFC00</color>
     <color name="Green2">#66BB6A</color>
     <color name="Blue2">#50EBEC</color>
-    <color name="holidayGreen">#7090FC2A</color>
-    <color name="holidayBlue">#4D50EBEC</color>
     <color name="skyblue">#D050EBEC</color>
-    <color name="fieldbg">#FFF8DC</color>
-    <color name="btnbg">#AFEEEE</color>
     <color name="white">#FFF</color>
     <color name="newBlue">#5DC9FA</color>
     <color name="holidayPopup">#ff858a</color>
-    <color name="reminderListBackground">#EDE7F6</color>
 </resources>

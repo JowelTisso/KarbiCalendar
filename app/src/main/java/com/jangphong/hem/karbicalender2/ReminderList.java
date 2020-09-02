@@ -1,26 +1,19 @@
 package com.jangphong.hem.karbicalender2;
 
-import android.app.AlarmManager;
-import android.app.PendingIntent;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import androidx.appcompat.app.AlertDialog;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.RelativeLayout;
-import android.widget.Toast;
 
 import com.jangphong.hem.karbicalender2.adapters.ListAdapter;
-import com.jangphong.hem.karbicalender2.helperclass.AlarmReceiver;
 import com.jangphong.hem.karbicalender2.helperclass.DatabaseHelper;
 
 import java.util.ArrayList;
