@@ -9,23 +9,22 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ApplicationInfo;
 import android.graphics.PorterDuff;
-import android.graphics.drawable.Drawable;
 import android.net.ConnectivityManager;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentStatePagerAdapter;
-import android.support.v4.view.ViewPager;
-import android.support.design.widget.NavigationView;
-import android.support.v4.view.GravityCompat;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarDrawerToggle;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.PopupMenu;
-import android.support.v7.widget.Toolbar;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentStatePagerAdapter;
+import androidx.viewpager.widget.ViewPager;
+import com.google.android.material.navigation.NavigationView;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.PopupMenu;
+import androidx.appcompat.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -51,7 +50,6 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import java.util.Calendar;
-
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -80,7 +78,6 @@ public class MainActivity extends AppCompatActivity
         drawer.addDrawerListener(toggle);
         toggle.syncState();
         toggle.getDrawerArrowDrawable().setColor(getResources().getColor(R.color.colorPrimaryDark));
-
 
         NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
@@ -133,13 +130,11 @@ public class MainActivity extends AppCompatActivity
             }.execute();
         }*/
 
-
         imgSpinner = findViewById(R.id.spinnerImage);
 
         final PopupMenu dropDownMenu = new PopupMenu(this, imgSpinner);
 
         final Menu menu = dropDownMenu.getMenu();
-
 
 // OR inflate your menu from an XML:
         dropDownMenu.getMenuInflater().inflate(R.menu.spinner_menu, menu);
@@ -157,51 +152,50 @@ public class MainActivity extends AppCompatActivity
                         viewPager.setCurrentItem(1);
                         break;
                     case R.id.march:
-                        // item ID 0 was clicked
+                        // item ID 2 was clicked
                         viewPager.setCurrentItem(2);
                         break;
                     case R.id.april:
-                        // item ID 1 was clicked
+                        // item ID 3 was clicked
                         viewPager.setCurrentItem(3);
                         break;
                     case R.id.may:
-                        // item ID 0 was clicked
+                        // item ID 4 was clicked
                         viewPager.setCurrentItem(4);
                         break;
                     case R.id.june:
-                        // item ID 1 was clicked
+                        // item ID 5 was clicked
                         viewPager.setCurrentItem(5);
                         break;
                     case R.id.july:
-                        // item ID 0 was clicked
+                        // item ID 6 was clicked
                         viewPager.setCurrentItem(6);
                         break;
                     case R.id.aug:
-                        // item ID 1 was clicked
+                        // item ID 7 was clicked
                         viewPager.setCurrentItem(7);
                         break;
                     case R.id.sep:
-                        // item ID 0 was clicked
+                        // item ID 8 was clicked
                         viewPager.setCurrentItem(8);
                         break;
                     case R.id.oct:
-                        // item ID 1 was clicked
+                        // item ID 9 was clicked
                         viewPager.setCurrentItem(9);
                         break;
                     case R.id.nov:
-                        // item ID 0 was clicked
+                        // item ID 10 was clicked
                         viewPager.setCurrentItem(10);
                         break;
                     case R.id.dec:
-                        // item ID 1 was clicked
+                        // item ID 11 was clicked
                         viewPager.setCurrentItem(11);
                         break;
-
+                        
                 }
                 return true;
             }
         });
-
 
         imgSpinner.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -209,7 +203,6 @@ public class MainActivity extends AppCompatActivity
                 dropDownMenu.show();
             }
         });
-
 
         Intent i = getIntent();
         if (i!=null)
@@ -224,13 +217,10 @@ public class MainActivity extends AppCompatActivity
                 }
             }else {}
 
-
         }else
             Toast.makeText(this,"null",Toast.LENGTH_SHORT).show();
 
-
         mainActivity = this;
-
 
     }
 
@@ -238,7 +228,6 @@ public class MainActivity extends AppCompatActivity
     {
         viewPagerCount = a;
     }*/
-
 
     private boolean isNetworkConnected() {
         ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
@@ -256,7 +245,6 @@ public class MainActivity extends AppCompatActivity
 
         @Override
         public Fragment getItem(int pos) {
-
 
             switch (pos) {
 
@@ -307,7 +295,7 @@ public class MainActivity extends AppCompatActivity
             System.exit(0);
         }
     }
-    Drawable drawable;
+    
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -322,7 +310,6 @@ public class MainActivity extends AppCompatActivity
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        drawable.setColorFilter(getResources().getColor(R.color.newBlue), PorterDuff.Mode.SRC_ATOP);
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_exit) {
             finish();
@@ -333,10 +320,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.action_notes) {
             Intent i = new Intent(MainActivity.this, NotesActivity.class);
             startActivity(i);
-
-
         }
-
 
         return super.onOptionsItemSelected(item);
     }
@@ -395,7 +379,7 @@ public class MainActivity extends AppCompatActivity
             startActivity(in);
         } else if (id == R.id.instagram_id) {
 
-            Uri uri = Uri.parse("https://www.instagram.com/karbidigital");
+            Uri uri = Uri.parse("https://www.instagram.com/karbidigitals");
             Intent insta = new Intent(Intent.ACTION_VIEW, uri);
             insta.setPackage("com.instagram.android");
 
@@ -403,7 +387,7 @@ public class MainActivity extends AppCompatActivity
                 startActivity(insta);
             } catch (ActivityNotFoundException e) {
                 startActivity(new Intent(Intent.ACTION_VIEW,
-                       Uri.parse("https://www.instagram.com/karbidigital")));
+                       Uri.parse("https://www.instagram.com/karbidigitals")));
             }
         } else if (id == R.id.rate_id) {
             startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/details?id=" + getPackageName())));
@@ -489,7 +473,7 @@ public class MainActivity extends AppCompatActivity
 
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
                 builder.setTitle("New Update Available");
-                builder.setIcon(R.mipmap.ic_karbi_launcher);
+                builder.setIcon(R.mipmap.ic_launcher);
                 builder.setCancelable(true);
                 builder.setMessage("New improved features available, update to avail")
                         .setPositiveButton("UPDATE", new DialogInterface.OnClickListener() {
@@ -517,7 +501,6 @@ public class MainActivity extends AppCompatActivity
             }
         }
     }
-
 
 }
 

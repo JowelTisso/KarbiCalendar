@@ -1,55 +1,112 @@
 package com.jangphong.hem.karbicalender2.adapters;
 
+import android.app.AlarmManager;
+import android.app.PendingIntent;
 import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.google.android.material.snackbar.Snackbar;
 import com.jangphong.hem.karbicalender2.Item;
 import com.jangphong.hem.karbicalender2.R;
+import com.jangphong.hem.karbicalender2.ReminderList;
+import com.jangphong.hem.karbicalender2.helperclass.AlarmReceiver;
+import com.jangphong.hem.karbicalender2.helperclass.DatabaseHelper;
 
 import java.util.ArrayList;
 
-public class ListAdapter extends ArrayAdapter<Item> {
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
+import androidx.recyclerview.widget.RecyclerView;
 
+public class ListAdapter extends RecyclerView.Adapter<ListAdapter.MyViewHolder> {
 
     private Context mContext;
-    int mResource;
+    private int mResourceId;
+    private ArrayList<Item> listItems;
+    private RelativeLayout mRelativeLayout;
 
-    public ListAdapter( Context context, int resource, ArrayList<Item> objects) {
-        super(context, resource, objects);
-        mContext = context;
-        mResource = resource;
+    public ListAdapter(Context context, int resourceId, ArrayList<Item> listItems, RelativeLayout relativeLayout) {
+        this.mContext = context;
+        this.mResourceId = resourceId;
+        this.listItems = listItems;
+        this.mRelativeLayout = relativeLayout;
     }
 
+    public static class MyViewHolder extends RecyclerView.ViewHolder {
+        TextView event;
+        TextView time;
+        TextView date;
+        Button btnDelete;
+        public MyViewHolder(@NonNull View itemView) {
+            super(itemView);
+            event = itemView.findViewById(R.id.eventView);
+            time = itemView.findViewById(R.id.timeView);
+            date = itemView.findViewById(R.id.dateView);
+            btnDelete = itemView.findViewById(R.id.btnDelete);
+        }
+    }
 
+    @NonNull
+    @Override
+    public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+
+        View view = LayoutInflater.from(parent.getContext())
+                .inflate(mResourceId,parent,false);
+        return new MyViewHolder(view);
+    }
 
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
+    public void onBindViewHolder(@NonNull final MyViewHolder holder, final int position) {
+        final Item item = listItems.get(position);
+        holder.event.setText(item.getEvent());
+        holder.date.setText(item.getDate());
+        holder.time.setText(item.getTime());
+        final DatabaseHelper myDB = new DatabaseHelper(mContext);
+        holder.btnDelete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                AlertDialog.Builder alertBuilder = new AlertDialog.Builder(mContext);
+                alertBuilder.setTitle("Delete");
+                final int uid = item.getUniqueId();
+                alertBuilder.setMessage("Are You Sure ?");
+                final String positionToRemove = item.getEvent();
+                alertBuilder.setNegativeButton("Cancel",null);
+                alertBuilder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        Integer deleteRow = myDB.deleteData(positionToRemove);
+                        if (deleteRow > 0){
+                            Intent intent = new Intent(mContext, AlarmReceiver.class);
+                            PendingIntent alarmIntent = PendingIntent.getBroadcast(mContext, uid, intent, PendingIntent.FLAG_ONE_SHOT);
+                            AlarmManager alarmManager = (AlarmManager) mContext.getSystemService(Context.ALARM_SERVICE);
+                            assert alarmManager != null;
+                            alarmManager.cancel(alarmIntent);
 
-        String event = getItem(position).getEvent();
-        String time = getItem(position).getTime();
-        String date = getItem(position).getDate();
-        int uniqueId = getItem(position).getUniqueId();
+                            listItems.remove(position);
+                            notifyDataSetChanged();
 
-       // Item item = new Item(event,time,date,uniqueId);
-        LayoutInflater inflater = LayoutInflater.from(mContext);
-        convertView = inflater.inflate(mResource,parent,false);
-
-        TextView evnt = convertView.findViewById(R.id.eventView);
-        TextView tme = convertView.findViewById(R.id.timeView);
-        TextView dte = convertView.findViewById(R.id.dateView);
-
-        evnt.setText(event);
-        tme.setText(time);
-        dte.setText(date);
-
-
-
-        return convertView;
+                            Snackbar.make(mRelativeLayout,"Done",Snackbar.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+                alertBuilder.show();
+            }
+        });
     }
 
+    @Override
+    public int getItemCount() {
+        return listItems.size();
+    }
 
 }

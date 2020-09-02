@@ -44,14 +44,9 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         db.execSQL(" DROP TABLE IF EXISTS " + TABLE_NAME);
-
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_NAME2);
-
-
         onCreate(db);
-
     }
-
 
     public boolean addData(String event1, String time1, String date1, int uniqueId) {
         SQLiteDatabase db = this.getWritableDatabase();
@@ -60,7 +55,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         contentValues.put(COL3, time1);
         contentValues.put(COL4, date1);
         contentValues.put(COL5, uniqueId);
-
 
         long result = db.insert(TABLE_NAME, null, contentValues);
 
@@ -75,7 +69,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         contentValues.put(COL6, date);
         contentValues.put(COL7, notes);
         contentValues.put(COL9, title);
-
 
         //db2.insert(TABLE_NAME2, null, contentValues2);
 
@@ -96,7 +89,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         return result != -1;
     }
 
-
     public Integer deleteData(String id) {
         SQLiteDatabase db = this.getWritableDatabase();
         return db.delete(TABLE_NAME, "EVENT = ?", new String[]{id});
@@ -106,9 +98,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public Integer deleteDataFromNotes(String id) {
         SQLiteDatabase db = this.getWritableDatabase();
         return db.delete(TABLE_NAME2, "NOTES_TITLE = ?", new String[]{id});
-
     }
-
 
     public Cursor getListContents() {
         SQLiteDatabase db = this.getWritableDatabase();
@@ -121,6 +111,5 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         Cursor data = db.rawQuery("SELECT * FROM " + TABLE_NAME2, null);
         return data;
     }
-
 
 }

@@ -6,7 +6,7 @@ import android.app.PendingIntent;
 import android.app.TimePickerDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -123,7 +123,6 @@ public class Reminder extends AppCompatActivity {
                         } else
                             min = String.valueOf(selectedMin);
 
-
                         timePopup.setText(twelveHour + ":" + min + ":" + format);
                         timeStore = timePopup.getText().toString() + ":" + selectedHour;
                     }
@@ -135,12 +134,10 @@ public class Reminder extends AppCompatActivity {
                 editor.putString(KEY, timeStore);
                 editor.commit();
 
-
             }
 
 
         });
-
 
         set_btn.setOnClickListener(new View.OnClickListener() {
 
@@ -149,16 +146,13 @@ public class Reminder extends AppCompatActivity {
 
             public void onClick(View view) {
 
-
                 Intent intent = new Intent(Reminder.this, AlarmReceiver.class);
                 intent.putExtra("notificationId", notificationId);
                 intent.putExtra("todo", editText.getText().toString());
                 final AlarmManager alarm = (AlarmManager) getSystemService(ALARM_SERVICE);
                 final int id = (int) System.currentTimeMillis();
 
-
                 final PendingIntent alarmIntent = PendingIntent.getBroadcast(Reminder.this, id, intent, PendingIntent.FLAG_ONE_SHOT);
-
 
                 StringTokenizer st = new StringTokenizer(timeStore, ":");
                 StringTokenizer stday = new StringTokenizer(dateStore, "-");
@@ -171,7 +165,6 @@ public class Reminder extends AppCompatActivity {
                     String day = stday.nextToken();
                     String month = stday.nextToken();
                     String year = stday.nextToken();
-
 
                     Calendar startTime = Calendar.getInstance();
                     startTime.set(Calendar.HOUR_OF_DAY, Integer.parseInt(actualTimeSettingHour));
@@ -188,7 +181,6 @@ public class Reminder extends AppCompatActivity {
 
                     Toast.makeText(Reminder.this, "Reminder Added", Toast.LENGTH_LONG).show();
 
-
                     String eventText = editText.getText().toString();
                     String timeText = timePopup.getText().toString();
                     String dateText = datePopup.getText().toString();
@@ -199,16 +191,11 @@ public class Reminder extends AppCompatActivity {
                     } else {
                         Toast.makeText(Reminder.this, "Field is Empty", Toast.LENGTH_SHORT).show();
                     }
-
-
                 } else {
                     Toast.makeText(Reminder.this, "Field Empty", Toast.LENGTH_SHORT).show();
                 }
-
-
             }
         });
-
 
         cancel_btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -223,19 +210,10 @@ public class Reminder extends AppCompatActivity {
         });
 
     }
-
-
-    @Override
-    public void onBackPressed() {
-        Intent intent = new Intent(Reminder.this, ReminderList.class);
-        startActivity(intent);
-        finish();
-    }
-
     public void AddData(String event2, String time2, String date2, int uid) {
         boolean insertData = myDB.addData(event2, time2, date2, uid);
 
-        if (insertData == true) {
+        if (insertData) {
             Toast.makeText(Reminder.this, "Data entered successfully", Toast.LENGTH_SHORT).show();
         } else {
             Toast.makeText(Reminder.this, "Something went wrong!!", Toast.LENGTH_SHORT).show();

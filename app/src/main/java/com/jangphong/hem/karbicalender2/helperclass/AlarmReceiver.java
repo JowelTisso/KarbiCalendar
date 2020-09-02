@@ -31,7 +31,7 @@ public class AlarmReceiver extends BroadcastReceiver {
         Uri alarmSound = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_ALARM);
         Notification.Builder builder = new Notification.Builder(context);
         long[] pattern = {500, 500, 500, 500, 500, 500, 500, 500, 500, 500};
-        builder.setLargeIcon(BitmapFactory.decodeResource(context.getResources(), R.mipmap.ic_karbi_launcher))
+        builder.setLargeIcon(BitmapFactory.decodeResource(context.getResources(), R.mipmap.ic_launcher))
                 .setSmallIcon(android.R.drawable.ic_dialog_info)
                 .setContentTitle("Reminder")
                 .setContentText(message)

@@ -3,7 +3,7 @@
     android:shape="rectangle"
     >
     <solid
-        android:color="@color/DarkCyan"
+        android:color="@color/holidayPopup"
         />
     <corners
         android:radius="10dp"

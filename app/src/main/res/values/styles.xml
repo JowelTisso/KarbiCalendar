@@ -22,10 +22,9 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
     <style name="NavStyle">
-        <item name="android:textSize">13sp</item>
+        <item name="android:textSize">17sp</item>
         <item name="listPreferredItemHeightSmall">40dp</item>
-
-
+        <item name="fontFamily">@font/ubunturegular</item>
     </style>
 
     <style name="AppTheme.Popup">

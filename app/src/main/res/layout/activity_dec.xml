@@ -22,6 +22,7 @@
             android:text="December\nNotes"
             android:textAlignment="center"
             android:textSize="24sp"
+            android:fontFamily="@font/ubuntulight"
             android:textStyle="bold" />
 
     </LinearLayout>
@@ -40,7 +41,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/DarkCyan"
+                android:background="@color/Green2"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -51,7 +52,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="Durmi, Tue"
@@ -73,7 +74,7 @@
                     android:id="@+id/fixedHoliday1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/DarkCyan"
+                    android:background="@color/Green2"
                     android:fontFamily="@font/caviardreams"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
@@ -100,7 +101,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/DarkCyan"
+                android:background="@color/Green2"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -110,7 +111,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="Thelang, Wed"
@@ -121,7 +122,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="2"
@@ -134,7 +135,7 @@
                     android:id="@+id/fixedHoliday2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/DarkCyan"
+                    android:background="@color/Green2"
                     android:fontFamily="@font/caviardreams"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
@@ -163,7 +164,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/DarkCyan"
+                android:background="@color/Green2"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -173,7 +174,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="Theman, Thurs"
@@ -184,7 +185,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="3"
@@ -196,7 +197,7 @@
 
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/DarkCyan"
+                    android:background="@color/Green2"
                     android:fontFamily="@font/caviardreams"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
@@ -226,7 +227,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/DarkCyan"
+                android:background="@color/Green2"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -236,7 +237,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="Bhomta, Fri"
@@ -247,7 +248,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="4"
@@ -275,7 +276,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/DarkCyan"
+                android:background="@color/Green2"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -285,7 +286,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="Bhomti, Sat"
@@ -296,7 +297,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="5"
@@ -308,7 +309,7 @@
 
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/DarkCyan"
+                    android:background="@color/Green2"
                     android:fontFamily="@font/caviardreams"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
@@ -338,7 +339,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/DarkCyan"
+                android:background="@color/Green2"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -348,7 +349,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="Bhomkuru, Sun"
@@ -359,7 +360,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="6"
@@ -371,7 +372,7 @@
 
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/DarkCyan"
+                    android:background="@color/Green2"
                     android:fontFamily="@font/caviardreams"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
@@ -401,7 +402,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/DarkCyan"
+                android:background="@color/Green2"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -411,7 +412,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="Urmi, Mon"
@@ -422,7 +423,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="7"
@@ -434,7 +435,7 @@
 
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/DarkCyan"
+                    android:background="@color/Green2"
                     android:fontFamily="@font/caviardreams"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
@@ -464,7 +465,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/DarkCyan"
+                android:background="@color/Green2"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -474,7 +475,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="Durmi, Tue"
@@ -485,7 +486,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="8"
@@ -497,7 +498,7 @@
 
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/DarkCyan"
+                    android:background="@color/Green2"
                     android:fontFamily="@font/caviardreams"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
@@ -528,7 +529,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/DarkCyan"
+                android:background="@color/Green2"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -538,7 +539,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="Thelang, Wed"
@@ -549,7 +550,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="9"
@@ -561,7 +562,7 @@
 
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/DarkCyan"
+                    android:background="@color/Green2"
                     android:fontFamily="@font/caviardreams"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
@@ -589,7 +590,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/DarkCyan"
+                android:background="@color/Green2"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -599,7 +600,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="Theman, Thurs"
@@ -610,7 +611,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="10"
@@ -622,7 +623,7 @@
 
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/DarkCyan"
+                    android:background="@color/Green2"
                     android:fontFamily="@font/caviardreams"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
@@ -650,7 +651,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/DarkCyan"
+                android:background="@color/Green2"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -660,7 +661,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="Bhomta, Fri"
@@ -671,7 +672,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="11"
@@ -683,7 +684,7 @@
 
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/DarkCyan"
+                    android:background="@color/Green2"
                     android:fontFamily="@font/caviardreams"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
@@ -711,7 +712,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/DarkCyan"
+                android:background="@color/Green2"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -721,7 +722,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="Bhomti, Sat"
@@ -732,7 +733,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="12"
@@ -744,7 +745,7 @@
 
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/DarkCyan"
+                    android:background="@color/Green2"
                     android:fontFamily="@font/caviardreams"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
@@ -772,7 +773,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/DarkCyan"
+                android:background="@color/Green2"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -782,7 +783,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="Bhomkuru, Sun"
@@ -793,7 +794,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="13"
@@ -805,7 +806,7 @@
 
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/DarkCyan"
+                    android:background="@color/Green2"
                     android:fontFamily="@font/caviardreams"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
@@ -833,7 +834,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/DarkCyan"
+                android:background="@color/Green2"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -843,7 +844,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="Urmi, Mon"
@@ -855,7 +856,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="14"
@@ -866,7 +867,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/DarkCyan"
+                    android:background="@color/Green2"
                     android:fontFamily="@font/caviardreams"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
@@ -894,7 +895,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/DarkCyan"
+                android:background="@color/Green2"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -904,7 +905,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="Durmi, Tue"
@@ -915,7 +916,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="15"
@@ -926,7 +927,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/DarkCyan"
+                    android:background="@color/Green2"
                     android:fontFamily="@font/caviardreams"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
@@ -955,7 +956,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/DarkCyan"
+                android:background="@color/Green2"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -965,7 +966,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="Thelang, Wed"
@@ -976,7 +977,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="16"
@@ -987,7 +988,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/DarkCyan"
+                    android:background="@color/Green2"
                     android:fontFamily="@font/caviardreams"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
@@ -1015,7 +1016,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/DarkCyan"
+                android:background="@color/Green2"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -1025,7 +1026,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="Theman, Thurs"
@@ -1036,7 +1037,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="17"
@@ -1048,7 +1049,7 @@
 
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/DarkCyan"
+                    android:background="@color/Green2"
                     android:fontFamily="@font/caviardreams"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
@@ -1076,7 +1077,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/DarkCyan"
+                android:background="@color/Green2"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -1086,7 +1087,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="Bhomta, Fri"
@@ -1098,7 +1099,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="18"
@@ -1110,7 +1111,7 @@
 
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/DarkCyan"
+                    android:background="@color/Green2"
                     android:fontFamily="@font/caviardreams"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
@@ -1138,7 +1139,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/DarkCyan"
+                android:background="@color/Green2"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -1148,7 +1149,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="Bhomti, Sat"
@@ -1160,7 +1161,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="19"
@@ -1173,7 +1174,7 @@
 
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/DarkCyan"
+                    android:background="@color/Green2"
                     android:fontFamily="@font/caviardreams"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
@@ -1201,7 +1202,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/DarkCyan"
+                android:background="@color/Green2"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -1211,7 +1212,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="Bhomkuru, Sun"
@@ -1223,7 +1224,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="20"
@@ -1235,7 +1236,7 @@
 
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/DarkCyan"
+                    android:background="@color/Green2"
                     android:fontFamily="@font/caviardreams"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
@@ -1263,7 +1264,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/DarkCyan"
+                android:background="@color/Green2"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -1273,7 +1274,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="Urmi, Mon"
@@ -1285,7 +1286,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="21"
@@ -1297,7 +1298,7 @@
 
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/DarkCyan"
+                    android:background="@color/Green2"
                     android:fontFamily="@font/caviardreams"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
@@ -1325,7 +1326,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/DarkCyan"
+                android:background="@color/Green2"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -1335,7 +1336,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="Durmi, Tue"
@@ -1347,7 +1348,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="22"
@@ -1359,7 +1360,7 @@
 
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/DarkCyan"
+                    android:background="@color/Green2"
                     android:fontFamily="@font/caviardreams"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
@@ -1387,7 +1388,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/DarkCyan"
+                android:background="@color/Green2"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -1397,7 +1398,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="Thelang, Wed"
@@ -1409,7 +1410,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="23"
@@ -1420,7 +1421,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/DarkCyan"
+                    android:background="@color/Green2"
                     android:fontFamily="@font/caviardreams"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
@@ -1449,7 +1450,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/DarkCyan"
+                android:background="@color/Green2"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -1459,7 +1460,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="Theman, Thurs"
@@ -1471,7 +1472,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="24"
@@ -1483,7 +1484,7 @@
 
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/DarkCyan"
+                    android:background="@color/Green2"
                     android:fontFamily="@font/caviardreams"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
@@ -1511,7 +1512,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/DarkCyan"
+                android:background="@color/Green2"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -1521,7 +1522,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="Bhomta, Fri"
@@ -1533,7 +1534,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="25"
@@ -1545,7 +1546,7 @@
 
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/DarkCyan"
+                    android:background="@color/Green2"
                     android:fontFamily="@font/caviardreams"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
@@ -1573,7 +1574,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/DarkCyan"
+                android:background="@color/Green2"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -1583,7 +1584,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="Bhomti, Sat"
@@ -1595,7 +1596,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="26"
@@ -1606,7 +1607,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/DarkCyan"
+                    android:background="@color/Green2"
                     android:fontFamily="@font/caviardreams"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
@@ -1634,7 +1635,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/DarkCyan"
+                android:background="@color/Green2"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -1644,7 +1645,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="Bhomkuru, Sun"
@@ -1656,7 +1657,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="27"
@@ -1668,7 +1669,7 @@
 
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/DarkCyan"
+                    android:background="@color/Green2"
                     android:fontFamily="@font/caviardreams"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
@@ -1696,7 +1697,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/DarkCyan"
+                android:background="@color/Green2"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -1706,7 +1707,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="Urmi, Mon"
@@ -1718,7 +1719,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="28"
@@ -1730,7 +1731,7 @@
 
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/DarkCyan"
+                    android:background="@color/Green2"
                     android:fontFamily="@font/caviardreams"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
@@ -1758,7 +1759,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/DarkCyan"
+                android:background="@color/Green2"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -1768,7 +1769,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="Durmi, Tue"
@@ -1779,7 +1780,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="29"
@@ -1790,7 +1791,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/DarkCyan"
+                    android:background="@color/Green2"
                     android:fontFamily="@font/caviardreams"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
@@ -1817,7 +1818,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/DarkCyan"
+                android:background="@color/Green2"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -1827,7 +1828,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="Thelang, Wed"
@@ -1838,7 +1839,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="30"
@@ -1849,7 +1850,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/DarkCyan"
+                    android:background="@color/Green2"
                     android:fontFamily="@font/caviardreams"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
@@ -1876,7 +1877,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/DarkCyan"
+                android:background="@color/Green2"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -1886,7 +1887,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="Theman, Thurs"
@@ -1897,7 +1898,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
-                        android:background="@color/DarkCyan"
+                        android:background="@color/Green2"
                         android:fontFamily="@font/caviardreams"
                         android:padding="10dp"
                         android:text="31"
@@ -1908,7 +1909,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/DarkCyan"
+                    android:background="@color/Green2"
                     android:fontFamily="@font/caviardreams"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
@@ -1937,12 +1938,12 @@
 
     </ScrollView>
 
-    <android.support.design.widget.CoordinatorLayout
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:id="@+id/coordinatorLayout2"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <android.support.design.widget.FloatingActionButton
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab2_save"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -1951,9 +1952,9 @@
             android:clickable="true"
             android:focusable="true"
             android:src="@drawable/ic_save_black_24dp"
-            app:backgroundTint="@color/colorPrimary"
+            app:backgroundTint="@color/fab"
             app:fabSize="normal" />
-    </android.support.design.widget.CoordinatorLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 
 

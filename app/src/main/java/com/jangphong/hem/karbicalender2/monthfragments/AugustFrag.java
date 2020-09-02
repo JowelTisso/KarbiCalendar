@@ -2,13 +2,12 @@ package com.jangphong.hem.karbicalender2.monthfragments;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
-import android.util.Log;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
 import android.widget.TableLayout;
 import android.widget.TextView;
 
@@ -527,24 +526,18 @@ public class AugustFrag extends Fragment {
             }
         });
 
-
         t11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                /*Intent i = new Intent(getContext(),HolidayPopupWindow.class);
+                Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o11);
                 i.putExtra("note",n11);
                 i.putExtra("dayName", "Durmi, Tue");
                 i.putExtra("date","11 August 2020");
                 i.putExtra("dateInt",11);
                 i.putExtra("month", 8);
-                startActivity(i);*/
-                Log.i("TAG", "onClick: height =" + viewPager.getHeight());
-                if (viewPager.getHeight() == 800) {
-                    viewPager.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
-                } else {
-                    viewPager.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, 400 * 2));
-                }
+                startActivity(i);
+
             }
         });
 
@@ -827,7 +820,9 @@ public class AugustFrag extends Fragment {
                 startActivity(i);
             }
         });
+
     }
+
     public static AugustFrag newInstance(String text) {
         AugustFrag f = new AugustFrag();
         Bundle b = new Bundle();

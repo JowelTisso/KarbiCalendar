@@ -1,67 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/colorPrimaryDark"
-    >
+    android:orientation="horizontal">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
+        android:padding="5dp"
+        android:layout_margin="7dp"
+        android:background="@drawable/reminder_notes_bg"
+        android:elevation="3dp">
 
-
-        <TextView
-            android:id="@+id/titleView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Title"
-            android:fontFamily="@font/caviardreams"
-            android:textSize="36sp"
-            android:textColor="@color/Blue"
-            android:paddingLeft="15dp"
-            />
-
-    </LinearLayout>
-
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:paddingTop="5dp"
-        >
-
-        <TextView
+        <LinearLayout
+            android:id="@+id/clickableNotes"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:paddingLeft="15dp"
-            android:text="Date :"
-            android:fontFamily="@font/caviardreams"
-            android:textColor="@color/Blue"
-            android:textSize="18sp"
             android:layout_weight="1"
+            android:orientation="vertical">
 
-            />
+            <TextView
+                android:id="@+id/titleView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ubuntulight"
+                android:hint="Title"
+                android:paddingLeft="15dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="26sp" />
 
-        <TextView
-            android:id="@+id/dateViewNotes"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:paddingTop="3dp"
-            android:paddingBottom="3dp"
-            android:fontFamily="@font/caviardreams"
-            android:hint="Date"
-            android:paddingLeft="15dp"
-            android:textSize="18sp"
-            android:textColor="@color/Blue"
-            android:layout_weight="4"
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="5dp">
 
-            />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/ubuntulight"
+                    android:paddingLeft="15dp"
+                    android:text="Date :"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/dateViewNotes"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:fontFamily="@font/ubuntulight"
+                    android:hint="Date"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="3dp"
+                    android:paddingBottom="3dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            >
+            <Button
+                android:id="@+id/btnNoteDelete"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/trash"
+                android:clickable="true"
+                android:focusable="true" />
+        </LinearLayout>
     </LinearLayout>
-
 </LinearLayout>

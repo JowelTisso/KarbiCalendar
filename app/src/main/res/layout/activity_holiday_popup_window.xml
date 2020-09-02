@@ -14,11 +14,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Day"
-        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
         android:textColor="@color/white"
         android:textSize="16sp"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="2dp"
+        android:fontFamily="@font/ubuntulight"
         />
 
     <TextView
@@ -30,9 +31,9 @@
         android:hint="Date"
         android:textColor="@color/white"
         android:textSize="16sp"
+        android:fontFamily="@font/ubuntulight"
         android:layout_margin="5dp"
         />
-
 
     <TextView
         android:id="@+id/holidayPlace"
@@ -42,6 +43,7 @@
         android:text="Holiday"
         android:textColor="@color/white"
         android:textSize="16sp"
+        android:fontFamily="@font/ubuntulight"
         android:layout_below="@id/datePlace"
         />
     <LinearLayout
@@ -50,7 +52,6 @@
         android:layout_below="@id/holidayPlace"
         android:background="@drawable/small_notes_background"
         android:layout_margin="5dp"
-
         >
         <TextView
             android:id="@+id/notePlace"
@@ -58,23 +59,25 @@
             android:layout_height="wrap_content"
             android:text="Notes"
             android:layout_marginLeft="5dp"
-            android:textColor="#7B56BB"
+            android:fontFamily="@font/ubuntulight"
+            android:textColor="@color/colorPrimaryDark"
             android:textSize="16sp" />
 
     </LinearLayout>
 
-    <android.support.design.widget.FloatingActionButton
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/addNotesBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="5dp"
-        android:layout_marginRight="5dp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginRight="6dp"
         android:clickable="true"
         android:focusable="true"
         android:src="@drawable/ic_add_black_24dp"
-        app:backgroundTint="@color/DarkCyan"
-        app:fabSize="mini" />
+        app:backgroundTint="@color/fab"
+        app:fabCustomSize="35dp"
+        />
 
 </RelativeLayout>

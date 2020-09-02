@@ -1,15 +1,17 @@
 package com.jangphong.hem.karbicalender2;
 
 import android.content.Intent;
-import android.support.design.widget.FloatingActionButton;
-import android.support.v7.app.AppCompatActivity;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.material.snackbar.Snackbar;
 import com.jangphong.hem.karbicalender2.helperclass.DatabaseHelper;
 
 import java.text.SimpleDateFormat;
@@ -23,6 +25,7 @@ public class NotesFieldActivity extends AppCompatActivity {
     FloatingActionButton notesAddBtn;
     DatabaseHelper myDB;
     ImageView topBackBtn;
+    LinearLayout linearLayoutNotes;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,12 +36,12 @@ public class NotesFieldActivity extends AppCompatActivity {
         notes = findViewById(R.id.textField);
         notesAddBtn = findViewById(R.id.add_notes_btn);
         topBackBtn = findViewById(R.id.backBtn);
+        linearLayoutNotes = findViewById(R.id.linearLayoutNotes);
 
         myDB = new DatabaseHelper(this);
 
         String date = new SimpleDateFormat("dd-MM-yyyy", Locale.getDefault()).format(new Date());
         currentDate.setText(date);
-
 
         notesAddBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -49,13 +52,9 @@ public class NotesFieldActivity extends AppCompatActivity {
                 String DateStore = currentDate.getText().toString();
 
                 if (TitleStore.length() != 0 && NotesStore.length() != 0 && DateStore.length() != 0) {
-
                     AddData(DateStore, NotesStore, TitleStore);
-
                 } else {
-
-                    Toast.makeText(NotesFieldActivity.this, "Field is Empty", Toast.LENGTH_SHORT).show();
-
+                    Snackbar.make(linearLayoutNotes,"Field is Empty",Snackbar.LENGTH_SHORT).show();
                 }
             }
         });
@@ -66,27 +65,22 @@ public class NotesFieldActivity extends AppCompatActivity {
                 onBackPressed();
             }
         });
-
     }
-
 
     public void AddData(String date, String notes, String title) {
         boolean insertData = myDB.addDataToNotes(date, notes, title);
 
-        if (insertData == true) {
-            Toast.makeText(NotesFieldActivity.this, "Data entered successfully", Toast.LENGTH_SHORT).show();
+        if (insertData) {
+            Snackbar.make(linearLayoutNotes,"Saved",Snackbar.LENGTH_SHORT).show();
         } else {
-            Toast.makeText(NotesFieldActivity.this, "Something went wrong!!", Toast.LENGTH_SHORT).show();
+            Snackbar.make(linearLayoutNotes,"Something went wrong!",Snackbar.LENGTH_SHORT).show();
         }
-
     }
 
-    @Override
+   /* @Override
     public void onBackPressed() {
         Intent intent = new Intent(NotesFieldActivity.this, NotesActivity.class);
         startActivity(intent);
         finish();
-    }
-
-
+    }*/
 }
