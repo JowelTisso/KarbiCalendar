@@ -6,42 +6,35 @@
     android:layout_height="match_parent"
     tools:context=".holidays">
 
-    <com.google.android.material.appbar.AppBarLayout
+    <RelativeLayout
         android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_height="?attr/actionBarSize"
+        android:orientation="horizontal">
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            app:popupTheme="@style/AppTheme.PopupOverlay">
+        <ImageView
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_arrow_back_white_24dp" />
 
-            <ImageView
-                android:id="@+id/backBtn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_arrow_back_white_24dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/ubuntulight"
+            android:paddingLeft="15dp"
+            android:paddingTop="2dp"
+            android:gravity="center"
+            android:paddingRight="15dp"
+            android:paddingBottom="2dp"
+            android:text="Holidays"
+            android:textColor="@color/Green2"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:fontFamily="@font/ubuntulight"
-                android:paddingLeft="15dp"
-                android:paddingTop="2dp"
-                android:paddingRight="15dp"
-                android:paddingBottom="2dp"
-                android:text="Holidays"
-                android:textColor="@color/Green2"
-                android:textSize="33sp"
-                android:textStyle="bold" />
-
-        </androidx.appcompat.widget.Toolbar>
-
-    </com.google.android.material.appbar.AppBarLayout>
+    </RelativeLayout>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -51,7 +44,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <TextView
@@ -66,10 +59,39 @@
                 android:textSize="26sp"
                 android:textStyle="bold" />
 
+         <!--   <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:paddingStart="5dp"
+                android:elevation="3dp"
+                android:background="@drawable/reminder_notes_bg"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1st"
+                    android:textColor="@color/Green2"
+                    android:textSize="24sp"
+                    android:fontFamily="@font/ubuntulight"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="New Year"
+                    android:fontFamily="@font/ubuntulight"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="26sp"
+                    />
+            </LinearLayout>-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:baselineAligned="false"
+                android:layout_margin="10dp"
+                android:elevation="3dp"
+                android:background="@drawable/reminder_notes_bg"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -82,12 +104,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/Green2"
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
                         android:text="1st"
                         android:textAlignment="center"
+                        android:background="@drawable/holiday_top_date"
                         android:textColor="@color/white"
                         android:textSize="18sp"
 
@@ -177,7 +199,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/Green2"
+                        android:background="@drawable/holiday_bottom_date"
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
@@ -197,7 +219,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/white"
                         android:fontFamily="@font/caviardreams"
                         android:gravity="center"
                         android:paddingTop="5dp"
@@ -295,7 +316,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/white"
                         android:fontFamily="@font/caviardreams"
                         android:gravity="center"
                         android:paddingTop="5dp"
@@ -325,7 +345,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:baselineAligned="false"
-
+                android:layout_margin="10dp"
+                android:elevation="3dp"
+                android:background="@drawable/reminder_notes_bg"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -338,7 +360,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/skyblue"
+                        android:background="@drawable/holiday_top_date_local"
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
@@ -403,7 +425,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/skyblue"
+                        android:background="@drawable/holiday_bottom_date_local"
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
@@ -424,7 +446,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/white"
                         android:fontFamily="@font/caviardreams"
                         android:gravity="center"
                         android:paddingTop="5dp"
@@ -494,7 +515,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/white"
                         android:fontFamily="@font/caviardreams"
                         android:gravity="center"
                         android:paddingTop="5dp"
@@ -518,13 +538,15 @@
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="26sp"
                 android:textStyle="bold"
-
                 />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:baselineAligned="false"
+                android:layout_margin="10dp"
+                android:elevation="3dp"
+                android:background="@drawable/reminder_notes_bg"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -537,7 +559,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/Green2"
+                        android:background="@drawable/holiday_top_date"
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
@@ -563,7 +585,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/Green2"
+                        android:background="@drawable/holiday_bottom_date"
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
@@ -583,7 +605,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/white"
                         android:fontFamily="@font/caviardreams"
                         android:gravity="center"
                         android:paddingTop="5dp"
@@ -611,7 +632,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/white"
                         android:fontFamily="@font/caviardreams"
                         android:gravity="center"
                         android:paddingTop="5dp"
@@ -639,6 +659,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:baselineAligned="false"
+                android:layout_margin="10dp"
+                android:elevation="3dp"
+                android:background="@drawable/reminder_notes_bg"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -651,7 +674,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/skyblue"
+                        android:background="@drawable/holiday_top_date_local"
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
@@ -703,7 +726,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/Green2"
+                        android:background="@drawable/holiday_bottom_date"
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
@@ -724,7 +747,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/white"
                         android:fontFamily="@font/caviardreams"
                         android:gravity="center"
                         android:paddingTop="5dp"
@@ -780,7 +802,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/white"
                         android:fontFamily="@font/caviardreams"
                         android:gravity="center"
                         android:paddingTop="5dp"
@@ -809,6 +830,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:baselineAligned="false"
+                android:layout_margin="10dp"
+                android:elevation="3dp"
+                android:background="@drawable/reminder_notes_bg"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -821,7 +845,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/Green2"
+                        android:background="@drawable/holiday_top_date"
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
@@ -847,7 +871,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/Green2"
+                        android:background="@drawable/holiday_bottom_date"
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
@@ -868,7 +892,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/white"
                         android:fontFamily="@font/caviardreams"
                         android:gravity="center"
                         android:paddingTop="5dp"
@@ -896,7 +919,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/white"
                         android:fontFamily="@font/caviardreams"
                         android:gravity="center"
                         android:paddingTop="5dp"
@@ -924,6 +946,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:baselineAligned="false"
+                android:layout_margin="10dp"
+                android:elevation="3dp"
+                android:background="@drawable/reminder_notes_bg"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -936,7 +961,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/skyblue"
+                        android:background="@drawable/holiday_date_local_single"
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
@@ -957,7 +982,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/white"
                         android:fontFamily="@font/caviardreams"
                         android:gravity="center"
                         android:paddingTop="5dp"
@@ -985,6 +1009,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:baselineAligned="false"
+                android:layout_margin="10dp"
+                android:elevation="3dp"
+                android:background="@drawable/reminder_notes_bg"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -997,7 +1024,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/Green2"
+                        android:background="@drawable/holiday_date_single"
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
@@ -1017,7 +1044,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/white"
                         android:fontFamily="@font/caviardreams"
                         android:gravity="center"
                         android:paddingTop="5dp"
@@ -1045,6 +1071,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:baselineAligned="false"
+                android:layout_margin="10dp"
+                android:elevation="3dp"
+                android:background="@drawable/reminder_notes_bg"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -1057,7 +1086,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/Green2"
+                        android:background="@drawable/holiday_top_date"
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
@@ -1109,7 +1138,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/Green2"
+                        android:background="@drawable/holiday_bottom_date"
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
@@ -1130,7 +1159,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/white"
                         android:fontFamily="@font/caviardreams"
                         android:gravity="center"
                         android:paddingTop="5dp"
@@ -1186,7 +1214,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/white"
                         android:fontFamily="@font/caviardreams"
                         android:gravity="center"
                         android:paddingTop="5dp"
@@ -1215,6 +1242,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:baselineAligned="false"
+                android:layout_margin="10dp"
+                android:elevation="3dp"
+                android:background="@drawable/reminder_notes_bg"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -1227,7 +1257,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/Green2"
+                        android:background="@drawable/holiday_top_date"
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
@@ -1292,7 +1322,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/Green2"
+                        android:background="@drawable/holiday_bottom_date"
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
@@ -1313,7 +1343,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/white"
                         android:fontFamily="@font/caviardreams"
                         android:gravity="center"
                         android:paddingTop="5dp"
@@ -1383,7 +1412,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/white"
                         android:fontFamily="@font/caviardreams"
                         android:gravity="center"
                         android:paddingTop="5dp"
@@ -1412,6 +1440,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:baselineAligned="false"
+                android:layout_margin="10dp"
+                android:elevation="3dp"
+                android:background="@drawable/reminder_notes_bg"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -1424,7 +1455,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/Green2"
+                        android:background="@drawable/holiday_top_date"
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
@@ -1463,7 +1494,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/Green2"
+                        android:background="@drawable/holiday_bottom_date"
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
@@ -1485,7 +1516,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/white"
                         android:fontFamily="@font/caviardreams"
                         android:gravity="center"
                         android:paddingTop="5dp"
@@ -1527,7 +1557,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/white"
                         android:fontFamily="@font/caviardreams"
                         android:gravity="center"
                         android:paddingTop="5dp"
@@ -1557,6 +1586,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:baselineAligned="false"
+                android:layout_margin="10dp"
+                android:elevation="3dp"
+                android:background="@drawable/reminder_notes_bg"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -1569,7 +1601,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/skyblue"
+                        android:background="@drawable/holiday_top_date_local"
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
@@ -1582,7 +1614,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/Green2"
+                        android:background="@drawable/holiday_bottom_date"
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="25dp"
@@ -1603,7 +1635,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/white"
                         android:fontFamily="@font/caviardreams"
                         android:gravity="center"
                         android:paddingTop="5dp"
@@ -1617,7 +1648,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/white"
                         android:fontFamily="@font/caviardreams"
                         android:gravity="center"
                         android:paddingTop="5dp"
