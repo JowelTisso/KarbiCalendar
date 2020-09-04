@@ -9,8 +9,10 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.RelativeLayout;
 import android.widget.Toast;
 
+import com.google.android.material.snackbar.Snackbar;
 import com.jangphong.hem.karbicalender2.MainActivity;
 import com.jangphong.hem.karbicalender2.R;
 
@@ -22,13 +24,14 @@ public class august extends AppCompatActivity {
     String str2;
     String date;
     int dateInt2;
+    RelativeLayout relativeLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_august);
 
-
+        relativeLayout = findViewById(R.id.relativeLayoutAugust);
         fab2 =  findViewById(R.id.fab2_save);
         txt = findViewById(R.id.editText);
         txt2 = findViewById(R.id.editText2);
@@ -134,8 +137,7 @@ public class august extends AppCompatActivity {
             public void onClick(View view)
             {
 
-
-                Toast.makeText(august.this,"Saved", Toast.LENGTH_SHORT).show();
+                Snackbar.make(relativeLayout, "Saved",Snackbar.LENGTH_SHORT).show();
                 //To save data
                 SharedPreferences prefsfeb = PreferenceManager.getDefaultSharedPreferences(august.this);
                 SharedPreferences.Editor editor = prefsfeb.edit();

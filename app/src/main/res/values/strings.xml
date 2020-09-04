@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">KarbiCalendar</string>
+    <string name="app_name">Karbi Calendar</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="About">ABOUT\n
@@ -20,7 +20,7 @@
                                 So, do leave a feedback with pros and cons.\n\n
                                 Appreciated</string>
     <string name="kardom">KARDOM</string>
-    <string name="new_year_small_notes"><u>New Year</u></string>
-    <string name="thelang_wed"><u>Thelang, Wed</u></string>
+    <string name="new_year_small_notes">New Year</string>
+    <string name="thelang_wed">Thelang, Wed</string>
 
 </resources>

@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Reminder"
+    android:id="@+id/relativeLayoutReminder"
     >
     <RelativeLayout
         android:id="@+id/appBarLayout"

@@ -9,8 +9,10 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.RelativeLayout;
 import android.widget.Toast;
 
+import com.google.android.material.snackbar.Snackbar;
 import com.jangphong.hem.karbicalender2.MainActivity;
 import com.jangphong.hem.karbicalender2.R;
 
@@ -18,7 +20,7 @@ public class oct extends AppCompatActivity {
 
     FloatingActionButton fab2;
     EditText txt,txt2,txt3,txt4,txt5,txt6,txt7,txt8,txt9,txt10,txt11,txt12,txt13,txt14,txt15,txt16,txt17,txt18,txt19,txt20,txt21,txt22,txt23,txt24,txt25,txt26,txt27,txt28,txt29,txt30,txt31;
-
+    RelativeLayout relativeLayout;
     String str2;
     String date;
     int dateInt2;
@@ -28,7 +30,7 @@ public class oct extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_oct);
 
-
+        relativeLayout = findViewById(R.id.relativeLayoutOct);
         fab2 =  findViewById(R.id.fab2_save);
         txt = findViewById(R.id.editText);
         txt2 = findViewById(R.id.editText2);
@@ -139,8 +141,7 @@ public class oct extends AppCompatActivity {
             public void onClick(View view)
             {
 
-
-                Toast.makeText(oct.this,"Saved", Toast.LENGTH_SHORT).show();
+                Snackbar.make(relativeLayout, "Saved",Snackbar.LENGTH_SHORT).show();
                 //To save data
                 SharedPreferences prefsfeb = PreferenceManager.getDefaultSharedPreferences(oct.this);
                 SharedPreferences.Editor editor = prefsfeb.edit();

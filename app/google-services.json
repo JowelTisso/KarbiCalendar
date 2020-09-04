@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "76623832944-mmu3lorgltthme5gs7r5ffgaj1p8hhiv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jangphong.hem.karbicalender2",
+            "certificate_hash": "971dfd80ca746691b98d76fdbd4b27ad5e671b80"
+          }
+        },
+        {
           "client_id": "76623832944-ipf9htr5rcavchn37vm2a7ct4ou9kj1h.apps.googleusercontent.com",
           "client_type": 3
         }

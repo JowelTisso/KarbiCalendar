@@ -23,6 +23,7 @@ import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
+import com.google.android.gms.tasks.Task;
 import com.google.android.material.navigation.NavigationView;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -45,7 +46,9 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.google.android.material.snackbar.Snackbar;
+import com.google.firebase.iid.FirebaseInstanceId;
 import com.jangphong.hem.karbicalender2.helperclass.HttpHandler;
+import com.jangphong.hem.karbicalender2.helperclass.MyFirebaseMessagingService;
 import com.jangphong.hem.karbicalender2.monthfragments.JanuaryFrag;
 import com.jangphong.hem.karbicalender2.monthfragments.NovemberFrag;
 import com.jangphong.hem.karbicalender2.monthfragments.OctoberFrag;
@@ -243,6 +246,8 @@ public class MainActivity extends AppCompatActivity
         AdRequest adRequest = new AdRequest.Builder().build();
         mInterstitialAd.loadAd(adRequest);
 
+        String firebaseToken = FirebaseInstanceId.getInstance().getToken();
+        Log.i("TAG", "onCreate: token = "+firebaseToken);
     }
 
     private boolean isNetworkConnected() {

@@ -13,9 +13,11 @@ import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
+import com.google.android.material.snackbar.Snackbar;
 import com.jangphong.hem.karbicalender2.helperclass.AlarmReceiver;
 import com.jangphong.hem.karbicalender2.helperclass.DatabaseHelper;
 
@@ -32,6 +34,7 @@ public class Reminder extends AppCompatActivity {
     DatabaseHelper myDB;
     String format;
     ImageView topBackBtn;
+    RelativeLayout mRelativeLayout;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -45,6 +48,7 @@ public class Reminder extends AppCompatActivity {
         Button cancel_btn = findViewById(R.id.cancel_btn);
         myDB = new DatabaseHelper(this);
         topBackBtn = findViewById(R.id.backBtn);
+        mRelativeLayout = findViewById(R.id.relativeLayoutReminder);
 
         timeStore = timePopup.getText().toString();
         dateStore = datePopup.getText().toString();
@@ -179,7 +183,7 @@ public class Reminder extends AppCompatActivity {
 
                     //This code is for checking full time including zone
 
-                    Toast.makeText(Reminder.this, "Reminder Added", Toast.LENGTH_LONG).show();
+                    Snackbar.make(mRelativeLayout,"Reminder Added",Snackbar.LENGTH_SHORT).show();
 
                     String eventText = editText.getText().toString();
                     String timeText = timePopup.getText().toString();
@@ -189,10 +193,12 @@ public class Reminder extends AppCompatActivity {
                         AddData(eventText, timeText, dateText, id);
 
                     } else {
-                        Toast.makeText(Reminder.this, "Field is Empty", Toast.LENGTH_SHORT).show();
+                        Snackbar.make(mRelativeLayout,"Field is Empty",Snackbar.LENGTH_SHORT).show();
+
                     }
                 } else {
-                    Toast.makeText(Reminder.this, "Field Empty", Toast.LENGTH_SHORT).show();
+                    Snackbar.make(mRelativeLayout,"Field is Empty",Snackbar.LENGTH_SHORT).show();
+
                 }
             }
         });
@@ -204,8 +210,9 @@ public class Reminder extends AppCompatActivity {
                 final AlarmManager alarm = (AlarmManager) getSystemService(ALARM_SERVICE);
                 final PendingIntent alarmIntent = PendingIntent.getBroadcast(Reminder.this, 0, intent, PendingIntent.FLAG_ONE_SHOT);
 
+                assert alarm != null;
                 alarm.cancel(alarmIntent);
-                Toast.makeText(Reminder.this, "Canceled", Toast.LENGTH_SHORT).show();
+                Snackbar.make(mRelativeLayout,"Cancelled",Snackbar.LENGTH_SHORT).show();
             }
         });
 
@@ -214,9 +221,10 @@ public class Reminder extends AppCompatActivity {
         boolean insertData = myDB.addData(event2, time2, date2, uid);
 
         if (insertData) {
-            Toast.makeText(Reminder.this, "Data entered successfully", Toast.LENGTH_SHORT).show();
+            Snackbar.make(mRelativeLayout,"Data entered successfully",Snackbar.LENGTH_SHORT).show();
+
         } else {
-            Toast.makeText(Reminder.this, "Something went wrong!!", Toast.LENGTH_SHORT).show();
+            Snackbar.make(mRelativeLayout,"Something went wrong!",Snackbar.LENGTH_SHORT).show();
         }
 
     }
