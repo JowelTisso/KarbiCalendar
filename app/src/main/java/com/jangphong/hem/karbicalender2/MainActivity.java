@@ -406,10 +406,10 @@ public class MainActivity extends AppCompatActivity
         @Override
         protected Void doInBackground(Void... arg0) {
 
-            HttpHandler sh = new HttpHandler();
+            HttpHandler httpHandler = new HttpHandler();
 
             String url = "http://karbidigitalresources.tk/json-file/version.json";
-            String jsonStr = sh.makeServiceCall(url);
+            String jsonStr = httpHandler.makeServiceCall(url);
 
             if (jsonStr != null) {
                 try {
@@ -458,9 +458,7 @@ public class MainActivity extends AppCompatActivity
 
             progressDialog.dismiss();
 
-
             String VersionName = BuildConfig.VERSION_NAME;
-
 
             if (VersionName.equals(VersionUpdate)) {
 
