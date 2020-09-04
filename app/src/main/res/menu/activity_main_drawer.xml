@@ -54,7 +54,12 @@
                 android:title="Rate Us"
 
                 />
+            <item
+                android:id="@+id/ads_id"
+                android:icon="@drawable/ic_baseline_eco_24"
+                android:title="Support Ads"
 
+                />
         </menu>
     </item>
 

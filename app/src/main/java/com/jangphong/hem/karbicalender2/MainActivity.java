@@ -17,6 +17,12 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 import androidx.viewpager.widget.ViewPager;
+
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.google.android.material.navigation.NavigationView;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -25,14 +31,20 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.PopupMenu;
 import androidx.appcompat.widget.Toolbar;
+
+import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
+
+import com.google.android.material.snackbar.Snackbar;
 import com.jangphong.hem.karbicalender2.helperclass.HttpHandler;
 import com.jangphong.hem.karbicalender2.monthfragments.JanuaryFrag;
 import com.jangphong.hem.karbicalender2.monthfragments.NovemberFrag;
@@ -56,11 +68,13 @@ public class MainActivity extends AppCompatActivity
 
     ViewPager viewPager;
     EditText txt;
-    String VersionUpdate;
+    double VersionUpdate;
     ProgressDialog progressDialog;
     ImageView imgSpinner;
    // int viewPagerCount;
     public static Activity mainActivity;
+    DrawerLayout drawer;
+    InterstitialAd mInterstitialAd;
 
     @SuppressLint("StaticFieldLeak")
     @Override
@@ -72,7 +86,7 @@ public class MainActivity extends AppCompatActivity
         getSupportActionBar().setTitle(null);
         toolbar.getOverflowIcon().setColorFilter(getResources().getColor(R.color.colorPrimaryDark), PorterDuff.Mode.SRC_ATOP);
 
-        DrawerLayout drawer = findViewById(R.id.drawer_layout);
+        drawer = findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
@@ -113,22 +127,20 @@ public class MainActivity extends AppCompatActivity
             viewPager.setCurrentItem(11);
         }
 
-      /*  if (isNetworkConnected() == true) {
+        if (isNetworkConnected()) {
             new VersionCheck() {
 
                 @Override
                 protected void onPostExecute(Void result) {
 
-                    String VersionName = BuildConfig.VERSION_NAME;
+                    double VersionName = Double.parseDouble(BuildConfig.VERSION_NAME);
 
-                    if (VersionName.equals(VersionUpdate)) {
-
-                    } else {
-                        Toast.makeText(MainActivity.this, "New Update Available", Toast.LENGTH_LONG).show();
+                    if (VersionUpdate > VersionName) {
+                        Snackbar.make(drawer, "New Update Available", Snackbar.LENGTH_LONG).show();
                     }
                 }
             }.execute();
-        }*/
+        }
 
         imgSpinner = findViewById(R.id.spinnerImage);
 
@@ -220,7 +232,18 @@ public class MainActivity extends AppCompatActivity
         }else
             Toast.makeText(this,"null",Toast.LENGTH_SHORT).show();
 
+        //Refering to context for passing to another activity
         mainActivity = this;
+
+        MobileAds.initialize(this, new OnInitializationCompleteListener() {
+            @Override
+            public void onInitializationComplete(InitializationStatus initializationStatus) {}
+        });
+
+        mInterstitialAd = new InterstitialAd(this);
+        mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/8691691433");
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mInterstitialAd.loadAd(adRequest);
 
     }
 
@@ -370,7 +393,6 @@ public class MainActivity extends AppCompatActivity
 
             startActivity(Intent.createChooser(c, "Share using"));
 
-            //Toast.makeText(this, getPackageName(), Toast.LENGTH_SHORT).show();
         } else if (id == R.id.policy) {
             Intent in = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.karbidigitalresources.tk/privacy-policy"));
             startActivity(in);
@@ -388,6 +410,14 @@ public class MainActivity extends AppCompatActivity
             }
         } else if (id == R.id.rate_id) {
             startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/details?id=" + getPackageName())));
+        }else if(id == R.id.ads_id){
+            if(mInterstitialAd.isLoaded()){
+                mInterstitialAd.show();
+                mInterstitialAd = new InterstitialAd(this);
+                mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/8691691433");
+                AdRequest adRequest = new AdRequest.Builder().build();
+                mInterstitialAd.loadAd(adRequest);
+            }
         }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
@@ -408,42 +438,27 @@ public class MainActivity extends AppCompatActivity
 
             HttpHandler httpHandler = new HttpHandler();
 
-            String url = "http://karbidigitalresources.tk/json-file/version.json";
+            String url = "https://raw.githubusercontent.com/JowelTisso/KarbiCalendar/master/app/version.json";
             String jsonStr = httpHandler.makeServiceCall(url);
 
             if (jsonStr != null) {
                 try {
                     JSONObject jsonObj = new JSONObject(jsonStr);
-                    JSONArray version = jsonObj.getJSONArray("Version");
-                    for (int i = 0; i < version.length(); i++) {
-
-                        JSONObject v = version.getJSONObject(i);
-
-                        VersionUpdate = v.getString("version");
-
-                    }
+                    VersionUpdate = jsonObj.getDouble("Version");
                 } catch (final JSONException e) {
-                    // Log.e(TAG, "Json parsing error: " + e.getMessage());
                     runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
-                            Toast.makeText(getApplicationContext(),
-                                    "Json parsing error: " + e.getMessage(),
-                                    Toast.LENGTH_LONG)
-                                    .show();
+                            Snackbar.make(drawer,"Json parsing error: " + e.getMessage(),Snackbar.LENGTH_SHORT).show();
                         }
                     });
 
                 }
             } else {
-                //Log.e(TAG, "Couldn't get json from server.");
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        Toast.makeText(getApplicationContext(),
-                                "Couldn't get json from server. Check LogCat for possible errors!",
-                                Toast.LENGTH_LONG)
-                                .show();
+                        Snackbar.make(drawer,"Couldn't get json from server. Check LogCat for possible errors!",Snackbar.LENGTH_SHORT).show();
                     }
                 });
 
@@ -458,40 +473,43 @@ public class MainActivity extends AppCompatActivity
 
             progressDialog.dismiss();
 
-            String VersionName = BuildConfig.VERSION_NAME;
+            double VersionName = Double.parseDouble(BuildConfig.VERSION_NAME);
+            if (VersionName >= VersionUpdate) {
 
-            if (VersionName.equals(VersionUpdate)) {
-
-                Toast.makeText(MainActivity.this, "No Update Available", Toast.LENGTH_SHORT).show();
+                Snackbar.make(drawer,"No Update Available",Snackbar.LENGTH_SHORT).show();
 
             } else {
-
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-                builder.setTitle("New Update Available");
-                builder.setIcon(R.mipmap.ic_launcher);
+                View customDialog = LayoutInflater.from(MainActivity.this).inflate(R.layout.custom_dialog_alert,drawer,false );
+                builder.setView(customDialog);
                 builder.setCancelable(true);
-                builder.setMessage("New improved features available, update to avail")
-                        .setPositiveButton("UPDATE", new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int which) {
-
-                                final String appName = getPackageName();
-
-                                try {
-                                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + appName)));
-                                } catch (android.content.ActivityNotFoundException anfe) {
-                                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/details?id=" + appName)));
-                                }
-
-                                finish();
-
-                            }
-                        })
-                        .setNegativeButton("CANCEL", null)
-                ;
-
-                AlertDialog alert = builder.create();
+                final AlertDialog alert = builder.create();
                 alert.show();
+
+                Button btnOk = alert.findViewById(R.id.buttonOk);
+                Button btnCancel = alert.findViewById(R.id.buttonCancel);
+                assert btnOk != null;
+                btnOk.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        final String appName = getPackageName();
+
+                        try {
+                            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + appName)));
+                        } catch (android.content.ActivityNotFoundException anfe) {
+                            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/details?id=" + appName)));
+                        }
+
+                        finish();
+                    }
+                });
+                assert btnCancel != null;
+                btnCancel.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        alert.cancel();
+                    }
+                });
 
             }
         }

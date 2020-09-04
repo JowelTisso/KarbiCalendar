@@ -58,6 +58,7 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.MyViewHolder> 
 
         View view = LayoutInflater.from(parent.getContext())
                 .inflate(mResourceId,parent,false);
+
         return new MyViewHolder(view);
     }
 
