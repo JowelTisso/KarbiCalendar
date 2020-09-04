@@ -36,7 +36,7 @@
         android:layout_marginTop="4dp"
         android:layout_marginEnd="8dp"
         android:fontFamily="@font/ubuntulight"
-        android:text="Paipai"
+        android:text="Aru"
         android:textAlignment="textStart"
         android:textColor="@color/Green2"
         android:textSize="26sp"

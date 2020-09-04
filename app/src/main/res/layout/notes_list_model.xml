@@ -72,7 +72,7 @@
                 android:id="@+id/btnNoteDelete"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:background="@drawable/trash"
+                android:background="@drawable/dustbin"
                 android:clickable="true"
                 android:focusable="true" />
         </LinearLayout>

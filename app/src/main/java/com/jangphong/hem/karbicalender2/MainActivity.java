@@ -67,11 +67,9 @@ public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     ViewPager viewPager;
-    EditText txt;
     double VersionUpdate;
     ProgressDialog progressDialog;
     ImageView imgSpinner;
-   // int viewPagerCount;
     public static Activity mainActivity;
     DrawerLayout drawer;
     InterstitialAd mInterstitialAd;
@@ -241,16 +239,11 @@ public class MainActivity extends AppCompatActivity
         });
 
         mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/8691691433");
+        mInterstitialAd.setAdUnitId("ca-app-pub-6376378742627184/1588715625");
         AdRequest adRequest = new AdRequest.Builder().build();
         mInterstitialAd.loadAd(adRequest);
 
     }
-
-   /* public void setViewPagerItem(int a)
-    {
-        viewPagerCount = a;
-    }*/
 
     private boolean isNetworkConnected() {
         ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
@@ -414,7 +407,7 @@ public class MainActivity extends AppCompatActivity
             if(mInterstitialAd.isLoaded()){
                 mInterstitialAd.show();
                 mInterstitialAd = new InterstitialAd(this);
-                mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/8691691433");
+                mInterstitialAd.setAdUnitId("ca-app-pub-6376378742627184/1588715625");
                 AdRequest adRequest = new AdRequest.Builder().build();
                 mInterstitialAd.loadAd(adRequest);
             }
