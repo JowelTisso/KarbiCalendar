@@ -235,6 +235,8 @@ public class MainActivity extends AppCompatActivity
 
         //Refering to context for passing to another activity
         mainActivity = this;
+        //Destroying the splashscreen activity from this main activity after finishing loading
+        SplashScreen.splashActivity.finish();
 
         MobileAds.initialize(this, new OnInitializationCompleteListener() {
             @Override
@@ -392,7 +394,7 @@ public class MainActivity extends AppCompatActivity
             startActivity(Intent.createChooser(c, "Share using"));
 
         } else if (id == R.id.policy) {
-            Intent in = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.karbidigitalresources.tk/privacy-policy"));
+            Intent in = new Intent(Intent.ACTION_VIEW, Uri.parse("https://privacy-policy-forapp.netlify.app/privacy-policy3/"));
             startActivity(in);
         } else if (id == R.id.instagram_id) {
 

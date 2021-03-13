@@ -455,7 +455,7 @@ public class MarchFrag extends Fragment
                 Intent i = new Intent(getContext(), HolidayPopupWindow.class);
                 i.putExtra("holiday",o1);
                 i.putExtra("note",n1);
-                i.putExtra("dayName","Bhomkuru, Sun");
+                i.putExtra("dayName","Urmi, Mon");
                 i.putExtra("date","01 March 2020");
                 i.putExtra("dateInt",1);
                 i.putExtra("month", 3);
@@ -470,7 +470,7 @@ public class MarchFrag extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o2);
                 i.putExtra("note",n2);
-                i.putExtra("dayName", "Urmi, Mon");
+                i.putExtra("dayName", "Durmi, Tue");
                 i.putExtra("date","02 March 2020");
                 i.putExtra("dateInt",2);
                 i.putExtra("month", 3);
@@ -484,7 +484,7 @@ public class MarchFrag extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o3);
                 i.putExtra("note",n3);
-                i.putExtra("dayName", "Durmi, Tue");
+                i.putExtra("dayName", "Thelang, Wed");
                 i.putExtra("date","03 March 2020");
                 i.putExtra("dateInt",3);
                 i.putExtra("month", 3);
@@ -498,7 +498,7 @@ public class MarchFrag extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o4);
                 i.putExtra("note",n4);
-                i.putExtra("dayName", "Thelang, Wed");
+                i.putExtra("dayName", "Theman, Thurs");
                 i.putExtra("date","04 March 2020");
                 i.putExtra("dateInt",4);
                 i.putExtra("month", 3);
@@ -512,7 +512,7 @@ public class MarchFrag extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o5);
                 i.putExtra("note",n5);
-                i.putExtra("dayName", "Theman, Thurs");
+                i.putExtra("dayName", "Bhomta, Fri");
                 i.putExtra("date","05 March 2020");
                 i.putExtra("dateInt",5);
                 i.putExtra("month", 3);
@@ -526,7 +526,7 @@ public class MarchFrag extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o6);
                 i.putExtra("note",n6);
-                i.putExtra("dayName", "Bhomta, Fri");
+                i.putExtra("dayName", "Bhomti, Sat");
                 i.putExtra("date","06 March 2020");
                 i.putExtra("dateInt",6);
                 i.putExtra("month", 3);
@@ -540,7 +540,7 @@ public class MarchFrag extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o7);
                 i.putExtra("note",n7);
-                i.putExtra("dayName", "Bhomti, Sat");
+                i.putExtra("dayName", "Bhomkuru, Sun");
                 i.putExtra("date","07 March 2020");
                 i.putExtra("dateInt",7);
                 i.putExtra("month", 3);
@@ -554,7 +554,7 @@ public class MarchFrag extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o8);
                 i.putExtra("note",n8);
-                i.putExtra("dayName", "Bhomkuru, Sun");
+                i.putExtra("dayName", "Urmi, Mon");
                 i.putExtra("date","08 March 2020");
                 i.putExtra("dateInt",8);
                 i.putExtra("month", 3);
@@ -568,7 +568,7 @@ public class MarchFrag extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o9);
                 i.putExtra("note",n9);
-                i.putExtra("dayName", "Urmi, Mon");
+                i.putExtra("dayName", "Durmi, Tue");
                 i.putExtra("date","09 March 2020");
                 i.putExtra("dateInt",9);
                 i.putExtra("month", 3);
@@ -582,7 +582,7 @@ public class MarchFrag extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o10);
                 i.putExtra("note",n10);
-                i.putExtra("dayName", "Durmi, Tue");
+                i.putExtra("dayName", "Thelang, Wed");
                 i.putExtra("date","10 March 2020");
                 i.putExtra("dateInt",10);
                 i.putExtra("month", 3);
@@ -596,7 +596,7 @@ public class MarchFrag extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o11);
                 i.putExtra("note",n11);
-                i.putExtra("dayName", "Thelang, Wed");
+                i.putExtra("dayName", "Theman, Thurs");
                 i.putExtra("date","11 March 2020");
                 i.putExtra("dateInt",11);
                 i.putExtra("month", 3);
@@ -610,7 +610,7 @@ public class MarchFrag extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o12);
                 i.putExtra("note",n12);
-                i.putExtra("dayName", "Theman, Thurs");
+                i.putExtra("dayName", "Bhomta, Fri");
                 i.putExtra("date","12 March 2020");
                 i.putExtra("dateInt",12);
                 i.putExtra("month", 3);
@@ -624,7 +624,7 @@ public class MarchFrag extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o13);
                 i.putExtra("note",n13);
-                i.putExtra("dayName", "Bhomta, Fri");
+                i.putExtra("dayName", "Bhomti, Sat");
                 i.putExtra("date","13 March 2020");
                 i.putExtra("dateInt",13);
                 i.putExtra("month", 3);
@@ -638,7 +638,7 @@ public class MarchFrag extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o14);
                 i.putExtra("note",n14);
-                i.putExtra("dayName", "Bhomti, Sat");
+                i.putExtra("dayName", "Bhomkuru, Sun");
                 i.putExtra("date","14 March 2020");
                 i.putExtra("dateInt",14);
                 i.putExtra("month", 3);
@@ -652,7 +652,7 @@ public class MarchFrag extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o15);
                 i.putExtra("note",n15);
-                i.putExtra("dayName", "Bhomkuru, Sun");
+                i.putExtra("dayName", "Urmi, Mon");
                 i.putExtra("date","15 March 2020");
                 i.putExtra("dateInt",15);
                 i.putExtra("month", 3);
@@ -666,7 +666,7 @@ public class MarchFrag extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o16);
                 i.putExtra("note",n16);
-                i.putExtra("dayName", "Urmi, Mon");
+                i.putExtra("dayName", "Durmi, Tue");
                 i.putExtra("date","16 March 2020");
                 i.putExtra("dateInt",16);
                 i.putExtra("month", 3);
@@ -680,7 +680,7 @@ public class MarchFrag extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o17);
                 i.putExtra("note",n17);
-                i.putExtra("dayName", "Durmi, Tue");
+                i.putExtra("dayName", "Thelang, Wed");
                 i.putExtra("date","17 March 2020");
                 i.putExtra("dateInt",17);
                 i.putExtra("month", 3);
@@ -694,7 +694,7 @@ public class MarchFrag extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o18);
                 i.putExtra("note",n18);
-                i.putExtra("dayName", "Thelang, Wed");
+                i.putExtra("dayName", "Theman, Thurs");
                 i.putExtra("date","18 March 2020");
                 i.putExtra("dateInt",18);
                 i.putExtra("month", 3);
@@ -708,7 +708,7 @@ public class MarchFrag extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o19);
                 i.putExtra("note",n19);
-                i.putExtra("dayName", "Theman, Thurs");
+                i.putExtra("dayName", "Bhomta, Fri");
                 i.putExtra("date","19 March 2020");
                 i.putExtra("dateInt",19);
                 i.putExtra("month", 3);
@@ -722,7 +722,7 @@ public class MarchFrag extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o20);
                 i.putExtra("note",n20);
-                i.putExtra("dayName", "Bhomta, Fri");
+                i.putExtra("dayName", "Bhomti, Sat");
                 i.putExtra("date","20 March 2020");
                 i.putExtra("dateInt",20);
                 i.putExtra("month", 3);
@@ -736,7 +736,7 @@ public class MarchFrag extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o21);
                 i.putExtra("note",n21);
-                i.putExtra("dayName", "Bhomti, Sat");
+                i.putExtra("dayName", "Bhomkuru, Sun");
                 i.putExtra("date","21 March 2020");
                 i.putExtra("dateInt",21);
                 i.putExtra("month", 3);
@@ -750,7 +750,7 @@ public class MarchFrag extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o22);
                 i.putExtra("note",n22);
-                i.putExtra("dayName", "Bhomkuru, Sun");
+                i.putExtra("dayName", "Urmi, Mon");
                 i.putExtra("date","22 March 2020");
                 i.putExtra("dateInt",22);
                 i.putExtra("month", 3);
@@ -764,7 +764,7 @@ public class MarchFrag extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o23);
                 i.putExtra("note",n23);
-                i.putExtra("dayName", "Urmi, Mon");
+                i.putExtra("dayName", "Durmi, Tue");
                 i.putExtra("date","23 March 2020");
                 i.putExtra("dateInt",23);
                 i.putExtra("month", 3);
@@ -778,7 +778,7 @@ public class MarchFrag extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o24);
                 i.putExtra("note",n24);
-                i.putExtra("dayName", "Durmi, Tue");
+                i.putExtra("dayName", "Thelang, Wed");
                 i.putExtra("date","24 March 2020");
                 i.putExtra("dateInt",24);
                 i.putExtra("month", 3);
@@ -792,7 +792,7 @@ public class MarchFrag extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o25);
                 i.putExtra("note",n25);
-                i.putExtra("dayName", "Thelang, Wed");
+                i.putExtra("dayName", "Theman, Thurs");
                 i.putExtra("date","25 March 2020");
                 i.putExtra("dateInt",25);
                 i.putExtra("month", 3);
@@ -806,7 +806,7 @@ public class MarchFrag extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o26);
                 i.putExtra("note",n26);
-                i.putExtra("dayName", "Theman, Thurs");
+                i.putExtra("dayName", "Bhomta, Fri");
                 i.putExtra("date","26 March 2020");
                 i.putExtra("dateInt",26);
                 i.putExtra("month", 3);
@@ -820,7 +820,7 @@ public class MarchFrag extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o27);
                 i.putExtra("note",n27);
-                i.putExtra("dayName", "Bhomta, Fri");
+                i.putExtra("dayName", "Bhomti, Sat");
                 i.putExtra("date","27 March 2020");
                 i.putExtra("dateInt",27);
                 i.putExtra("month", 3);
@@ -834,7 +834,7 @@ public class MarchFrag extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o28);
                 i.putExtra("note",n28);
-                i.putExtra("dayName", "Bhomti, Sat");
+                i.putExtra("dayName", "Bhomkuru, Sun");
                 i.putExtra("date","28 March 2020");
                 i.putExtra("dateInt",28);
                 i.putExtra("month", 3);
@@ -848,7 +848,7 @@ public class MarchFrag extends Fragment
                 Intent i = new Intent(getContext(), HolidayPopupWindow.class);
                 i.putExtra("holiday",o29);
                 i.putExtra("note",n29);
-                i.putExtra("dayName", "Bhomkuru, Sun");
+                i.putExtra("dayName", "Urmi, Mon");
                 i.putExtra("date","29 March 2020");
                 i.putExtra("dateInt",29);
                 i.putExtra("month", 3);
@@ -862,7 +862,7 @@ public class MarchFrag extends Fragment
                 Intent i = new Intent(getContext(),HolidayPopupWindow.class);
                 i.putExtra("holiday",o30);
                 i.putExtra("note",n30);
-                i.putExtra("dayName", "Urmi, Mon");
+                i.putExtra("dayName", "Durmi, Tue");
                 i.putExtra("date","30 March 2020");
                 i.putExtra("dateInt",30);
                 i.putExtra("month", 3);
@@ -876,7 +876,7 @@ public class MarchFrag extends Fragment
                 Intent i = new Intent(getContext(), HolidayPopupWindow.class);
                 i.putExtra("holiday",o31);
                 i.putExtra("note",n31);
-                i.putExtra("dayName", "Durmi, Tue");
+                i.putExtra("dayName", "Thelang, Wed");
                 i.putExtra("date","31 March 2020");
                 i.putExtra("dateInt",31);
                 i.putExtra("month", 3);

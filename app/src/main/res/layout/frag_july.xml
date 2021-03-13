@@ -51,7 +51,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:text="June 2020"
+        android:text="July 2021"
         android:textAlignment="textStart"
         android:textSize="18sp"
         android:fontFamily="@font/ubuntulight"
@@ -289,7 +289,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-
                 android:gravity="top|center"
                 android:text=""
                 android:textSize="11sp"
@@ -300,13 +299,13 @@
                 android:maxHeight="1dp"/>
 
             <TextView
+
                 android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-
                 android:gravity="top|center"
-
+                android:text=""
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:textStyle="bold"
@@ -315,11 +314,26 @@
                 android:maxHeight="1dp"/>
 
             <TextView
+
                 android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:gravity="top|center"
+                android:text=""
+                android:textSize="11sp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:textStyle="bold"
+                android:fontFamily="@font/caviardreams"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"/>
+
+            <TextView
                 android:id="@+id/day1"
+                android:textColor="@color/Blue"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:gravity="top|center"
                 android:text="1"
                 android:textSize="11sp"
@@ -330,11 +344,11 @@
                 android:maxHeight="1dp"/>
 
             <TextView
+                android:id="@+id/day2"
                 android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:id="@+id/day2"
                 android:gravity="top|center"
                 android:text="2"
                 android:textSize="11sp"
@@ -345,28 +359,13 @@
                 android:maxHeight="1dp"/>
 
             <TextView
+                android:id="@+id/day3"
                 android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:id="@+id/day3"
                 android:gravity="top|center"
                 android:text="3"
-                android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
-                android:fontFamily="@font/caviardreams"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
-
-            <TextView
-                android:textColor="@color/Blue"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:id="@+id/day4"
-                android:gravity="top|center"
-                android:text="4"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:textStyle="bold"
@@ -381,12 +380,26 @@
             android:layout_weight="1">
 
             <TextView
+                android:id="@+id/day4"
+                android:textColor="@color/Blue"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="top|center"
+                android:text="4"
+                android:textSize="11sp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:textStyle="bold"
+                android:fontFamily="@font/caviardreams"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"/>
+
+            <TextView
                 android:id="@+id/day5"
                 android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-
                 android:gravity="top|center"
                 android:text="5"
                 android:textSize="11sp"
@@ -398,19 +411,18 @@
 
             <TextView
                 android:id="@+id/day6"
-                android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-
+                android:fontFamily="@font/caviardreams"
                 android:gravity="top|center"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
                 android:text="6"
+                android:textColor="@color/Blue"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
-                android:fontFamily="@font/caviardreams"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/day7"
@@ -418,7 +430,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-
                 android:gravity="top|center"
                 android:text="7"
                 android:textSize="11sp"
@@ -434,12 +445,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-
                 android:gravity="top|center"
                 android:text="8"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:textStyle="bold"
+
                 android:fontFamily="@font/caviardreams"
                 android:maxWidth="1dp"
                 android:maxHeight="1dp"/>
@@ -450,7 +461,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-
                 android:gravity="top|center"
                 android:text="9"
                 android:textSize="11sp"
@@ -466,25 +476,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-
                 android:gravity="top|center"
                 android:text="10"
-                android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
-                android:fontFamily="@font/caviardreams"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
-
-            <TextView
-                android:id="@+id/day11"
-                android:textColor="@color/Blue"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-
-                android:gravity="top|center"
-                android:text="11"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:textStyle="bold"
@@ -499,14 +492,13 @@
             android:layout_weight="1">
 
             <TextView
-                android:id="@+id/day12"
+                android:id="@+id/day11"
                 android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-
                 android:gravity="top|center"
-                android:text="12"
+                android:text="11"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:textStyle="bold"
@@ -515,14 +507,13 @@
                 android:maxHeight="1dp"/>
 
             <TextView
-                android:id="@+id/day13"
+                android:id="@+id/day12"
                 android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-
                 android:gravity="top|center"
-                android:text="13"
+                android:text="12"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:textStyle="bold"
@@ -532,12 +523,26 @@
                 />
 
             <TextView
+                android:id="@+id/day13"
+                android:textColor="@color/Blue"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="top|center"
+                android:text="13"
+                android:textSize="11sp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:textStyle="bold"
+                android:fontFamily="@font/caviardreams"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"/>
+
+            <TextView
                 android:id="@+id/day14"
                 android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-
                 android:gravity="top|center"
                 android:text="14"
                 android:textSize="11sp"
@@ -553,7 +558,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-
                 android:gravity="top|center"
                 android:text="15"
                 android:textSize="11sp"
@@ -569,7 +573,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-
                 android:gravity="top|center"
                 android:text="16"
                 android:textSize="11sp"
@@ -585,25 +588,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-
                 android:gravity="top|center"
                 android:text="17"
-                android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
-                android:fontFamily="@font/caviardreams"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
-
-            <TextView
-                android:id="@+id/day18"
-                android:textColor="@color/Blue"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-
-                android:gravity="top|center"
-                android:text="18"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:textStyle="bold"
@@ -618,12 +604,26 @@
             android:layout_weight="1">
 
             <TextView
+                android:id="@+id/day18"
+                android:textColor="@color/Blue"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="top|center"
+                android:text="18"
+                android:textSize="11sp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:textStyle="bold"
+                android:fontFamily="@font/caviardreams"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"/>
+
+            <TextView
                 android:id="@+id/day19"
                 android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-
                 android:gravity="top|center"
                 android:text="19"
                 android:textSize="11sp"
@@ -639,7 +639,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-
                 android:gravity="top|center"
                 android:text="20"
                 android:textSize="11sp"
@@ -651,14 +650,14 @@
 
             <TextView
                 android:id="@+id/day21"
-                android:textColor="@color/Blue"
+                android:textColor="@color/white"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-
-                android:gravity="top|center"
-                android:text="21"
+                android:gravity="top|top|center"
+                android:text="21\nId-Ul-Zuha"
                 android:textSize="11sp"
+                android:background="@drawable/holiday_list_border"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:textStyle="bold"
                 android:fontFamily="@font/caviardreams"
@@ -671,8 +670,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-
-                android:gravity="top|top|center"
+                android:gravity="top|center"
                 android:text="22"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
@@ -687,7 +685,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-
                 android:gravity="top|center"
                 android:text="23"
                 android:textSize="11sp"
@@ -703,25 +700,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-
-                android:gravity="top|center"
-                android:text="24"
-                android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
-                android:fontFamily="@font/caviardreams"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
-
-            <TextView
-                android:id="@+id/day25"
-                android:textColor="@color/Blue"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-
                 android:gravity="top|top|center"
-                android:text="25"
+                android:text="24"
                 android:maxWidth="1dp"
                 android:maxHeight="1dp"
                 android:textSize="11sp"
@@ -736,12 +716,26 @@
             android:layout_weight="1">
 
             <TextView
+                android:id="@+id/day25"
+                android:textColor="@color/Blue"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="top|center"
+                android:text="25"
+                android:textSize="11sp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:textStyle="bold"
+                android:fontFamily="@font/caviardreams"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"/>
+
+            <TextView
                 android:id="@+id/day26"
                 android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-
                 android:gravity="top|center"
                 android:text="26"
                 android:textSize="11sp"
@@ -757,7 +751,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-
                 android:gravity="top|center"
                 android:text="27"
                 android:textSize="11sp"
@@ -773,12 +766,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-
                 android:gravity="top|center"
                 android:text="28"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:textStyle="bold"
+
                 android:fontFamily="@font/caviardreams"
                 android:maxWidth="1dp"
                 android:maxHeight="1dp"/>
@@ -789,12 +782,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-
                 android:gravity="top|center"
                 android:text="29"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:textStyle="bold"
+
                 android:fontFamily="@font/caviardreams"
                 android:maxWidth="1dp"
                 android:maxHeight="1dp"/>
@@ -805,7 +798,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-
                 android:gravity="top|center"
                 android:text="30"
                 android:textSize="11sp"
@@ -817,28 +809,12 @@
 
             <TextView
                 android:id="@+id/day31"
-                android:textColor="@color/white"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@drawable/holiday_list_border"
-                android:gravity="top|center"
-                android:text="31\nEid-ul-Adha"
-                android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
-                android:fontFamily="@font/caviardreams"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
-
-            <TextView
                 android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-
                 android:gravity="top|center"
-                android:text=""
+                android:text="31"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:textStyle="bold"

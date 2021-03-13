@@ -44,7 +44,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="@string/thelang_wed"
+                        android:text="Bhomta, Fri"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -101,7 +101,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Theman, Thurs"
+                        android:text="Bhomti, Sat"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -126,7 +126,7 @@
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
                     android:paddingBottom="5dp"
-                    android:text="Guru Govind Singh Jayanti"
+                    android:text=""
                     android:textColor="@color/white"
                     android:textSize="20sp"
 
@@ -163,7 +163,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Bhomta, Fri"
+                        android:text="Bhomkuru, Sun"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -226,7 +226,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Bhomti, Sat"
+                        android:text="Urmi, Mon"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -275,7 +275,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Bhomkuru, Sun"
+                        android:text="Durmi, Tue"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -338,7 +338,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Urmi, Mon"
+                        android:text="Thelang, Wed"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -401,7 +401,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Durmi, Tue"
+                        android:text="Theman, Thurs"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -464,7 +464,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Thelang, Wed"
+                        android:text="Bhomta, Fri"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -491,7 +491,6 @@
                     android:paddingBottom="5dp"
                     android:textColor="@color/white"
                     android:textSize="20sp"
-
                     />
 
                 <EditText
@@ -527,7 +526,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Theman, Thurs"
+                        android:text="Bhomti, Sat"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -588,7 +587,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Bhomta, Fri"
+                        android:text="Bhomkuru, Sun"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -649,7 +648,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Bhomti, Sat"
+                        android:text="Urmi, Mon"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -710,7 +709,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Bhomkuru, Sun"
+                        android:text="Durmi, Tue"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -771,7 +770,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Urmi, Mon"
+                        android:text="Thelang, Wed"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -798,7 +797,7 @@
                     android:paddingBottom="5dp"
                     android:textColor="@color/white"
                     android:textSize="20sp"
-
+                    android:text="Lohri"
                     />
 
                 <EditText
@@ -832,7 +831,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Durmi, Tue"
+                        android:text="Theman, Thurs"
 
                         android:textColor="@color/white"
                         android:textSize="20sp" />
@@ -857,135 +856,13 @@
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
                     android:paddingBottom="5dp"
-                    android:text="Lohri, Hacha Kekan"
+                    android:text="Hacha Kekan &amp; Mag Bihu"
                     android:textColor="@color/white"
                     android:textSize="20sp"
-
                     />
 
                 <EditText
                     android:id="@+id/editText14"
-                    android:layout_width="match_parent"
-                    android:layout_height="420dp"
-                    android:layout_gravity="start"
-                    android:layout_marginLeft="2dp"
-                    android:background="@drawable/reminder_notes_bg"
-                    android:ems="10"
-                    android:fontFamily="@font/ubuntulight"
-                    android:gravity="top"
-                    android:inputType="textMultiLine"
-                    android:padding="10dp"
-                    android:textColor="@color/cardview_dark_background" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/Green2"
-                android:orientation="vertical">
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@color/Green2"
-                        android:fontFamily="@font/ubuntulight"
-                        android:padding="10dp"
-                        android:text="Thelang, Wed"
-                        android:textColor="@color/white"
-                        android:textSize="20sp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentRight="true"
-                        android:background="@color/Green2"
-                        android:fontFamily="@font/ubuntulight"
-                        android:padding="10dp"
-                        android:text="15"
-                        android:textColor="@color/white"
-                        android:textSize="20sp" />
-                </RelativeLayout>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@color/Green2"
-                    android:fontFamily="@font/ubuntulight"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp"
-                    android:paddingBottom="5dp"
-                    android:text="Makar Sankranti, Magh Bihu"
-                    android:textColor="@color/white"
-                    android:textSize="20sp"
-
-                    />
-
-                <EditText
-                    android:id="@+id/editText15"
-                    android:layout_width="match_parent"
-                    android:layout_height="420dp"
-                    android:layout_gravity="start"
-                    android:layout_marginLeft="2dp"
-                    android:background="@drawable/reminder_notes_bg"
-                    android:ems="10"
-                    android:fontFamily="@font/ubuntulight"
-                    android:gravity="top"
-                    android:inputType="textMultiLine"
-                    android:padding="10dp"
-                    android:textColor="@color/cardview_dark_background" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/Green2"
-                android:orientation="vertical">
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@color/Green2"
-                        android:fontFamily="@font/ubuntulight"
-                        android:padding="10dp"
-                        android:text="Theman, Thurs"
-                        android:textColor="@color/white"
-                        android:textSize="20sp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentRight="true"
-                        android:background="@color/Green2"
-                        android:fontFamily="@font/ubuntulight"
-                        android:padding="10dp"
-                        android:text="16"
-                        android:textColor="@color/white"
-                        android:textSize="20sp" />
-                </RelativeLayout>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@color/Green2"
-                    android:fontFamily="@font/ubuntulight"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp"
-                    android:paddingBottom="5dp"
-                    android:textColor="@color/white"
-                    android:textSize="20sp"
-
-                    />
-
-                <EditText
-                    android:id="@+id/editText16"
                     android:layout_width="match_parent"
                     android:layout_height="420dp"
                     android:layout_gravity="start"
@@ -1026,13 +903,72 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="17"
+                        android:text="15"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
                 </RelativeLayout>
 
                 <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/Green2"
+                    android:fontFamily="@font/ubuntulight"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:text="Magh Bihu"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    />
 
+                <EditText
+                    android:id="@+id/editText15"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/reminder_notes_bg"
+                    android:ems="10"
+                    android:fontFamily="@font/ubuntulight"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:padding="10dp"
+                    android:textColor="@color/cardview_dark_background" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Green2"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/Green2"
+                        android:fontFamily="@font/ubuntulight"
+                        android:padding="10dp"
+                        android:text="Bhomti, Sat"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/Green2"
+                        android:fontFamily="@font/ubuntulight"
+                        android:padding="10dp"
+                        android:text="16"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/Green2"
@@ -1042,7 +978,65 @@
                     android:paddingBottom="5dp"
                     android:textColor="@color/white"
                     android:textSize="20sp"
+                    />
 
+                <EditText
+                    android:id="@+id/editText16"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/reminder_notes_bg"
+                    android:ems="10"
+                    android:fontFamily="@font/ubuntulight"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:padding="10dp"
+                    android:textColor="@color/cardview_dark_background" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Green2"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/Green2"
+                        android:fontFamily="@font/ubuntulight"
+                        android:padding="10dp"
+                        android:text="Bhomkuru, Sun"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/Green2"
+                        android:fontFamily="@font/ubuntulight"
+                        android:padding="10dp"
+                        android:text="17"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/Green2"
+                    android:fontFamily="@font/ubuntulight"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
                     />
 
                 <EditText
@@ -1076,8 +1070,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Bhomti, Sat"
-
+                        android:text="Urmi, Mon"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -1104,9 +1097,7 @@
                     android:paddingBottom="5dp"
                     android:textColor="@color/white"
                     android:textSize="20sp"
-
                     />
-
                 <EditText
                     android:id="@+id/editText18"
                     android:layout_width="match_parent"
@@ -1138,8 +1129,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Bhomkuru, Sun"
-
+                        android:text="Durmi, Tue"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -1201,7 +1191,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Urmi, Mon"
+                        android:text="Thelang, Wed"
 
                         android:textColor="@color/white"
                         android:textSize="20sp" />
@@ -1263,7 +1253,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Durmi, Tue"
+                        android:text="Theman, Thurs"
 
                         android:textColor="@color/white"
                         android:textSize="20sp" />
@@ -1325,8 +1315,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Thelang, Wed"
-
+                        android:text="Bhomta, Fri"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -1353,7 +1342,6 @@
                     android:paddingBottom="5dp"
                     android:textColor="@color/white"
                     android:textSize="20sp"
-
                     />
 
                 <EditText
@@ -1387,8 +1375,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Theman, Thurs"
-
+                        android:text="Bhomti, Sat"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -1415,7 +1402,6 @@
                     android:text="Netaji Birth Anniversary"
                     android:textColor="@color/white"
                     android:textSize="20sp"
-
                     />
 
                 <EditText
@@ -1449,8 +1435,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Bhomta, Fri"
-
+                        android:text="Bhomkuru, Sun"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -1467,7 +1452,6 @@
                 </RelativeLayout>
 
                 <TextView
-
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/Green2"
@@ -1477,7 +1461,6 @@
                     android:paddingBottom="5dp"
                     android:textColor="@color/white"
                     android:textSize="20sp"
-
                     />
 
                 <EditText
@@ -1511,8 +1494,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Bhomti, Sat"
-
+                        android:text="Urmi, Mon"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -1573,8 +1555,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Bhomkuru, Sun"
-
+                        android:text="Durmi, Tue"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -1635,8 +1616,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Urmi, Mon"
-
+                        android:text="Thelang, Wed"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -1653,7 +1633,6 @@
                 </RelativeLayout>
 
                 <TextView
-
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/Green2"
@@ -1663,7 +1642,6 @@
                     android:paddingBottom="5dp"
                     android:textColor="@color/white"
                     android:textSize="20sp"
-
                     />
 
                 <EditText
@@ -1697,8 +1675,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Durmi, Tue"
-
+                        android:text="Theman, Thurs"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -1715,7 +1692,6 @@
                 </RelativeLayout>
 
                 <TextView
-
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/Green2"
@@ -1725,134 +1701,10 @@
                     android:paddingBottom="5dp"
                     android:textColor="@color/white"
                     android:textSize="20sp"
-
                     />
 
                 <EditText
                     android:id="@+id/editText28"
-                    android:layout_width="match_parent"
-                    android:layout_height="420dp"
-                    android:layout_gravity="start"
-                    android:layout_marginLeft="2dp"
-                    android:background="@drawable/reminder_notes_bg"
-                    android:ems="10"
-                    android:fontFamily="@font/ubuntulight"
-                    android:gravity="top"
-                    android:inputType="textMultiLine"
-                    android:padding="10dp"
-                    android:textColor="@color/cardview_dark_background" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/Green2"
-                android:orientation="vertical">
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@color/Green2"
-                        android:fontFamily="@font/ubuntulight"
-                        android:padding="10dp"
-                        android:text="Thelang, Wed"
-                        android:textColor="@color/white"
-                        android:textSize="20sp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentRight="true"
-                        android:background="@color/Green2"
-                        android:fontFamily="@font/ubuntulight"
-                        android:padding="10dp"
-                        android:text="29"
-                        android:textColor="@color/white"
-                        android:textSize="20sp" />
-                </RelativeLayout>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@color/Green2"
-                    android:fontFamily="@font/ubuntulight"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp"
-                    android:paddingBottom="5dp"
-                    android:text="Vasant Panchami"
-                    android:textColor="@color/white"
-                    android:textSize="20sp"
-
-                    />
-
-                <EditText
-                    android:id="@+id/editText29"
-                    android:layout_width="match_parent"
-                    android:layout_height="420dp"
-                    android:layout_gravity="start"
-                    android:layout_marginLeft="2dp"
-                    android:background="@drawable/reminder_notes_bg"
-                    android:ems="10"
-                    android:fontFamily="@font/ubuntulight"
-                    android:gravity="top"
-                    android:inputType="textMultiLine"
-                    android:padding="10dp"
-                    android:textColor="@color/cardview_dark_background" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/Green2"
-                android:orientation="vertical">
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@color/Green2"
-                        android:fontFamily="@font/ubuntulight"
-                        android:padding="10dp"
-                        android:text="Theman, Thurs"
-
-                        android:textColor="@color/white"
-                        android:textSize="20sp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentRight="true"
-                        android:background="@color/Green2"
-                        android:fontFamily="@font/ubuntulight"
-                        android:padding="10dp"
-                        android:text="30"
-                        android:textColor="@color/white"
-                        android:textSize="20sp" />
-                </RelativeLayout>
-
-                <TextView
-
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@color/Green2"
-                    android:fontFamily="@font/ubuntulight"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp"
-                    android:paddingBottom="5dp"
-                    android:textColor="@color/white"
-                    android:textSize="20sp"
-
-                    />
-
-                <EditText
-                    android:id="@+id/editText30"
                     android:layout_width="match_parent"
                     android:layout_height="420dp"
                     android:layout_gravity="start"
@@ -1893,13 +1745,72 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="31"
+                        android:text="29"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
                 </RelativeLayout>
 
                 <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/Green2"
+                    android:fontFamily="@font/ubuntulight"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    />
 
+                <EditText
+                    android:id="@+id/editText29"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/reminder_notes_bg"
+                    android:ems="10"
+                    android:fontFamily="@font/ubuntulight"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:padding="10dp"
+                    android:textColor="@color/cardview_dark_background" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Green2"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/Green2"
+                        android:fontFamily="@font/ubuntulight"
+                        android:padding="10dp"
+                        android:text="Bhomti, Sat"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/Green2"
+                        android:fontFamily="@font/ubuntulight"
+                        android:padding="10dp"
+                        android:text="30"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/Green2"
@@ -1909,7 +1820,65 @@
                     android:paddingBottom="5dp"
                     android:textColor="@color/white"
                     android:textSize="20sp"
+                    />
 
+                <EditText
+                    android:id="@+id/editText30"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/reminder_notes_bg"
+                    android:ems="10"
+                    android:fontFamily="@font/ubuntulight"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:padding="10dp"
+                    android:textColor="@color/cardview_dark_background" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Green2"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/Green2"
+                        android:fontFamily="@font/ubuntulight"
+                        android:padding="10dp"
+                        android:text="Bhomkuru, Sun"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/Green2"
+                        android:fontFamily="@font/ubuntulight"
+                        android:padding="10dp"
+                        android:text="31"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/Green2"
+                    android:fontFamily="@font/ubuntulight"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
                     />
 
                 <EditText
@@ -1927,7 +1896,6 @@
                     android:textColor="@color/cardview_dark_background" />
             </LinearLayout>
         </LinearLayout>
-
 
     </ScrollView>
 

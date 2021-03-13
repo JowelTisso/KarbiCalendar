@@ -55,7 +55,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Bhomkuru, Sun"
+                        android:text="Thelang, Wed"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -112,7 +112,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Urmi, Mon"
+                        android:text="Theman, Thurs"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -174,7 +174,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Durmi, Tue"
+                        android:text="Bhomta, Fri"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -237,7 +237,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Thelang, Wed"
+                        android:text="Bhomti, Sat"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -286,7 +286,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Theman, Thurs"
+                        android:text="Bhomkuru, Sun"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -349,7 +349,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Bhomta, Fri"
+                        android:text="Urmi, Mon"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -412,7 +412,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Bhomti, Sat"
+                        android:text="Durmi, Tue"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -475,7 +475,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Bhomkuru, Sun"
+                        android:text="Thelang, Wed"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -538,7 +538,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Urmi, Mon"
+                        android:text="Theman, Thurs"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -599,7 +599,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Durmi, Tue"
+                        android:text="Bhomta, Fri"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -660,7 +660,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Thelang, Wed"
+                        android:text="Bhomti, Sat"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -721,7 +721,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Theman, Thurs"
+                        android:text="Bhomkuru, Sun"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -782,7 +782,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Bhomta, Fri"
+                        android:text="Urmi, Mon"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -843,7 +843,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Bhomti, Sat"
+                        android:text="Durmi, Tue"
 
                         android:textColor="@color/white"
                         android:textSize="20sp" />
@@ -905,7 +905,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Bhomkuru, Sun"
+                        android:text="Thelang, Wed"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -966,7 +966,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Urmi, Mon"
+                        android:text="Theman, Thurs"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -1026,7 +1026,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Durmi, Tue"
+                        android:text="Bhomta, Fri"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -1087,7 +1087,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Thelang, Wed"
+                        android:text="Bhomti, Sat"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -1148,7 +1148,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Theman, Thurs"
+                        android:text="Bhomkuru, Sun"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -1210,7 +1210,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Bhomta, Fri"
+                        android:text="Urmi, Mon"
 
                         android:textColor="@color/white"
                         android:textSize="20sp" />
@@ -1272,7 +1272,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Bhomti, Sat"
+                        android:text="Durmi, Tue"
 
                         android:textColor="@color/white"
                         android:textSize="20sp" />
@@ -1334,7 +1334,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Bhomkuru, Sun"
+                        android:text="Thelang, Wed"
 
                         android:textColor="@color/white"
                         android:textSize="20sp" />
@@ -1396,7 +1396,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Urmi, Mon"
+                        android:text="Theman, Thurs"
 
                         android:textColor="@color/white"
                         android:textSize="20sp" />
@@ -1457,7 +1457,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Durmi, Tue"
+                        android:text="Bhomta, Fri"
 
                         android:textColor="@color/white"
                         android:textSize="20sp" />
@@ -1519,7 +1519,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Thelang, Wed"
+                        android:text="Bhomti, Sat"
 
                         android:textColor="@color/white"
                         android:textSize="20sp" />
@@ -1581,7 +1581,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Theman, Thurs"
+                        android:text="Bhomkuru, Sun"
 
                         android:textColor="@color/white"
                         android:textSize="20sp" />
@@ -1643,7 +1643,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Bhomta, Fri"
+                        android:text="Urmi, Mon"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -1704,7 +1704,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Bhomti, Sat"
+                        android:text="Durmi, Tue"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -1765,7 +1765,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Bhomkuru, Sun"
+                        android:text="Thelang, Wed"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 
@@ -1825,7 +1825,7 @@
                         android:background="@color/Green2"
                         android:fontFamily="@font/ubuntulight"
                         android:padding="10dp"
-                        android:text="Urmi, Mon"
+                        android:text="Theman, Thurs"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
 

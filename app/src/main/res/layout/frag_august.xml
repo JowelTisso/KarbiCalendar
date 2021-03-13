@@ -50,7 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:text="August 2020"
+        android:text="August 2021"
         android:textAlignment="textStart"
         android:textSize="18sp"
         android:fontFamily="@font/ubuntulight"
@@ -259,96 +259,7 @@
             android:layout_weight="1">
 
             <TextView
-                android:id="@+id/day30"
-                android:textColor="@color/Blue"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:gravity="top|center"
-                android:text="30"
-                android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
-                android:fontFamily="@font/caviardreams"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
-
-            <TextView
-                android:id="@+id/day31"
-                android:textColor="@color/Blue"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:gravity="top|center"
-                android:text="31"
-                android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
-                android:fontFamily="@font/caviardreams"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
-
-            <TextView
-                android:textColor="@color/Blue"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:gravity="top|center"
-                android:text=""
-                android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
-                android:fontFamily="@font/caviardreams"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
-
-            <TextView
-                android:textColor="@color/Blue"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:gravity="top|center"
-                android:text=""
-                android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
-                android:fontFamily="@font/caviardreams"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
-
-            <TextView
-
-                android:textColor="@color/Blue"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:gravity="top|center"
-                android:text=""
-                android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
-                android:fontFamily="@font/caviardreams"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
-
-            <TextView
-
-                android:textColor="@color/Blue"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:gravity="top|center"
-                android:text=""
-                android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
-                android:fontFamily="@font/caviardreams"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
-
-            <TextView
                 android:id="@+id/day1"
-
                 android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -361,16 +272,9 @@
                 android:fontFamily="@font/caviardreams"
                 android:maxWidth="1dp"
                 android:maxHeight="1dp"/>
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1">
 
             <TextView
                 android:id="@+id/day2"
-
                 android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -389,96 +293,75 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/holiday_list_border"
                 android:fontFamily="@font/caviardreams"
                 android:gravity="top|center"
                 android:maxWidth="1dp"
                 android:maxHeight="1dp"
-                android:text="3\nRaksha Bandhan"
-                android:textColor="@color/white"
+                android:text="3"
+                android:textColor="@color/Blue"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/day4"
-
-                android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:fontFamily="@font/caviardreams"
                 android:gravity="top|center"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
                 android:text="4"
+                android:textColor="@color/Blue"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
-                android:fontFamily="@font/caviardreams"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/day5"
-
-                android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:fontFamily="@font/caviardreams"
                 android:gravity="top|center"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
                 android:text="5"
+                android:textColor="@color/Blue"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
-                android:fontFamily="@font/caviardreams"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/day6"
-
-                android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:fontFamily="@font/caviardreams"
                 android:gravity="top|center"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
                 android:text="6"
+                android:textColor="@color/Blue"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
-                android:fontFamily="@font/caviardreams"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/day7"
-
-                android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:fontFamily="@font/caviardreams"
                 android:gravity="top|center"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
                 android:text="7"
-                android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
-                android:fontFamily="@font/caviardreams"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
-
-            <TextView
-                android:id="@+id/day8"
-
                 android:textColor="@color/Blue"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:gravity="top|center"
-                android:text="8"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
-                android:fontFamily="@font/caviardreams"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
+                android:textStyle="bold" />
         </TableRow>
 
         <TableRow
@@ -487,72 +370,82 @@
             android:layout_weight="1">
 
             <TextView
-                android:id="@+id/day9"
-
-                android:textColor="@color/Blue"
+                android:id="@+id/day8"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:fontFamily="@font/caviardreams"
                 android:gravity="top|center"
-                android:text="9"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:text="8"
+                android:textColor="@color/Blue"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/day9"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:fontFamily="@font/caviardreams"
+                android:gravity="top|center"
                 android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
+                android:maxHeight="1dp"
+                android:text="9"
+                android:textColor="@color/Blue"
+                android:textSize="11sp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/day10"
-                android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:gravity="top|center"
-                android:text="10"
-                android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
                 android:fontFamily="@font/caviardreams"
+                android:gravity="top|center"
                 android:maxWidth="1dp"
                 android:maxHeight="1dp"
-                />
+                android:text="10"
+                android:textColor="@color/Blue"
+                android:textSize="11sp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/day11"
-                android:textColor="@color/white"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:fontFamily="@font/caviardreams"
                 android:gravity="top|center"
-                android:text="11\nJanmashtami"
-                android:background="@drawable/holiday_list_border"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:text="11"
+                android:textColor="@color/Blue"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
-                android:fontFamily="@font/caviardreams"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/day12"
-
-                android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:fontFamily="@font/caviardreams"
                 android:gravity="top|center"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
                 android:text="12"
+                android:textColor="@color/Blue"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
-                android:fontFamily="@font/caviardreams"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/day13"
-
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -568,35 +461,18 @@
 
             <TextView
                 android:id="@+id/day14"
-
-                android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:fontFamily="@font/caviardreams"
                 android:gravity="top|center"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
                 android:text="14"
+                android:textColor="@color/Blue"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
-                android:fontFamily="@font/caviardreams"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
-
-            <TextView
-                android:id="@+id/day15"
-                android:textColor="@color/white"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:gravity="top|center"
-                android:text="15\nIndependence Day"
-                android:background="@drawable/holiday_list_border"
-                android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
-                android:fontFamily="@font/caviardreams"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
+                android:textStyle="bold" />
         </TableRow>
 
         <TableRow
@@ -605,196 +481,203 @@
             android:layout_weight="1">
 
             <TextView
-                android:id="@+id/day16"
-
-                android:textColor="@color/Blue"
+                android:id="@+id/day15"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:fontFamily="@font/caviardreams"
                 android:gravity="top|center"
-                android:text="16"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:background="@drawable/holiday_list_border"
+                android:text="15\nIndependence Day"
+                android:textColor="@color/white"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/day16"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:fontFamily="@font/caviardreams"
+                android:gravity="top|center"
                 android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
+                android:maxHeight="1dp"
+                android:text="16"
+                android:textColor="@color/Blue"
+                android:textSize="11sp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/day17"
-
-                android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:fontFamily="@font/caviardreams"
                 android:gravity="top|center"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
                 android:text="17"
+                android:textColor="@color/Blue"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
-                android:fontFamily="@font/caviardreams"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/day18"
-
-                android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:fontFamily="@font/caviardreams"
                 android:gravity="top|center"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
                 android:text="18"
+                android:textColor="@color/Blue"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
-                android:fontFamily="@font/caviardreams"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/day19"
-
-                android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:gravity="top|top|center"
+                android:fontFamily="@font/caviardreams"
+                android:gravity="top|center"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
                 android:text="19"
+                android:textColor="@color/Blue"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
-                android:fontFamily="@font/caviardreams"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/day20"
-
-                android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:fontFamily="@font/caviardreams"
                 android:gravity="top|center"
-                android:text="20"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:background="@drawable/holiday_list_border"
+                android:text="20\nMoharram"
+                android:textColor="@color/white"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
-                android:fontFamily="@font/caviardreams"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/day21"
-
-                android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:gravity="top|center"
-                android:text="21"
-                android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
                 android:fontFamily="@font/caviardreams"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
-
-            <TextView
-                android:id="@+id/day22"
-                android:textColor="@color/white"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:gravity="top|top|center"
-                android:text="22\nGanesh Chaturthi"
-                android:background="@drawable/holiday_list_border"
+                android:gravity="top|center"
                 android:maxWidth="1dp"
                 android:maxHeight="1dp"
+                android:text="21"
+                android:textColor="@color/Blue"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
-                android:fontFamily="@font/caviardreams"
-                />
+                android:textStyle="bold" />
         </TableRow>
 
         <TableRow
+            android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1">
 
             <TextView
-                android:id="@+id/day23"
-
-                android:textColor="@color/Blue"
+                android:id="@+id/day22"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:fontFamily="@font/caviardreams"
                 android:gravity="top|center"
-                android:text="23"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:background="@drawable/holiday_list_border"
+                android:text="22\nRakshabandhan"
+                android:textColor="@color/white"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/day23"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:fontFamily="@font/caviardreams"
+                android:gravity="top|center"
                 android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
+                android:maxHeight="1dp"
+                android:text="23"
+                android:textColor="@color/Blue"
+                android:textSize="11sp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/day24"
-
-                android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:fontFamily="@font/caviardreams"
                 android:gravity="top|center"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
                 android:text="24"
+                android:textColor="@color/Blue"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
-                android:fontFamily="@font/caviardreams"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/day25"
-
-                android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:gravity="top|center"
-                android:text="25"
+                android:fontFamily="@font/caviardreams"
+                android:gravity="top|top|center"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:background="@drawable/holiday_list_border"
+                android:text="25\nBalidan Divas"
+                android:textColor="@color/white"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
-                android:fontFamily="@font/caviardreams"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/day26"
-
-                android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:fontFamily="@font/caviardreams"
                 android:gravity="top|center"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
                 android:text="26"
+                android:textColor="@color/Blue"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
-                android:fontFamily="@font/caviardreams"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/day27"
-
                 android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="top|center"
-                android:text="27"
+                android:text="22"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:textStyle="bold"
@@ -804,35 +687,121 @@
 
             <TextView
                 android:id="@+id/day28"
-
-                android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:gravity="top|center"
+                android:fontFamily="@font/caviardreams"
+                android:gravity="top|top|center"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
                 android:text="28"
+                android:textColor="@color/colorPrimaryDark"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
-                android:fontFamily="@font/caviardreams"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_height="0dp"
+            android:layout_weight="1">
 
             <TextView
                 android:id="@+id/day29"
-                android:textColor="@color/white"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:fontFamily="@font/caviardreams"
                 android:gravity="top|center"
-                android:text="29\nMuharram"
-                android:background="@drawable/holiday_list_border"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:text="29"
+                android:textColor="@color/Blue"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/day30"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:fontFamily="@font/caviardreams"
+                android:gravity="top|center"
                 android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
+                android:maxHeight="1dp"
+                android:text="30\nJanmastami"
+                android:background="@drawable/holiday_list_border"
+                android:textColor="@color/white"
+                android:textSize="11sp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/day31"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/caviardreams"
+                android:gravity="top|center"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:text="31"
+                android:textColor="@color/Blue"
+                android:textSize="11sp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/caviardreams"
+                android:gravity="top|center"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@color/Blue"
+                android:textSize="11sp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/caviardreams"
+                android:gravity="top|center"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@color/Blue"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/caviardreams"
+                android:gravity="top|center"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@color/Blue"
+                android:textSize="11sp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/caviardreams"
+                android:gravity="top|center"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@color/Blue"
+                android:textSize="11sp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:textStyle="bold" />
         </TableRow>
 
     </TableLayout>

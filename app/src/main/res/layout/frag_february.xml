@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,173 +9,41 @@
         android:layout_width="40dp"
         android:layout_height="55dp"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/jambili"
         app:layout_constraintBottom_toTopOf="@+id/tableLayout"
-        app:layout_constraintHorizontal_bias="0.80"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.80"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.40" />
+        app:layout_constraintVertical_bias="0.40"
+        app:srcCompat="@drawable/jambili" />
+
     <ImageView
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:scaleType="centerCrop"
-        app:srcCompat="@drawable/jambili"
         app:layout_constraintBottom_toTopOf="@+id/tableLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.09" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="8dp"
-        android:fontFamily="@font/ubuntulight"
-        android:text="ThangThang"
-        android:textAlignment="textStart"
-        android:textColor="@color/Green2"
-        android:textSize="26sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.032"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:text="February 2020"
-        android:textAlignment="textStart"
-        android:textSize="18sp"
-        android:fontFamily="@font/ubuntulight"
-        android:textColor="@color/Green2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.037"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-        <TableRow
-            android:id="@+id/tableLayout2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/textView2"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="12dp"
-            android:layout_marginStart="12dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginBottom="8dp"
-            app:layout_constraintBottom_toTopOf="@+id/tableLayout"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView2"
-            android:gravity="top|center"
-            >
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:fontFamily="@font/caviardreams"
-                android:gravity="top|center"
-                android:text="Bhomkuru"
-                android:textColor="@color/Blue"
-                android:textSize="11sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:fontFamily="@font/caviardreams"
-                android:gravity="top|center"
-                android:text="Urmi"
-                android:textColor="@color/Blue"
-                android:textSize="11sp"
-                android:textStyle="bold"
-
-                />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="12dp"
-                android:layout_weight="1"
-                android:fontFamily="@font/caviardreams"
-                android:gravity="top|center"
-                android:text="Durmi"
-                android:textColor="@color/Blue"
-                android:textSize="11sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:fontFamily="@font/caviardreams"
-                android:gravity="top|center"
-                android:text="Thelang"
-                android:textColor="@color/Blue"
-                android:textSize="11sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:fontFamily="@font/caviardreams"
-                android:gravity="top|center"
-                android:text="Theman"
-                android:textColor="@color/Blue"
-                android:textSize="11sp"
-                android:textStyle="bold" />
-
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:fontFamily="@font/caviardreams"
-                android:gravity="top|center"
-                android:text="Bhomta"
-                android:textColor="@color/Blue"
-                android:textSize="11sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:fontFamily="@font/caviardreams"
-                android:gravity="top|center"
-                android:text="Bhomti"
-                android:textColor="@color/Blue"
-                android:textSize="11sp"
-                android:textStyle="bold" />
-        </TableRow>
+        app:layout_constraintVertical_bias="0.09"
+        app:srcCompat="@drawable/jambili" />
 
     <TableLayout
         android:id="@+id/tableLayout"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_below="@+id/tableLayout2"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="12dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tableLayout2"
-        >
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout2">
 
         <TableRow
             android:layout_width="wrap_content"
@@ -271,80 +138,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:foreground="?android:attr/selectableItemBackground"
                 android:gravity="top|center"
-                android:maxWidth="1dp"
                 android:maxHeight="1dp"
+                android:maxWidth="1dp"
                 android:text=""
                 android:textColor="@color/Blue"
                 android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:gravity="top|center"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"
-                android:text=""
-                android:textColor="@color/Blue"
-                android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:gravity="top|center"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"
-                android:text=""
-                android:textColor="@color/Blue"
-                android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:gravity="top|center"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"
-                android:text=""
-                android:textColor="@color/Blue"
-                android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:gravity="top|center"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"
-                android:text=""
-                android:textColor="@color/Blue"
-                android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold" />
-
-            <TextView
-
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:fontFamily="@font/caviardreams"
-                android:gravity="top|center"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"
-                android:text=""
-                android:textColor="@color/Blue"
-                android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
                 android:textStyle="bold" />
 
             <TextView
@@ -352,15 +152,89 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/holiday_list_border_local"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="top|center"
+                android:maxHeight="1dp"
+                android:maxWidth="1dp"
+                android:text="1\nKarbi\nNingkan\nKimi"
+                android:textColor="@color/Blue"
+                android:textSize="11sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/day2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/holiday_list_border_local"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="top|center"
+                android:maxHeight="1dp"
+                android:maxWidth="1dp"
+                android:text="2\nBarithe\nKarkli"
+                android:textColor="@color/Blue"
+                android:textSize="11sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/day3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="top|center"
+                android:maxHeight="1dp"
+                android:maxWidth="1dp"
+                android:text="3"
+                android:textColor="@color/Blue"
+                android:textSize="11sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/day4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="top|center"
+                android:maxHeight="1dp"
+                android:maxWidth="1dp"
+                android:text="4"
+                android:textColor="@color/Blue"
+                android:textSize="11sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/day5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:fontFamily="@font/caviardreams"
                 android:background="@drawable/holiday_list_border_local"
+                android:foreground="?android:attr/selectableItemBackground"
                 android:gravity="top|center"
-                android:maxWidth="1dp"
                 android:maxHeight="1dp"
-                android:text="1\nKarbi\nNingkan\nKimi"
+                android:maxWidth="1dp"
+                android:text="5\nRongker"
+                android:textColor="@color/Blue"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/day6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:fontFamily="@font/caviardreams"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="top|center"
+                android:maxHeight="1dp"
+                android:maxWidth="1dp"
+                android:text="6"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
                 android:textStyle="bold" />
         </TableRow>
 
@@ -370,100 +244,18 @@
             android:layout_weight="1">
 
             <TextView
-
-                android:id="@+id/day2"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:fontFamily="@font/caviardreams"
-
-                android:gravity="top|center"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"
-                android:text="2"
-                android:textColor="@color/Blue"
-                android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/day3"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:fontFamily="@font/caviardreams"
-
-                android:gravity="top|center"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"
-                android:text="3"
-                android:textColor="@color/Blue"
-                android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/day4"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:fontFamily="@font/caviardreams"
-                android:gravity="top|center"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"
-                android:text="4"
-                android:textColor="@color/Blue"
-                android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold" />
-
-            <TextView
-
-                android:id="@+id/day5"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:fontFamily="@font/caviardreams"
-                android:background="@drawable/holiday_list_border_local"
-                android:gravity="top|center"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"
-                android:text="5\n\nRongker"
-                android:textColor="@color/colorPrimaryDark"
-                android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/day6"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:fontFamily="@font/caviardreams"
-
-                android:gravity="top|center"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"
-                android:text="6"
-                android:textColor="@color/Blue"
-                android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold" />
-
-            <TextView
                 android:id="@+id/day7"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:fontFamily="@font/caviardreams"
-
+                android:foreground="?android:attr/selectableItemBackground"
                 android:gravity="top|center"
-                android:maxWidth="1dp"
                 android:maxHeight="1dp"
+                android:maxWidth="1dp"
                 android:text="7"
                 android:textColor="@color/Blue"
                 android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
                 android:textStyle="bold" />
 
             <TextView
@@ -472,35 +264,28 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:fontFamily="@font/caviardreams"
+                android:foreground="?android:attr/selectableItemBackground"
                 android:gravity="top|center"
-                android:maxWidth="1dp"
                 android:maxHeight="1dp"
+                android:maxWidth="1dp"
                 android:text="8"
                 android:textColor="@color/Blue"
                 android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
                 android:textStyle="bold" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1">
 
             <TextView
                 android:id="@+id/day9"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/holiday_list_border"
                 android:fontFamily="@font/caviardreams"
-                android:gravity="top|center"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"
-                android:text="9\nGuru Ravidas Jayanti"
-                android:textColor="@color/white"
-                android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="top|center"
+                android:maxHeight="1dp"
+                android:maxWidth="1dp"
+                android:text="9"
+                android:textColor="@color/Blue"
+                android:textSize="11sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -508,15 +293,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@color/white"
                 android:fontFamily="@font/caviardreams"
-
-                android:gravity="top|center"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"
-                android:text="10"
-                android:textColor="@color/Blue"
-                android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="top|center"
+                android:maxHeight="1dp"
+                android:maxWidth="1dp"
+                android:text="10"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="11sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -525,14 +310,13 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:fontFamily="@font/caviardreams"
-
+                android:foreground="?android:attr/selectableItemBackground"
                 android:gravity="top|center"
-                android:maxWidth="1dp"
                 android:maxHeight="1dp"
+                android:maxWidth="1dp"
                 android:text="11"
                 android:textColor="@color/Blue"
                 android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
                 android:textStyle="bold" />
 
             <TextView
@@ -542,13 +326,13 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/caviardreams"
 
+                android:foreground="?android:attr/selectableItemBackground"
                 android:gravity="top|center"
-                android:maxWidth="1dp"
                 android:maxHeight="1dp"
+                android:maxWidth="1dp"
                 android:text="12"
                 android:textColor="@color/Blue"
                 android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
                 android:textStyle="bold" />
 
             <TextView
@@ -557,46 +341,13 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:fontFamily="@font/caviardreams"
-
+                android:foreground="?android:attr/selectableItemBackground"
                 android:gravity="top|center"
-                android:maxWidth="1dp"
                 android:maxHeight="1dp"
+                android:maxWidth="1dp"
                 android:text="13"
                 android:textColor="@color/Blue"
                 android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/day14"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:fontFamily="@font/caviardreams"
-
-                android:gravity="top|center"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"
-                android:text="14"
-                android:textColor="@color/Blue"
-                android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/day15"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:fontFamily="@font/caviardreams"
-
-                android:gravity="top|center"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"
-                android:text="15"
-                android:textColor="@color/Blue"
-                android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
                 android:textStyle="bold" />
         </TableRow>
 
@@ -606,19 +357,50 @@
             android:layout_weight="1">
 
             <TextView
-                android:id="@+id/day16"
+                android:id="@+id/day14"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:fontFamily="@font/caviardreams"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="top|center"
+                android:maxHeight="1dp"
+                android:maxWidth="1dp"
+                android:text="14"
+                android:textColor="@color/Blue"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/day15"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:fontFamily="@font/caviardreams"
-
+                android:foreground="?android:attr/selectableItemBackground"
                 android:gravity="top|center"
-                android:maxWidth="1dp"
                 android:maxHeight="1dp"
-                android:text="16"
+                android:maxWidth="1dp"
+                android:text="15"
                 android:textColor="@color/Blue"
                 android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/day16"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/holiday_list_border"
+                android:fontFamily="@font/caviardreams"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="top|center"
+                android:maxHeight="1dp"
+                android:maxWidth="1dp"
+                android:text="16\nSaraswati\nPuja"
+                android:textColor="@color/white"
+                android:textSize="11sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -627,13 +409,13 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:fontFamily="@font/caviardreams"
+                android:foreground="?android:attr/selectableItemBackground"
                 android:gravity="top|center"
-                android:maxWidth="1dp"
                 android:maxHeight="1dp"
+                android:maxWidth="1dp"
                 android:text="17"
                 android:textColor="@color/Blue"
                 android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
                 android:textStyle="bold" />
 
             <TextView
@@ -643,13 +425,13 @@
                 android:layout_weight="1"
                 android:background="@drawable/holiday_list_border_local"
                 android:fontFamily="@font/caviardreams"
-                android:gravity="top|center"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"
-                android:text="18\n\nKYF"
-                android:textColor="@color/colorPrimaryDark"
-                android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="top|center"
+                android:maxHeight="1dp"
+                android:maxWidth="1dp"
+                android:text="18\nKYF"
+                android:textColor="@color/Blue"
+                android:textSize="11sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -657,15 +439,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:fontFamily="@font/caviardreams"
                 android:background="@drawable/holiday_list_border_local"
-                android:gravity="top|top|center"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"
-                android:text="19\n\nKYF"
-                android:textColor="@color/colorPrimaryDark"
-                android:textSize="11sp"
+                android:fontFamily="@font/caviardreams"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="top|center"
+                android:maxHeight="1dp"
+                android:maxWidth="1dp"
+                android:text="19\nKYF"
+                android:textColor="@color/Blue"
+                android:textSize="11sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -674,15 +456,20 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:fontFamily="@font/caviardreams"
-
+                android:foreground="?android:attr/selectableItemBackground"
                 android:gravity="top|center"
-                android:maxWidth="1dp"
                 android:maxHeight="1dp"
+                android:maxWidth="1dp"
                 android:text="20"
                 android:textColor="@color/Blue"
                 android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
                 android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
 
             <TextView
                 android:id="@+id/day21"
@@ -690,14 +477,13 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:fontFamily="@font/caviardreams"
-                android:background="@drawable/holiday_list_border"
-                android:gravity="top|center"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"
-                android:text="21\nMaha Shivaratri"
-                android:textColor="@color/white"
-                android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="top|center"
+                android:maxHeight="1dp"
+                android:maxWidth="1dp"
+                android:text="21"
+                android:textColor="@color/Blue"
+                android:textSize="11sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -706,35 +492,29 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:fontFamily="@font/caviardreams"
-
-                android:gravity="top|top|center"
-                android:maxWidth="1dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="top|center"
                 android:maxHeight="1dp"
+                android:maxWidth="1dp"
                 android:text="22"
                 android:textColor="@color/Blue"
                 android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
                 android:textStyle="bold" />
-        </TableRow>
-
-        <TableRow
-            android:layout_height="0dp"
-            android:layout_weight="1">
 
             <TextView
                 android:id="@+id/day23"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@color/white"
                 android:fontFamily="@font/caviardreams"
-
-                android:gravity="top|center"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"
-                android:text="23"
-                android:textColor="@color/Blue"
-                android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="top|center"
+                android:maxHeight="1dp"
+                android:maxWidth="1dp"
+                android:text="23"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="11sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -742,15 +522,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@color/white"
                 android:fontFamily="@font/caviardreams"
-
-                android:gravity="top|center"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"
-                android:text="24"
-                android:textColor="@color/Blue"
-                android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="top|top|center"
+                android:maxHeight="1dp"
+                android:maxWidth="1dp"
+                android:text="24"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="11sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -760,13 +540,13 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/caviardreams"
 
+                android:foreground="?android:attr/selectableItemBackground"
                 android:gravity="top|center"
-                android:maxWidth="1dp"
                 android:maxHeight="1dp"
+                android:maxWidth="1dp"
                 android:text="25"
                 android:textColor="@color/Blue"
                 android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
                 android:textStyle="bold" />
 
             <TextView
@@ -774,14 +554,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@color/white"
                 android:fontFamily="@font/caviardreams"
+                android:foreground="?android:attr/selectableItemBackground"
                 android:gravity="top|center"
-                android:maxWidth="1dp"
                 android:maxHeight="1dp"
+                android:maxWidth="1dp"
                 android:text="26"
                 android:textColor="@color/Blue"
                 android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
                 android:textStyle="bold" />
 
             <TextView
@@ -791,45 +572,255 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/caviardreams"
 
-                android:gravity="top|center"
-                android:maxWidth="1dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="top|top|center"
                 android:maxHeight="1dp"
+                android:maxWidth="1dp"
                 android:text="27"
                 android:textColor="@color/Blue"
-                android:textSize="10sp"
+                android:textSize="11sp"
                 android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_height="0dp"
+            android:layout_weight="1">
 
             <TextView
                 android:id="@+id/day28"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:gravity="top|center"
                 android:background="@drawable/holiday_list_border_local"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"
-                android:text="28\nDeath Anniv. of Semson Singh Ingti"
-                android:textColor="@color/colorPrimaryDark"
-                android:textSize="11sp"
+                android:fontFamily="@font/caviardreams"
                 android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="normal" />
+                android:gravity="top|center"
+                android:maxHeight="1dp"
+                android:maxWidth="1dp"
+                android:text="28\nDeath Anniv. of Semson Singh Ingti"
+                android:textColor="@color/Blue"
+                android:textSize="11sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/day29"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:gravity="top|center"
+                android:fontFamily="@font/caviardreams"
 
-                android:maxWidth="1dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="top|center"
                 android:maxHeight="1dp"
-                android:text="29"
+                android:maxWidth="1dp"
+                android:text=""
                 android:textColor="@color/Blue"
                 android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/caviardreams"
+
                 android:foreground="?android:attr/selectableItemBackground"
-                 />
+                android:gravity="top|center"
+                android:maxHeight="1dp"
+                android:maxWidth="1dp"
+                android:text=""
+                android:textColor="@color/Blue"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/caviardreams"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="top|center"
+                android:maxHeight="1dp"
+                android:maxWidth="1dp"
+                android:text=""
+                android:textColor="@color/Blue"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/caviardreams"
+
+                android:gravity="top|center"
+                android:maxHeight="1dp"
+                android:maxWidth="1dp"
+                android:text=""
+                android:textColor="@color/Blue"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="top|center"
+                android:maxHeight="1dp"
+                android:maxWidth="1dp"
+                android:text=""
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="11sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:foreground="?android:attr/selectableItemBackground"
+
+                android:gravity="top|center"
+                android:maxHeight="1dp"
+                android:maxWidth="1dp"
+                android:text=""
+                android:textColor="@color/Blue"
+                android:textSize="11sp" />
         </TableRow>
 
     </TableLayout>
+
+    <TableRow
+        android:id="@+id/tableLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:gravity="top|center"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/caviardreams"
+            android:gravity="top|center"
+            android:text="Bhomkuru"
+            android:textColor="@color/Blue"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/caviardreams"
+            android:gravity="top|center"
+            android:text="Urmi"
+            android:textColor="@color/Blue"
+            android:textSize="11sp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/caviardreams"
+            android:gravity="top|center"
+            android:text="Durmi"
+            android:textColor="@color/Blue"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/caviardreams"
+            android:gravity="top|center"
+            android:text="Thelang"
+            android:textColor="@color/Blue"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/caviardreams"
+            android:gravity="top|center"
+            android:text="Theman"
+            android:textColor="@color/Blue"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/caviardreams"
+            android:gravity="top|center"
+            android:text="Bhomta"
+            android:textColor="@color/Blue"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/caviardreams"
+            android:gravity="top|center"
+            android:text="Bhomti"
+            android:textColor="@color/Blue"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/ubuntulight"
+        android:text="ThangThang"
+        android:textAlignment="textStart"
+        android:textColor="@color/Green2"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.032"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/ubuntulight"
+        android:text="February 2021"
+        android:textAlignment="textStart"
+        android:textColor="@color/Green2"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.037"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

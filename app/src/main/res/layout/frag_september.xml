@@ -51,7 +51,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:text="September 2020"
+        android:text="September 2021"
         android:textAlignment="textStart"
         android:textSize="18sp"
         android:fontFamily="@font/ubuntulight"
@@ -296,6 +296,20 @@
                 android:maxHeight="1dp"/>
 
             <TextView
+                android:textColor="@color/Blue"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="top|center"
+                android:text=""
+                android:textSize="11sp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:textStyle="bold"
+                android:fontFamily="@font/caviardreams"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"/>
+
+            <TextView
                 android:id="@+id/day1"
                 android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
@@ -354,6 +368,12 @@
                 android:fontFamily="@font/caviardreams"
                 android:maxWidth="1dp"
                 android:maxHeight="1dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
 
             <TextView
                 android:id="@+id/day5"
@@ -369,12 +389,6 @@
                 android:fontFamily="@font/caviardreams"
                 android:maxWidth="1dp"
                 android:maxHeight="1dp"/>
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1">
 
             <TextView
                 android:id="@+id/day6"
@@ -438,12 +452,13 @@
 
             <TextView
                 android:id="@+id/day10"
-                android:textColor="@color/Blue"
+                android:textColor="@color/white"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="top|center"
-                android:text="10"
+                android:background="@drawable/holiday_list_border"
+                android:text="10\nGanesh Chaturthi"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:textStyle="bold"
@@ -465,6 +480,12 @@
                 android:fontFamily="@font/caviardreams"
                 android:maxWidth="1dp"
                 android:maxHeight="1dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
 
             <TextView
                 android:id="@+id/day12"
@@ -480,12 +501,6 @@
                 android:fontFamily="@font/caviardreams"
                 android:maxWidth="1dp"
                 android:maxHeight="1dp"/>
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1">
 
             <TextView
                 android:id="@+id/day13"
@@ -500,7 +515,8 @@
                 android:textStyle="bold"
                 android:fontFamily="@font/caviardreams"
                 android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
+                android:maxHeight="1dp"
+                />
 
             <TextView
                 android:id="@+id/day14"
@@ -515,8 +531,7 @@
                 android:textStyle="bold"
                 android:fontFamily="@font/caviardreams"
                 android:maxWidth="1dp"
-                android:maxHeight="1dp"
-                />
+                android:maxHeight="1dp"/>
 
             <TextView
                 android:id="@+id/day15"
@@ -550,12 +565,13 @@
 
             <TextView
                 android:id="@+id/day17"
-                android:textColor="@color/Blue"
+                android:textColor="@color/white"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="top|center"
-                android:text="17"
+                android:background="@drawable/holiday_list_border"
+                android:text="17\nVishwakarma Puja"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:textStyle="bold"
@@ -577,27 +593,28 @@
                 android:fontFamily="@font/caviardreams"
                 android:maxWidth="1dp"
                 android:maxHeight="1dp"/>
-
-            <TextView
-                android:id="@+id/day19"
-                android:textColor="@color/Blue"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:gravity="top|center"
-                android:text="19"
-                android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
-                android:fontFamily="@font/caviardreams"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/day19"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="top|center"
+                android:background="@drawable/holiday_list_border"
+                android:text="19\nAnant Chaturdashi"
+                android:textSize="11sp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:textStyle="bold"
+                android:fontFamily="@font/caviardreams"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"/>
 
             <TextView
                 android:id="@+id/day20"
@@ -635,7 +652,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:gravity="top|center"
+                android:gravity="top|top|center"
                 android:text="22"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
@@ -650,7 +667,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:gravity="top|top|center"
+                android:gravity="top|center"
                 android:text="23"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
@@ -680,23 +697,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:gravity="top|center"
-                android:text="25"
-                android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
-                android:fontFamily="@font/caviardreams"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
-
-            <TextView
-                android:id="@+id/day26"
-                android:textColor="@color/Blue"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:gravity="top|top|center"
-                android:text="26"
+                android:text="25"
                 android:maxWidth="1dp"
                 android:maxHeight="1dp"
                 android:textSize="11sp"
@@ -709,6 +711,21 @@
         <TableRow
             android:layout_height="0dp"
             android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/day26"
+                android:textColor="@color/Blue"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="top|center"
+                android:text="26"
+                android:textSize="11sp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:textStyle="bold"
+                android:fontFamily="@font/caviardreams"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"/>
 
             <TextView
                 android:id="@+id/day27"
@@ -763,20 +780,6 @@
                 android:layout_weight="1"
                 android:gravity="top|center"
                 android:text="30"
-                android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
-                android:fontFamily="@font/caviardreams"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
-
-            <TextView
-                android:textColor="@color/Blue"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:gravity="top|center"
-                android:text=""
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:textStyle="bold"

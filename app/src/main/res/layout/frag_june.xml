@@ -54,11 +54,11 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:text="June 2020"
-        android:textAlignment="textStart"
-        android:textSize="18sp"
         android:fontFamily="@font/ubuntulight"
+        android:text="June 2021"
+        android:textAlignment="textStart"
         android:textColor="@color/Green2"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.037"
         app:layout_constraintStart_toStartOf="parent"
@@ -267,12 +267,27 @@
             android:layout_weight="1">
 
             <TextView
+
                 android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="top|center"
+                android:text=""
+                android:textSize="11sp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:textStyle="bold"
+                android:fontFamily="@font/caviardreams"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"/>
 
+            <TextView
+
+                android:textColor="@color/Blue"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="top|center"
                 android:text=""
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
@@ -355,6 +370,12 @@
                 android:fontFamily="@font/caviardreams"
                 android:maxWidth="1dp"
                 android:maxHeight="1dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
 
             <TextView
                 android:id="@+id/day6"
@@ -370,12 +391,6 @@
                 android:fontFamily="@font/caviardreams"
                 android:maxWidth="1dp"
                 android:maxHeight="1dp"/>
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1">
 
             <TextView
                 android:id="@+id/day7"
@@ -466,6 +481,12 @@
                 android:fontFamily="@font/caviardreams"
                 android:maxWidth="1dp"
                 android:maxHeight="1dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
 
             <TextView
                 android:id="@+id/day13"
@@ -481,12 +502,6 @@
                 android:fontFamily="@font/caviardreams"
                 android:maxWidth="1dp"
                 android:maxHeight="1dp"/>
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1">
 
             <TextView
                 android:id="@+id/day14"
@@ -501,7 +516,8 @@
                 android:textStyle="bold"
                 android:fontFamily="@font/caviardreams"
                 android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
+                android:maxHeight="1dp"
+                />
 
             <TextView
                 android:id="@+id/day15"
@@ -516,8 +532,7 @@
                 android:textStyle="bold"
                 android:fontFamily="@font/caviardreams"
                 android:maxWidth="1dp"
-                android:maxHeight="1dp"
-                />
+                android:maxHeight="1dp"/>
 
             <TextView
                 android:id="@+id/day16"
@@ -578,6 +593,12 @@
                 android:fontFamily="@font/caviardreams"
                 android:maxWidth="1dp"
                 android:maxHeight="1dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
 
             <TextView
                 android:id="@+id/day20"
@@ -593,12 +614,6 @@
                 android:fontFamily="@font/caviardreams"
                 android:maxWidth="1dp"
                 android:maxHeight="1dp"/>
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1">
 
             <TextView
                 android:id="@+id/day21"
@@ -632,13 +647,13 @@
 
             <TextView
                 android:id="@+id/day23"
-                android:textColor="@color/colorPrimaryDark"
+                android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:gravity="top|center"
-                android:text="23\nCouncil Foundation Day"
+                android:gravity="top|top|center"
                 android:background="@drawable/holiday_list_border_local"
+                android:text="23\nCouncil Foundation Day"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:textStyle="bold"
@@ -652,7 +667,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:gravity="top|top|center"
+                android:gravity="top|center"
                 android:text="24"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"
@@ -682,23 +697,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:gravity="top|center"
-                android:text="26"
-                android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
-                android:fontFamily="@font/caviardreams"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
-
-            <TextView
-                android:id="@+id/day27"
-                android:textColor="@color/Blue"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:gravity="top|top|center"
-                android:text="27"
+                android:text="26"
                 android:maxWidth="1dp"
                 android:maxHeight="1dp"
                 android:textSize="11sp"
@@ -713,6 +713,21 @@
             android:layout_weight="1">
 
             <TextView
+                android:id="@+id/day27"
+                android:textColor="@color/Blue"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="top|center"
+                android:text="27"
+                android:textSize="11sp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:textStyle="bold"
+                android:fontFamily="@font/caviardreams"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"/>
+
+            <TextView
                 android:id="@+id/day28"
                 android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
@@ -720,7 +735,8 @@
                 android:layout_weight="1"
                 android:gravity="top|center"
                 android:text="28"
-                android:textSize="10sp"
+                android:textSize="11sp"
+                android:foreground="?android:attr/selectableItemBackground"
                 android:textStyle="bold"
                 android:fontFamily="@font/caviardreams"
                 android:maxWidth="1dp"
@@ -757,7 +773,6 @@
                 android:maxHeight="1dp"/>
 
             <TextView
-                android:id="@+id/day31"
                 android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -772,7 +787,6 @@
                 android:maxHeight="1dp"/>
 
             <TextView
-
                 android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -787,22 +801,6 @@
                 android:maxHeight="1dp"/>
 
             <TextView
-
-                android:textColor="@color/Blue"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:gravity="top|center"
-                android:text=""
-                android:textSize="11sp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:textStyle="bold"
-                android:fontFamily="@font/caviardreams"
-                android:maxWidth="1dp"
-                android:maxHeight="1dp"/>
-
-            <TextView
-
                 android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
