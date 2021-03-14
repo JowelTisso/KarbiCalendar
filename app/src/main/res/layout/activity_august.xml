@@ -200,7 +200,7 @@
                     android:paddingBottom="5dp"
                     android:textColor="@color/white"
                     android:textSize="20sp"
-                    android:text="Raksha Bandhan"
+                    android:text=" "
                     />
 
                 <EditText
@@ -686,7 +686,7 @@
                     android:paddingBottom="5dp"
                     android:textColor="@color/white"
                     android:textSize="20sp"
-                    android:text="Janmashtami"
+                    android:text=""
                     />
 
                 <EditText
@@ -1362,7 +1362,7 @@
                     android:paddingBottom="5dp"
                     android:textColor="@color/white"
                     android:textSize="20sp"
-                    android:text="Ganesh Chaturthi"
+                    android:text="Raksha-Bandhan"
                     />
 
                 <EditText
@@ -1793,7 +1793,7 @@
                     android:paddingBottom="5dp"
                     android:textColor="@color/white"
                     android:textSize="20sp"
-                    android:text="Muharam"
+                    android:text=""
                     />
 
                 <EditText

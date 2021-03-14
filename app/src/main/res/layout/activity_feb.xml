@@ -136,7 +136,7 @@
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
                     android:paddingBottom="5dp"
-                    android:text=""
+                    android:text="Barithe Karkli"
                     android:textColor="@color/white"
                     android:textSize="20sp"
 
@@ -565,7 +565,7 @@
                     android:paddingBottom="5dp"
                     android:textColor="@color/white"
                     android:textSize="20sp"
-                    android:text="Guru Ravidas Jayanti"
+                    android:text=""
                     />
 
                 <EditText
@@ -991,7 +991,7 @@
                     android:paddingBottom="5dp"
                     android:textColor="@color/white"
                     android:textSize="20sp"
-
+                    android:text="Saraswati Puja"
                     />
 
                 <EditText
@@ -1301,7 +1301,7 @@
                     android:paddingBottom="5dp"
                     android:textColor="@color/white"
                     android:textSize="20sp"
-                    android:text="Maha Shivaratri"
+                    android:text=""
                     />
 
                 <EditText

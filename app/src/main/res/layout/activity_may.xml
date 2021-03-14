@@ -439,7 +439,7 @@
                     android:paddingBottom="5dp"
                     android:textColor="@color/white"
                     android:textSize="20sp"
-                    android:text="Buddha Purnima"
+                    android:text=" "
                     />
 
                 <EditText
@@ -1549,7 +1549,7 @@
                     android:paddingBottom="5dp"
                     android:textColor="@color/white"
                     android:textSize="20sp"
-                    android:text="Eid-UL-Fitra"
+                    android:text=""
                     />
 
                 <EditText

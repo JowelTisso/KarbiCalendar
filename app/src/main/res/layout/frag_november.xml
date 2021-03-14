@@ -733,14 +733,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/holiday_list_border"
+                android:background="@drawable/holiday_list_border_local"
                 android:fontFamily="@font/caviardreams"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:gravity="top|center"
                 android:maxHeight="1dp"
                 android:maxWidth="1dp"
                 android:text="28\nDeath Anniversary of Khorsing Terang"
-                android:textColor="@color/white"
+                android:textColor="@color/Blue"
                 android:textSize="11sp"
                 android:textStyle="bold" />
 

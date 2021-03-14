@@ -383,12 +383,12 @@
 
             <TextView
                 android:id="@+id/day5"
-                android:textColor="@color/white"
+                android:textColor="@color/Blue"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="top|center"
-                android:background="@drawable/holiday_list_border"
+                android:background="@drawable/holiday_list_border_local"
                 android:text="5\nCommemoration of Kajir Ronghangpi"
                 android:textSize="11sp"
                 android:foreground="?android:attr/selectableItemBackground"

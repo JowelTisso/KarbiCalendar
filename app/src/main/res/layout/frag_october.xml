@@ -403,7 +403,7 @@
                 android:gravity="top|center"
                 android:maxHeight="1dp"
                 android:maxWidth="1dp"
-                android:text="12\nDurga Puja"
+                android:text="12\nSaptami"
                 android:textColor="@color/white"
                 android:textSize="11sp"
                 android:textStyle="bold" />

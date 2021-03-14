@@ -565,7 +565,7 @@
                     android:paddingBottom="5dp"
                     android:textColor="@color/white"
                     android:textSize="20sp"
-                    android:text="Holika Dahana"
+                    android:text=""
                     />
 
                 <EditText
@@ -626,7 +626,7 @@
                     android:paddingBottom="5dp"
                     android:textColor="@color/white"
                     android:textSize="20sp"
-                    android:text="Holi"
+                    android:text=""
                     />
 
                 <EditText
@@ -1547,7 +1547,7 @@
                     android:paddingBottom="5dp"
                     android:textColor="@color/white"
                     android:textSize="20sp"
-                    android:text="Chaitra Sukhladi"
+                    android:text=""
                     />
 
                 <EditText

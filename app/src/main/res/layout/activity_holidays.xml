@@ -123,22 +123,7 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="2nd"
-                        android:textAlignment="center"
-                        android:textColor="@color/white"
-                        android:textSize="18sp"
-
-                        />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        android:background="@color/Green2"
-                        android:gravity="center"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
-                        android:text="14th"
+                        android:text="13th"
                         android:textAlignment="center"
                         android:textColor="@color/white"
                         android:textSize="18sp" />
@@ -186,7 +171,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/Green2"
+                        android:background="@drawable/holiday_bottom_date"
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
@@ -195,18 +180,7 @@
                         android:textColor="@color/white"
                         android:textSize="18sp" />
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        android:background="@drawable/holiday_bottom_date"
-                        android:gravity="center"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
-                        android:text="29th"
-                        android:textAlignment="center"
-                        android:textColor="@color/white"
-                        android:textSize="18sp" />
+
                 </LinearLayout>
 
                 <LinearLayout
@@ -237,20 +211,6 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="Guru Govind\nSingh Jayanti"
-                        android:textAlignment="center"
-                        android:textColor="@color/Blue"
-                        android:textSize="18sp" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        android:background="@color/white"
-                        android:fontFamily="@font/caviardreams"
-                        android:gravity="center"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
                         android:text="Lohri"
                         android:textAlignment="center"
                         android:textColor="@color/Blue"
@@ -265,7 +225,7 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="Hacha Kekan"
+                        android:text="Hacha Kekan &amp; Mag Bihu"
                         android:textAlignment="center"
                         android:textColor="@color/Blue"
                         android:textSize="18sp" />
@@ -279,7 +239,7 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="Makar Sankranti\nMagh Bihu"
+                        android:text="Magh Bihu"
                         android:textAlignment="center"
                         android:textColor="@color/Blue"
                         android:textSize="18sp" />
@@ -293,7 +253,7 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="NSC Bose"
+                        android:text="Netaji's Birth Anniversary"
                         android:textAlignment="center"
                         android:textColor="@color/Blue"
                         android:textSize="18sp" />
@@ -302,7 +262,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/white"
                         android:fontFamily="@font/caviardreams"
                         android:gravity="center"
                         android:paddingTop="5dp"
@@ -312,18 +271,7 @@
                         android:textColor="@color/Blue"
                         android:textSize="18sp" />
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        android:fontFamily="@font/caviardreams"
-                        android:gravity="center"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
-                        android:text="Vasant Panchami"
-                        android:textAlignment="center"
-                        android:textColor="@color/Blue"
-                        android:textSize="18sp" />
+
 
                 </LinearLayout>
 
@@ -368,7 +316,18 @@
                         android:textAlignment="center"
                         android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp" />
-
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:background="@color/skyblue"
+                        android:gravity="center"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="2nd"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18sp" />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
@@ -390,7 +349,7 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="9th"
+                        android:text="16th"
                         android:textAlignment="center"
                         android:textColor="@color/white"
                         android:textSize="18sp" />
@@ -404,19 +363,6 @@
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
                         android:text="18th &amp; 19th"
-                        android:textAlignment="center"
-                        android:textColor="@color/colorPrimaryDark"
-                        android:textSize="18sp" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        android:background="@color/skyblue"
-                        android:gravity="center"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
-                        android:text="21th"
                         android:textAlignment="center"
                         android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp" />
@@ -459,6 +405,19 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
+                        android:fontFamily="@font/caviardreams"
+                        android:gravity="center"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="Barithe Karkli"
+                        android:textAlignment="center"
+                        android:textColor="@color/Blue"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
                         android:background="@color/white"
                         android:fontFamily="@font/caviardreams"
                         android:gravity="center"
@@ -478,7 +437,7 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="Guru Ravidas Jayanti"
+                        android:text="Saraswati Puja"
                         android:textAlignment="center"
                         android:textColor="@color/Blue"
                         android:textSize="18sp" />
@@ -501,24 +460,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/white"
                         android:fontFamily="@font/caviardreams"
                         android:gravity="center"
                         android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
-                        android:text="Maha Shivaratri"
-                        android:textAlignment="center"
-                        android:textColor="@color/Blue"
-                        android:textSize="18sp" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        android:fontFamily="@font/caviardreams"
-                        android:gravity="center"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
+                        android:paddingBottom="1dp"
                         android:text="Death Anniversary of\nSemson Singh Ingti"
                         android:textAlignment="center"
                         android:textColor="@color/Blue"
@@ -563,7 +508,7 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="9th"
+                        android:text="11th"
                         android:textAlignment="center"
                         android:textColor="@color/white"
                         android:textSize="18sp" />
@@ -576,7 +521,7 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="10th"
+                        android:text="28th"
                         android:textAlignment="center"
                         android:textColor="@color/white"
                         android:textSize="18sp" />
@@ -589,7 +534,7 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="25th"
+                        android:text="29th"
                         android:textAlignment="center"
                         android:textColor="@color/white"
                         android:textSize="18sp" />
@@ -609,7 +554,7 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="Holika Dahana"
+                        android:text="Maha Shivratri"
                         android:textAlignment="center"
                         android:textColor="@color/Blue"
                         android:textSize="18sp" />
@@ -623,7 +568,7 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="Holi"
+                        android:text="Dol Jatra"
                         android:textAlignment="center"
                         android:textColor="@color/Blue"
                         android:textSize="18sp" />
@@ -636,7 +581,7 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="Chaitra Sukhladi"
+                        android:text="Holi"
                         android:textAlignment="center"
                         android:textColor="@color/Blue"
                         android:textSize="18sp" />
@@ -674,24 +619,11 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@drawable/holiday_top_date_local"
+                        android:background="@drawable/holiday_top_date"
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="6th"
-                        android:textAlignment="center"
-                        android:textColor="@color/colorPrimaryDark"
-                        android:textSize="18sp" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        android:background="@color/Green2"
-                        android:gravity="center"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
-                        android:text="10th"
+                        android:text="1st"
                         android:textAlignment="center"
                         android:textColor="@color/white"
                         android:textSize="18sp" />
@@ -704,7 +636,7 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="13th"
+                        android:text="2nd"
                         android:textAlignment="center"
                         android:textColor="@color/white"
                         android:textSize="18sp" />
@@ -726,11 +658,24 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@drawable/holiday_bottom_date"
+                        android:background="@color/Green2"
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
                         android:text="15th"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/holiday_bottom_date"
+                        android:gravity="center"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="16th"
                         android:textAlignment="center"
                         android:textColor="@color/white"
                         android:textSize="18sp" />
@@ -751,7 +696,7 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="Ok K Pru"
+                        android:text="April Fool"
                         android:textAlignment="center"
                         android:textColor="@color/Blue"
                         android:textSize="18sp" />
@@ -862,7 +807,7 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="7th"
+                        android:text="14th"
                         android:textAlignment="center"
                         android:textColor="@color/white"
                         android:textSize="18sp" />
@@ -875,7 +820,7 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="25th"
+                        android:text="26th"
                         android:textAlignment="center"
                         android:textColor="@color/white"
                         android:textSize="18sp" />
@@ -910,7 +855,7 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="Buddha Purnima"
+                        android:text="Id-Ul-Fitre"
                         android:textAlignment="center"
                         android:textColor="@color/Blue"
                         android:textSize="18sp" />
@@ -923,7 +868,7 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="Eid-ul-Fitar"
+                        android:text="Buddha Purnima"
                         android:textAlignment="center"
                         android:textColor="@color/Blue"
                         android:textSize="18sp" />
@@ -1028,7 +973,7 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="31st"
+                        android:text="21st"
                         android:textAlignment="center"
                         android:textColor="@color/white"
                         android:textSize="18sp" />
@@ -1048,7 +993,7 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="Eid-ul-Adha"
+                        android:text="Id-Ul-Zuha"
                         android:textAlignment="center"
                         android:textColor="@color/Blue"
                         android:textSize="18sp" />
@@ -1090,32 +1035,6 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="3rd"
-                        android:textAlignment="center"
-                        android:textColor="@color/white"
-                        android:textSize="18sp" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        android:background="@color/Green2"
-                        android:gravity="center"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
-                        android:text="11th"
-                        android:textAlignment="center"
-                        android:textColor="@color/white"
-                        android:textSize="18sp" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        android:background="@color/Green2"
-                        android:gravity="center"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
                         android:text="15th"
                         android:textAlignment="center"
                         android:textColor="@color/white"
@@ -1129,7 +1048,33 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="22nd"
+                        android:text="20th"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:background="@color/Green2"
+                        android:gravity="center"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="22th"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:background="@color/Green2"
+                        android:gravity="center"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="25th"
                         android:textAlignment="center"
                         android:textColor="@color/white"
                         android:textSize="18sp" />
@@ -1142,7 +1087,7 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="29th"
+                        android:text="30th"
                         android:textAlignment="center"
                         android:textColor="@color/white"
                         android:textSize="18sp" />
@@ -1163,6 +1108,34 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
+                        android:text="Independence Day"
+                        android:textAlignment="center"
+                        android:textColor="@color/Blue"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:background="@color/white"
+                        android:fontFamily="@font/caviardreams"
+                        android:gravity="center"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="Moharram"
+                        android:textAlignment="center"
+                        android:textColor="@color/Blue"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:background="@color/white"
+                        android:fontFamily="@font/caviardreams"
+                        android:gravity="center"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
                         android:text="Raksha Bandhan"
                         android:textAlignment="center"
                         android:textColor="@color/Blue"
@@ -1177,7 +1150,7 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="Janmashtami"
+                        android:text="Balidan Divas"
                         android:textAlignment="center"
                         android:textColor="@color/Blue"
                         android:textSize="18sp" />
@@ -1186,21 +1159,97 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/white"
                         android:fontFamily="@font/caviardreams"
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="Indepence Day"
+                        android:text="Janmastami"
                         android:textAlignment="center"
                         android:textColor="@color/Blue"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/ubuntulight"
+                android:padding="10dp"
+                android:text="SEPTEMBER"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:layout_margin="10dp"
+                android:elevation="3dp"
+                android:background="@drawable/reminder_notes_bg"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/holiday_top_date"
+                        android:gravity="center"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="10th"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
                         android:textSize="18sp" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/white"
+                        android:background="@color/Green2"
+                        android:gravity="center"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="17th"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/holiday_bottom_date"
+                        android:gravity="center"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="19th"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
                         android:fontFamily="@font/caviardreams"
                         android:gravity="center"
                         android:paddingTop="5dp"
@@ -1214,15 +1263,28 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
+                        android:background="@color/white"
                         android:fontFamily="@font/caviardreams"
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="Muharram"
+                        android:text="Vishakarma Puja"
                         android:textAlignment="center"
                         android:textColor="@color/Blue"
                         android:textSize="18sp" />
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/caviardreams"
+                        android:gravity="center"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="Anant Chaturdashi"
+                        android:textAlignment="center"
+                        android:textColor="@color/Blue"
+                        android:textSize="18sp" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -1274,7 +1336,7 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="22nd"
+                        android:text="12nd"
                         android:textAlignment="center"
                         android:textColor="@color/white"
                         android:textSize="18sp" />
@@ -1287,7 +1349,7 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="23rd"
+                        android:text="13rd"
                         android:textAlignment="center"
                         android:textColor="@color/white"
                         android:textSize="18sp" />
@@ -1300,7 +1362,7 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="24th"
+                        android:text="14th"
                         android:textAlignment="center"
                         android:textColor="@color/white"
                         android:textSize="18sp" />
@@ -1313,9 +1375,22 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="25th"
+                        android:text="15th"
                         android:textAlignment="center"
                         android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:background="@color/skyblue"
+                        android:gravity="center"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="17th"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"
                         android:textSize="18sp" />
 
                     <TextView
@@ -1326,11 +1401,10 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="30th"
+                        android:text="20th"
                         android:textAlignment="center"
                         android:textColor="@color/white"
                         android:textSize="18sp" />
-
                 </LinearLayout>
 
                 <LinearLayout
@@ -1361,7 +1435,7 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="Maha Saptami"
+                        android:text="Saptami"
                         android:textAlignment="center"
                         android:textColor="@color/Blue"
                         android:textSize="18sp" />
@@ -1375,7 +1449,7 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="Maha Ashtami"
+                        android:text="Ashtami"
                         android:textAlignment="center"
                         android:textColor="@color/Blue"
                         android:textSize="18sp" />
@@ -1389,7 +1463,7 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="Maha Navami"
+                        android:text="Navami"
                         android:textAlignment="center"
                         android:textColor="@color/Blue"
                         android:textSize="18sp" />
@@ -1403,11 +1477,22 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="Dussehra"
+                        android:text="Dussehra, Dashami"
                         android:textAlignment="center"
                         android:textColor="@color/Blue"
                         android:textSize="18sp" />
-
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/caviardreams"
+                        android:gravity="center"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="Charchim Prisek"
+                        android:textAlignment="center"
+                        android:textColor="@color/Blue"
+                        android:textSize="18sp" />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
@@ -1459,6 +1544,45 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
+                        android:text="2nd"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:background="@color/Green2"
+                        android:gravity="center"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="4th"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:background="@color/Green2"
+                        android:gravity="center"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="10th"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:background="@color/Green2"
+                        android:gravity="center"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
                         android:text="14th"
                         android:textAlignment="center"
                         android:textColor="@color/white"
@@ -1472,7 +1596,7 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="20th"
+                        android:text="19th"
                         android:textAlignment="center"
                         android:textColor="@color/white"
                         android:textSize="18sp" />
@@ -1481,29 +1605,14 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:background="@color/skyblue"
+                        android:background="@drawable/holiday_bottom_date_local"
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
                         android:text="28th"
                         android:textAlignment="center"
-                        android:textColor="@color/colorPrimaryDark"
-                        android:textSize="18sp" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        android:background="@drawable/holiday_bottom_date"
-                        android:gravity="center"
-                        android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
-                        android:text="30th"
-                        android:textAlignment="center"
                         android:textColor="@color/white"
                         android:textSize="18sp" />
-
-
                 </LinearLayout>
 
                 <LinearLayout
@@ -1512,6 +1621,19 @@
                     android:layout_weight="2"
                     android:orientation="vertical">
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:background="@color/white"
+                        android:fontFamily="@font/caviardreams"
+                        android:gravity="center"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="Dhanteras"
+                        android:textAlignment="center"
+                        android:textColor="@color/Blue"
+                        android:textSize="18sp" />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
@@ -1548,7 +1670,19 @@
                         android:gravity="center"
                         android:paddingTop="5dp"
                         android:paddingBottom="5dp"
-                        android:text="Death Anniversary of \nKhorsing Terang"
+                        android:text="Children's Day"
+                        android:textAlignment="center"
+                        android:textColor="@color/Blue"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/caviardreams"
+                        android:gravity="center"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="Guru Nayak Jayanti"
                         android:textAlignment="center"
                         android:textColor="@color/Blue"
                         android:textSize="18sp" />
@@ -1560,8 +1694,8 @@
                         android:fontFamily="@font/caviardreams"
                         android:gravity="center"
                         android:paddingTop="5dp"
-                        android:paddingBottom="5dp"
-                        android:text="Guru Nayak Jayanti"
+                        android:paddingBottom="1dp"
+                        android:text="Death Anniversary of \nKhorsing Terang"
                         android:textAlignment="center"
                         android:textColor="@color/Blue"
                         android:textSize="18sp" />

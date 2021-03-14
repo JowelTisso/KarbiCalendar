@@ -374,7 +374,7 @@
                     android:paddingBottom="5dp"
                     android:textColor="@color/white"
                     android:textSize="20sp"
-                    android:text="Ok Pru"
+                    android:text=" "
                     />
 
                 <EditText
@@ -624,7 +624,7 @@
                     android:paddingBottom="5dp"
                     android:textColor="@color/white"
                     android:textSize="20sp"
-                    android:text="Good Friday"
+                    android:text=" "
                     />
 
                 <EditText
@@ -807,7 +807,7 @@
                     android:paddingBottom="5dp"
                     android:textColor="@color/white"
                     android:textSize="20sp"
-                    android:text="Bohag Bihu"
+                    android:text=" "
                     />
 
                 <EditText

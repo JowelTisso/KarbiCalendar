@@ -868,7 +868,7 @@
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
                     android:paddingBottom="5dp"
-                    android:text="Kali Puja &amp; diwali"
+                    android:text="Children's Day"
                     android:textColor="@color/white"
                     android:textSize="20sp"
 
@@ -1238,7 +1238,7 @@
                     android:paddingBottom="5dp"
                     android:textColor="@color/white"
                     android:textSize="20sp"
-                    android:text="Chhat Puja"
+                    android:text=" "
                     />
 
                 <EditText
@@ -1849,7 +1849,7 @@
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
                     android:paddingBottom="5dp"
-                    android:text="Guru Nanak Jayanti"
+                    android:text=""
                     android:textColor="@color/white"
                     android:textSize="20sp"
 
